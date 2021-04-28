@@ -5,10 +5,6 @@
 # Date ：4/16/2021 8:19 PM
 # Tool ：PyCharm
 import cv2
-import math
-import numpy as np
-from PIL import Image
-import matplotlib.pyplot as plt
 def segmentation():
 	img = cv2.imread("flower.jpg")
 	"""img 2 gray"""
