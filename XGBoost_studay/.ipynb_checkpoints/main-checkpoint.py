@@ -10,15 +10,15 @@ import numpy as np
 import xgboost
 from sklearn.metrics import accuracy_score
 def load_data():
-    data = pd.read_csv('data/Iris.csv')
+    data = pd.read_csv('data/cancer/usingData/train/train.csv')
     #前4/5作为训练集，后1/5作为测试集
     data_training = data[0:int(len(data)*3/5)]
     data_test = data[int(len(data)*3/5):len(data)]
     #分割
     train_x = np.array(data_training.iloc[:, [i for i in range(data_training.shape[1]-1)]])
-    train_y = np.array(data_training['Species'])
+    train_y = np.array(data_training['Recurrence'])
     test_x = np.array(data_test.iloc[:, [i for i in range(data_test.shape[1]-1)]])
-    test_y = np.array(data_test['Species'])
+    test_y = np.array(data_test['Recurrence'])
 
     return train_x, train_y, test_x, test_y
 

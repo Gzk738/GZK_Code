@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import xgboost
 from sklearn.metrics import accuracy_score
+import shap
 def load_data():
     data = pd.read_csv('data/Iris.csv')
     #前4/5作为训练集，后1/5作为测试集
@@ -31,8 +32,12 @@ def XGBoost():
     #测试
     result = clf.score(test_x, test_y)
     print("prediction rate :", result)
+    return clf
 
 
 if __name__ == '__main__':
-    XGBoost()
+    train_x, train_y, test_x, test_y = load_data()
+    model = XGBoost()
+    shap_values = shap.TreeExplainer(model).shap_values(train_x)
+    shap.summary_plot(shap_values, train_x, plot_type="bar")
 
