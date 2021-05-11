@@ -12,7 +12,7 @@ import xgboost
 from sklearn.metrics import accuracy_score
 import shap
 def load_data():
-    data = pd.read_csv('data/cancer/usingData/train/train.csv')
+    data = pd.read_csv(r'data/cancer/usingData/train/train(norm).csv')
     #前4/5作为训练集，后1/5作为测试集
     data_training = data[0:int(len(data)*3/5)]
     data_test = data[int(len(data)*3/5):len(data)]
