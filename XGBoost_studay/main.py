@@ -4,35 +4,43 @@
 # Email: gzk798412226@gmail.com
 # Date ：2021/5/7 16:46
 # Tool ：PyCharm
-from xgboost import XGBClassifier
-import pandas as pd
+import time
 import numpy as np
-import xgboost
+import xgboost as xgb
+from xgboost import plot_importance, plot_tree
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-def load_data():
-    data = pd.read_csv('data/Iris.csv')
-    #前4/5作为训练集，后1/5作为测试集
-    data_training = data[0:int(len(data)*3/5)]
-    data_test = data[int(len(data)*3/5):len(data)]
-    #分割
-    train_x = np.array(data_training.iloc[:, [i for i in range(data_training.shape[1]-1)]])
-    train_y = np.array(data_training['Species'])
-    test_x = np.array(data_test.iloc[:, [i for i in range(data_test.shape[1]-1)]])
-    test_y = np.array(data_test['Species'])
+from sklearn.datasets import load_boston
+import matplotlib
+import matplotlib.pylab as plt
+import os
 
-    return train_x, train_y, test_x, test_y
+iris = load_iris()
+X, y= iris.data, iris.target
+X_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1234565)
 
+params ={
+    'booster': 'gbtree',
 
-def XGBoost():
-    train_x, train_y, test_x, test_y = load_data()
-    #训练
-    clf=XGBClassifier(base_score=0.5, booster='gbtree', learning_rate=0.05, max_depth=8, n_estimators=50)
-    clf.fit(train_x, train_y)
-    #测试
-    result = clf.score(test_x, test_y)
-    print("prediction rate :", result)
+    'objective': 'multi:softmax',
+    'num_class':3,
 
+    'gamma':0.1
+}
+plst = list(params.items())
+dtrain = xgb.DMatrix(X_train, y_train)
+dtest = xgb. DMatrix(x_test)
 
-if __name__ == '__main__':
-    XGBoost()
+num_rounds = 50
+model = xgb.train(plst, dtrain, num_rounds)
 
+y_pred = model.predict(dtest)
+
+acc = accuracy_score(y_test, y_pred)
+print(acc)
+
+plot_importance(model)
+plt.show()
+
+plot_tree(model, num_trees=5)
