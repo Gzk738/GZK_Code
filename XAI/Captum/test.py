@@ -66,7 +66,7 @@ class CNN(nn.Module):
 
         return self.fc(cat)
 
-model = torch.load('models/imdb-model-cnn.pt')
+model = torch.load('/Users/guozikun/Desktop/我的电脑/GitHub/captum/tutorials/models/imdb-model-cnn.pt')
 model.eval()
 model = model.to(device)
 
