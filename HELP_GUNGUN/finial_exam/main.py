@@ -6,7 +6,7 @@ from gensim.corpora import Dictionary
 
 train = []
 
-fp = open('keyword.txt','r',encoding='utf-8')
+fp = open('/Users/guozikun/Desktop/我的电脑/GitHub/GZK_Code/HELP_GUNGUN/jieba_data_short.txt','r',encoding='utf-8')
 for line in fp:
     if line != '':
         line = line.split()
@@ -17,7 +17,7 @@ for i in train[0]:
 dictionary = corpora.Dictionary(temp_lst)
 corpus = [dictionary.doc2bow(text) for text in temp_lst]
 
-lda = LdaModel(corpus=corpus, id2word=dictionary, num_topics=20, passes=1)
+lda = LdaModel(corpus=corpus, id2word=dictionary, num_topics=10, passes=100)
 # num_topics：主题数目
 # passes：训练伦次
 # num_words：每个主题下输出的term的数目
