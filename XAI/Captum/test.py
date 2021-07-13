@@ -105,7 +105,6 @@ lig = LayerIntegratedGradients(model, model.embedding)
 # accumalate couple samples in this array for visualization purposes
 vis_data_records_ig = []
 
-
 def interpret_sentence(model, sentence, min_len=7, label=0):
     text = [tok.text for tok in nlp.tokenizer(sentence.lower())]
     if len(text) < min_len:
@@ -133,8 +132,6 @@ def interpret_sentence(model, sentence, min_len=7, label=0):
     # print('pred: ', Label.vocab.itos[pred_ind], '(', '%.2f'%pred, ')', ', delta: ', abs(delta))
 
     add_attributions_to_visualizer(attributions_ig, text, pred, pred_ind, label, delta, vis_data_records_ig)
-
-
 def add_attributions_to_visualizer(attributions, text, pred, pred_ind, label, delta, vis_data_records):
     attributions = attributions.sum(dim=2).squeeze(0)
     attributions = attributions / torch.norm(attributions)
@@ -145,8 +142,8 @@ def add_attributions_to_visualizer(attributions, text, pred, pred_ind, label, de
         attributions,
         pred,
         Label.vocab.itos[pred_ind],
-        Label.vocab.itos[label],
-        Label.vocab.itos[1],
+        "Label.vocab.itos[label]",
+        "Label.vocab.itos[1]",
         attributions.sum(),
         text,
         delta))
