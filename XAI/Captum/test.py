@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+import re
 import torch
 import torch.nn as nn
 
@@ -10,6 +10,7 @@ from transformers import BertTokenizer, BertForQuestionAnswering, BertConfig
 
 from captum.attr import visualization as viz
 from captum.attr import LayerConductance, LayerIntegratedGradients
+
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # replace <PATd:/spofrte/modeH-TO-SAVED-MODEL> with the real path of the saved model
 model_path = 'bert-large-uncased-whole-word-masking-finetuned-squad'
@@ -22,10 +23,13 @@ model.zero_grad()
 
 # load tokenizer
 tokenizer = BertTokenizer.from_pretrained(model_path)
+
+
 def predict(inputs, token_type_ids=None, position_ids=None, attention_mask=None):
     output = model(inputs, token_type_ids=token_type_ids,
-                 position_ids=position_ids, attention_mask=attention_mask, )
+                   position_ids=position_ids, attention_mask=attention_mask, )
     return output.start_logits, output.end_logits
+
 
 def squad_pos_forward_func(inputs, token_type_ids=None, position_ids=None, attention_mask=None, position=0):
     pred = predict(inputs,
@@ -35,13 +39,17 @@ def squad_pos_forward_func(inputs, token_type_ids=None, position_ids=None, atten
     pred = pred[position]
     return pred.max(1).values
 
-ref_token_id = tokenizer.pad_token_id # A token used for generating token reference
-sep_token_id = tokenizer.sep_token_id # A token used as a separator between question and text and it is also added to the end of the text.
-cls_token_id = tokenizer.cls_token_id # A token used for prepending to the concatenated question-text word sequence
+
+ref_token_id = tokenizer.pad_token_id  # A token used for generating token reference
+sep_token_id = tokenizer.sep_token_id  # A token used as a separator between question and text and it is also added to the end of the text.
+cls_token_id = tokenizer.cls_token_id  # A token used for prepending to the concatenated question-text word sequence
+
+
 def summarize_attributions(attributions):
     attributions = attributions.sum(dim=-1).squeeze(0)
     attributions = attributions / torch.norm(attributions)
     return attributions
+
 
 def construct_input_ref_pair(question, text, ref_token_id, sep_token_id, cls_token_id):
     question_ids = tokenizer.encode(question, add_special_tokens=False)
@@ -87,9 +95,11 @@ def construct_whole_bert_embeddings(input_ids, ref_input_ids, \
                                                  position_ids=position_ids)
 
     return input_embeddings, ref_input_embeddings
-def predict_qt( text):
-    question = "who made the history"
-    input_ids, ref_input_ids, sep_id = construct_input_ref_pair(question, text, ref_token_id, sep_token_id, cls_token_id)
+
+
+def predict_qt(question, text):
+    input_ids, ref_input_ids, sep_id = construct_input_ref_pair(question, text, ref_token_id, sep_token_id,
+                                                                cls_token_id)
     token_type_ids, ref_token_type_ids = construct_input_ref_token_type_pair(input_ids, sep_id)
     position_ids, ref_position_ids = construct_input_ref_pos_id_pair(input_ids)
     attention_mask = construct_attention_mask(input_ids)
@@ -97,33 +107,30 @@ def predict_qt( text):
     indices = input_ids[0].detach().tolist()
     all_tokens = tokenizer.convert_ids_to_tokens(indices)
 
-    ground_truth = 'Momiji Nishiya'
-
-    ground_truth_tokens = tokenizer.encode(ground_truth, add_special_tokens=False)
-    ground_truth_end_ind = indices.index(ground_truth_tokens[-1])
-    ground_truth_start_ind = ground_truth_end_ind - len(ground_truth_tokens) + 1
+    ground_truth = '13'
 
     start_scores, end_scores = predict(input_ids, \
                                        token_type_ids=token_type_ids, \
                                        position_ids=position_ids, \
                                        attention_mask=attention_mask)
 
-
     print('Question: ', question)
-    print('Predicted Answer: ', ' '.join(all_tokens[torch.argmax(start_scores) : torch.argmax(end_scores)+1]))
-    return input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth_start_ind, all_tokens, ground_truth_end_ind
+    print('Predicted Answer: ', ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1]))
+    return input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth, all_tokens,sep_id
 
-def explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth_start_ind, all_tokens, ground_truth_end_ind):
+
+def explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores,
+            ground_truth, all_tokens, ):
     lig = LayerIntegratedGradients(squad_pos_forward_func, model.bert.embeddings)
 
     attributions_start, delta_start = lig.attribute(inputs=input_ids,
                                                     baselines=ref_input_ids,
                                                     additional_forward_args=(
-                                                    token_type_ids, position_ids, attention_mask, 0),
+                                                        token_type_ids, position_ids, attention_mask, 0),
                                                     return_convergence_delta=True)
     attributions_end, delta_end = lig.attribute(inputs=input_ids, baselines=ref_input_ids,
                                                 additional_forward_args=(
-                                                token_type_ids, position_ids, attention_mask, 1),
+                                                    token_type_ids, position_ids, attention_mask, 1),
                                                 return_convergence_delta=True)
 
     attributions_start_sum = summarize_attributions(attributions_start)
@@ -134,7 +141,7 @@ def explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_ma
         torch.max(torch.softmax(start_scores[0], dim=0)),
         torch.argmax(start_scores),
         torch.argmax(start_scores),
-        str(ground_truth_start_ind),
+        str(ground_truth),
         attributions_start_sum.sum(),
         all_tokens,
         delta_start)
@@ -144,7 +151,7 @@ def explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_ma
         torch.max(torch.softmax(end_scores[0], dim=0)),
         torch.argmax(end_scores),
         torch.argmax(end_scores),
-        str(ground_truth_end_ind),
+        str(ground_truth),
         attributions_end_sum.sum(),
         all_tokens,
         delta_end)
@@ -157,10 +164,167 @@ def explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_ma
     print("attributions_start_sum:   ", len(attributions_start_sum))
     print("all tokens:    ", len(all_tokens))
 
+    return all_tokens, attributions_start_sum
 
 
-g_text= "At the age of just 13, Japan's Momiji Nishiya made history on Monday by winning the first-ever Olympic gold medal in women's street skateboarding at the Games in Tokyo.  Nishiya topped a youthful podium with Rayssa Leal of Brazil, also 13, taking the silver medal and Japan Funa Nakayama, 16, winning bronze. With an average age of 14 years and 191 days it is the youngest individual podium in the history of the Olympic Games."
+def get_posneg(all_tokens, attributions_start_sum):
+    positive = []
+    negative = []
+    neutral = []
+    for i, j in enumerate(attributions_start_sum):
+        if j > 0:
+            positive.append(i)
+            # print('positive:',j)
+        ##print(all_tokens[i])
+        elif j < 0:
+            negative.append(i)
+            # print('negative:',j)
+            # print(all_tokens[i])
+        elif j == 0:
+            neutral.append(i)
 
-input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth_start_ind , all_tokens, ground_truth_end_ind = predict_qt(g_text)
+    s_pos = ''
+    s_neg = ''
 
-explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth_start_ind, all_tokens, ground_truth_end_ind)
+    # print(len(attributions_start_sum))
+    # print(len(positive))
+    # print(len(negative))
+
+    for i in positive:
+        s_pos += all_tokens[i] + ' '
+    print("positive :", s_pos)
+    for i in negative:
+        s_neg += all_tokens[i] + ' '
+    print("negative :", s_neg)
+    return positive, negative, neutral
+
+
+def separate_sentence(all_tokens):
+    sentence = {}
+    temp = []
+    num = 0
+    for i in range(len(all_tokens)):
+        if all_tokens[i] == "," or all_tokens[i] == ".":
+            temp.append(all_tokens[i])
+            sentence[num] = temp
+            temp = []
+            num = num + 1
+        elif all_tokens[i] == "[CLS]":
+            temp.append(all_tokens[i])
+            sentence[num] = temp
+            temp = []
+            num = num + 1
+        elif all_tokens[i] == "[SEP]":
+            sentence[num] = temp
+            num = num + 1
+            temp = [all_tokens[i]]
+            sentence[num] = temp
+            temp = []
+            num = num + 1
+        else:
+            temp.append(all_tokens[i])
+    return sentence
+
+
+def get_delete(sentence):
+    weight = 0
+    sum_weight = 0
+    sentence_value = []
+    delete_sentence = {}
+    for k, v in sentence.items():
+        # print(k,':',v)
+        for i in v:
+            sentence_value.append(i)
+    print(sentence_value)
+    scores = {}
+    # print(attributions_start_sum[0].item())
+
+    for i in range(len(attributions_start_sum)):
+        try:
+            scores[sentence_value[i]] = attributions_start_sum[i].item()
+        except:
+            pass
+
+    for i, j in sentence.items():
+        sum_weight = 0
+        for word in j:
+            weight = 0
+
+            sum_weight += scores[word]
+            delete_sentence[i] = sum_weight
+    return delete_sentence
+
+
+def delete_sentence(sentence, li_delete_sentence):
+    for i, j in sentence.items():
+        if i in li_delete_sentence:
+            sentence[i] = []
+        else:
+            pass
+    return sentence
+
+
+def rebuild_sentence(ori_sentence):
+    rebuild_str = ""
+    for i, j in ori_sentence.items():
+        for word in j:
+            rebuild_str += word
+            rebuild_str += " "
+    return rebuild_str
+
+
+def pred_explain(question, text):
+    input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth, all_tokens, sep_id= predict_qt(
+        text, question)
+
+    all_tokens, attributions_start_sum = explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask,
+                                                 start_scores, end_scores, ground_truth, all_tokens, )
+
+    end_score = float(torch.max(torch.softmax(end_scores[0], dim=0)))
+    start_score = float(torch.max(torch.softmax(start_scores[0], dim=0)))
+    return all_tokens, attributions_start_sum, end_score, start_score, [torch.argmax(start_scores), torch.argmax(end_scores)+1], sep_id
+
+
+question = "Howard Hawks (Howard Hawks) The noir classic film set in Los Angeles is one of the most entertaining films of all American movies. What is the main credit?"
+text=  r"The Big Sleep was released 75 years ago, and its plot has been puzzling viewers ever since. There is no disputing that Howard Hawks's Los Angeles-set noir classic is one of the most entertaining of all US films, thanks to its firecracker dialogue, brutal action, sultry atmosphere, and the volcanic sexual chemistry between its stars, Humphrey Bogart and Lauren Bacall. But there's also no disputing that it's hard to know what exactly is going on. When The Big Sleep came out in 1946, the New York Times's Bosley Crowther pronounced it a web of utter bafflement... in which so many cryptic things occur amid so much involved and devious plotting that the mind becomes utterly confused. All these decades later, the film's judgemental Wikipedia entry tuts that it is impossible to follow, and is celebrated by movie-star aficionados only because they consider the Bogart-Bacall appearances more important than a well-told story. In fact, the plot isn't impossible to follow – it's just extraordinarily difficult without a pen, a notepad and a pause button to hand. Not only do you have to remember all the gorgeous librarians, shopkeepers, waitresses and taxi drivers who throw themselves at the film's wisecracking private-eye hero, Philip Marlowe (Bogart), but you also have to distinguish between the many male murderers and murder victims, among them Harry Jones, Joe Brody, Eddie Mars, Carol Lundgren, Lash Canino, Owen Taylor and Sean Regan. But is that really something to complain about? Is it a problem if the mind becomes utterly confused by a film? Or can that sometimes be one of its main attractions?"
+acc_s = []
+acc_e = []
+all_tokens, attributions_start_sum, start_acc, end_acc,  an_index, sep_id = pred_explain(text, question)
+print(start_acc, end_acc)
+acc_s.append(start_acc)
+acc_e.append(end_acc)
+
+for i in range(20):
+    positive, negative, neutral = get_posneg(all_tokens, attributions_start_sum)
+    min_vlaue = 999
+    min_index = 0
+    for i in negative:
+        if attributions_start_sum[i] < min_vlaue and (i <an_index[0] or i > an_index[1])and i > sep_id:
+            min_vlaue = attributions_start_sum[i]
+            min_index = i
+    print("should delete : ", all_tokens[min_index], min_vlaue, "index = ", min_index)
+    all_tokens[min_index] = ''
+    retext = ' '.join(all_tokens)
+
+    li_sep = []
+    for m in re.finditer(r"SEP", retext):
+        li_sep.append(m.start())
+        li_sep.append(m.end())
+    retext = retext[li_sep[1]+1: li_sep[2] -1]
+    retext = re.sub(r' ##', '', retext)
+    all_tokens, attributions_start_sum, start_acc, end_acc,  an_index, sep_id= pred_explain(retext, question)
+    print(start_acc, end_acc)
+    acc_s.append(start_acc)
+    acc_e.append(end_acc)
+    print(acc_s, acc_e)
+print(acc_s, acc_e)
+plt.plot(range(len(acc_s)), acc_s)
+plt.plot(range(len(acc_s)), acc_e)
+sun = []
+for i in range(len(acc_s)):
+    sun.append((acc_s[i] + acc_e[i])/2)
+print(sun)
+plt.plot(range(len(acc_s)), sun)
+plt.show()
+
+
