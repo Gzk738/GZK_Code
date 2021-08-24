@@ -6,7 +6,7 @@ import re
 import torch
 import torch.nn as nn
 
-from transformers import ElectraTokenizer, BertForQuestionAnswering, BertConfig
+from transformers import BertTokenizer, BertForQuestionAnswering, BertConfig
 
 from captum.attr import visualization as viz
 from captum.attr import LayerConductance, LayerIntegratedGradients
@@ -22,7 +22,7 @@ model.eval()
 model.zero_grad()
 
 # load tokenizer
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-small-v2-distilled-korquad-384")
+tokenizer = BertTokenizer.from_pretrained(model_path)
 
 
 def predict(inputs, token_type_ids=None, position_ids=None, attention_mask=None):
@@ -311,9 +311,13 @@ def pred_explain(question, text):
     return all_tokens, attributions_start_sum, end_score, start_score, [torch.argmax(start_scores), torch.argmax(end_scores)+1], start_scores, end_scores
 
 
-text = "At the age of just 13, Japan's Momiji Nishiya made history on Monday by winning the first-ever Olympic gold medal in women's street skateboarding at the Games in Tokyo.  Nishiya topped a youthful podium with Rayssa Leal of Brazil, also 13, taking the silver medal and Japan Funa Nakayama, 16, winning bronze. With an average age of 14 years and 191 days it is the youngest individual podium in the history of the Olympic Games."
-
-question = "who made the history"
+question = "what is the family name of the person who won the gold medal"
+text= "At the age of just 13, Japan's Momiji Nishiya made history on Monday by winning the \
+first-ever Olympic gold medal in women's street skateboarding at the Games in Tokyo. \
+Nishiya topped a youthful podium with Rayssa Leal of Brazil, also 13, taking the silver medal \
+and Japan Funa Nakayama, 16, \
+winning bronze.\
+With an average age of 14 years and 191 days it is the youngest individual podium in the history of the Olympic Games."
 
 all_tokens, attributions_start_sum, start_acc, end_acc,  an_index, start_scores, end_scores = pred_explain(text, question)
 first_answer = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
@@ -381,4 +385,21 @@ plt.show()
 for i in ans:
     print(i)
 
+"""
+找到最高的概率在哪个注意力上
+"""
+max_start = 0
+max_end = 0
+max_ave = 0
+for i in acc_s:
+    if i > max_start:
+        max_start = i
+for j in acc_e:
+    if j > max_end:
+        max_end = i
 
+for x in sun:
+    if x > max_ave:
+        max_ave = x
+
+print(max_start, max_end, max_ave)
