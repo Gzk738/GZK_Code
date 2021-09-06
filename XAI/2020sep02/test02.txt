@@ -1,0 +1,2705 @@
+D:\software\conda\envs\xai\python.exe "C:\software\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\pydevd.py" --multiproc --qt-support=auto --client 127.0.0.1 --port 59638 --file D:/software/github/GZK_Code/XAI/2020sep02/test.py
+Connected to pydev debugger (build 203.7148.72)
+Reusing dataset squad (C:\Users\Guo Zikun\.cache\huggingface\datasets\squad\plain_text\1.0.0\d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453)
+my answer is  
+0.5861684679985046 0.5024858117103577
+0.9979552030563354 0.21157865226268768 0
+
+
+sasha fierce
+sasha fierce
+sasha fierce
+sasha fierce
+sasha fierce
+b ' day
+etta james
+etta james
+etta james
+etta james
+b ' day
+b ' day
+b ' day
+destiny ' s child
+destiny ' s child
+what
+beyonce
+beyonce
+what
+standed answer is :  {'text': ['Sasha Fierce'], 'answer_start': [466]}
+Following the disbandment of Destiny's Child in June 2005, she released her second solo album, B'Day (2006), which contained hits "Déjà Vu", "Irreplaceable", and "Beautiful Liar". Beyoncé also ventured into acting, with a Golden Globe-nominated performance in Dreamgirls (2006), and starring roles in The Pink Panther (2006) and Obsessed (2009). Her marriage to rapper Jay Z and portrayal of Etta James in Cadillac Records (2008) influenced her third album, I Am... Sasha Fierce (2008), which saw the birth of her alter-ego Sasha Fierce and earned a record-setting six Grammy Awards in 2010, including Song of the Year for "Single Ladies (Put a Ring on It)". Beyoncé took a hiatus from music in 2010 and took over management of her career; her fourth album 4 (2011) was subsequently mellower in tone, exploring 1970s funk, 1980s pop, and 1990s soul. Her critically acclaimed fifth studio album, Beyoncé (2013), was distinguished from previous releases by its experimental production and exploration of darker themes.
+What is the name of Beyoncé's alter-ego?
+my answer is  love , relationships , and monogamy
+0.5640329122543335 0.8471189141273499
+0.5640329122543335 0.44744569063186646 0
+love , relationships , and monogamy
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+relationships , and monogamy , as well as female sexuality and empowerment
+standed answer is :  {'text': ['love, relationships, and monogamy'], 'answer_start': [104]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+In her music, what are some recurring elements in them?
+my answer is  influential
+0.9622088670730591 0.9052320718765259
+0.9622088670730591 0.17016780376434326 0
+influential
+influential
+influential
+influential
+billboard named her the top radio songs artist of the decade
+best - selling music artists of all time . she has won 20 grammy awards and is the most nominated woman in the award ' s history . in 2009 , forbes magazine also listed her as the most powerful female musician of 2015 .
+forbes magazine also listed her as the most powerful female musician of 2015 .
+forbes magazine also listed her as the most powerful female musician of 2015 .
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+forbes magazine also listed her as the most powerful female musician of 2015
+standed answer is :  {'text': ['influential'], 'answer_start': [935]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+Time magazine named her one of the most 100 what people of the century?
+my answer is  forbes
+0.9242535829544067 0.9986825585365295
+0.9242535829544067 0.17062528431415558 0
+forbes
+billboard
+billboard
+time
+recording industry association of america
+beyonce creates songs that are often characterized by themes of love , relationships , and monogamy , as well as female sexuality and empowerment . on stage , her dynamic , highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music . throughout a career spanning 19 years , she has sold over 118 million records as a solo artist , and a further 60 million with destiny ' s child , making her one of the best - selling music artists of all time . she has won 20 grammy awards and is the most nominated woman in the award ' s history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['Forbes'], 'answer_start': [985]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+Which magazine declared her the most dominant woman musician?
+my answer is  2000s
+0.8968744874000549 0.9074358344078064
+0.9901511669158936 0.2794837951660156 0
+2000s
+2000s
+2009
+2009
+2009
+2009
+2009
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+standed answer is :  {'text': ['2000s'], 'answer_start': [736]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+In which decade did the Recording Industry Association of America recognize Beyonce as the The Top Certified Artist?
+my answer is  forbes
+0.9277992844581604 0.9995781779289246
+0.9277992844581604 0.18080084025859833 0
+forbes
+forbes
+forbes
+forbes
+forbes
+time
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+standed answer is :  {'text': ['Forbes'], 'answer_start': [985]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+What magazine rated Beyonce as the most powerful female musician in 2015?
+my answer is  modern - day
+0.5566173791885376 0.9419851899147034
+0.5566173791885376 0.16076292097568512 0
+modern - day
+female sexuality and empowerment
+female sexuality and empowerment
+female sexuality and empowerment
+female sexuality and empowerment
+beyonce creates songs that are often characterized by themes of love , relationships , and monogamy
+monogamy
+monogamy
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+feminist
+standed answer is :  {'text': ['modern-day feminist'], 'answer_start': [18]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+How did Beyonce describe herself as a feminist?
+my answer is  2013 and 2014
+0.9804157614707947 0.9921844601631165
+0.9833083152770996 0.3752686381340027 0
+2013 and 2014
+2013 and 2014
+2013 and 2014
+2013 and 2014
+2015
+2015
+2009 , billboard named her the top radio songs artist of the decade , forbes magazine also listed her as the most powerful female musician of 2015
+2009 , forbes magazine also listed her as the most powerful female musician of 2015
+2015
+2015
+2015
+2015
+time rate beyonce in the 100 most influential people in the world ? [SEP] a self - described " modern - day feminist " , beyonce creates songs that are often characterized by themes of love , relationships , and monogamy , as well as female sexuality and empowerment . her dynamic , making her one of the best - selling music artists of all time
+time rate beyonce in the 100 most influential people in the world ? [SEP] a self - described " modern - day feminist " , relationships , and monogamy , as well as female sexuality and empowerment . her dynamic , making her one of the best - selling music artists of all time
+time rate beyonce in the 100 most influential people in the world ? [SEP] a self - described " modern - day feminist " , relationships , and monogamy , as well as female sexuality and empowerment . making her one of the best - selling music artists of all time
+time rate beyonce in the 100 most influential people in the world ? [SEP] relationships , and monogamy , as well as female sexuality and empowerment . making her one of the best - selling music artists of all time
+time rate beyonce in the 100 most influential people in the world ? [SEP] relationships , as well as female sexuality and empowerment . making her one of the best - selling music artists of all time
+time rate beyonce in the 100 most influential people in the world ? [SEP] relationships
+time rate beyonce in the 100 most influential people in the world ? [SEP] making her one of the best - selling music artists of all time
+time
+time
+standed answer is :  {'text': ['2013 and 2014'], 'answer_start': [970]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+In which years did Time rate Beyonce in the 100 most influential people in the world?
+my answer is  118 million
+0.8146067261695862 0.6853150129318237
+0.8582156300544739 0.8100358247756958 0
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+standed answer is :  {'text': ['118 million'], 'answer_start': [393]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+How many records has Beyonce sold in her 19 year career?
+my answer is  60 million
+0.9530888795852661 0.9778835773468018
+0.9545741677284241 0.14373226463794708 0
+60 million
+60 million
+60 million
+60 million
+60 million
+60 million
+60 million
+60 million
+60 million
+60 million
+118 million
+20
+20
+100
+
+
+
+
+
+
+
+standed answer is :  {'text': ['60 million'], 'answer_start': [445]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+How many records did Beyoncé sell as part of Destiny's Child?
+my answer is  118 million
+0.8516799211502075 0.8315411806106567
+0.8516799211502075 0.8516799211502075 0
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+118 million
+standed answer is :  {'text': ['118 million'], 'answer_start': [393]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+After leaving Destiny's Child, how many records did Beyoncé release under her own name?
+my answer is  20
+0.8053114414215088 0.96698397397995
+0.8191149830818176 0.39709556102752686 0
+20
+20
+20
+20
+20
+20
+20
+118
+60 million
+19
+19
+19
+19
+2009
+2009
+2009
+2009
+2009
+2009
+2009
+2009
+standed answer is :  {'text': ['20'], 'answer_start': [552]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+How many Grammy awards has Beyoncé won?
+my answer is  forbes
+0.9299973845481873 0.9995724558830261
+0.9299973845481873 0.24969525635242462 0
+forbes
+forbes
+forbes
+forbes
+forbes
+time
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+what
+standed answer is :  {'text': ['Forbes'], 'answer_start': [985]}
+A self-described "modern-day feminist", Beyoncé creates songs that are often characterized by themes of love, relationships, and monogamy, as well as female sexuality and empowerment. On stage, her dynamic, highly choreographed performances have led to critics hailing her as one of the best entertainers in contemporary popular music. Throughout a career spanning 19 years, she has sold over 118 million records as a solo artist, and a further 60 million with Destiny's Child, making her one of the best-selling music artists of all time. She has won 20 Grammy Awards and is the most nominated woman in the award's history. The Recording Industry Association of America recognized her as the Top Certified Artist in America during the 2000s decade. In 2009, Billboard named her the Top Radio Songs Artist of the Decade, the Top Female Artist of the 2000s and their Artist of the Millennium in 2011. Time listed her among the 100 most influential people in the world in 2013 and 2014. Forbes magazine also listed her as the most powerful female musician of 2015.
+What magazine named Beyoncé as the most powerful female musician for 2015?
+my answer is  destiny ' s child
+0.9832351207733154 0.9985755681991577
+0.9873945713043213 0.9675171971321106 0
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+standed answer is :  {'text': ["Destiny's Child"], 'answer_start': [303]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Beyonce's younger sibling also sang with her in what band?
+my answer is  her mother ' s maiden name
+0.9014456272125244 0.7875601649284363
+0.902023434638977 0.3246040344238281 0
+her mother ' s maiden name
+her mother ' s maiden name
+her mother ' s maiden name
+her mother ' s maiden name
+her mother ' s maiden name
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+tina " knowles ( nee beyince
+standed answer is :  {'text': ["her mother's maiden name"], 'answer_start': [204]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Where did Beyonce get her name from?
+my answer is  african - american
+0.9836031198501587 0.9760296940803528
+0.9921665191650391 0.9890405535697937 0
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+standed answer is :  {'text': ['African-American'], 'answer_start': [330]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+What race was Beyonce's father?
+my answer is  methodist
+0.9835485816001892 0.981684148311615
+0.9854877591133118 0.6219984292984009 0
+methodist
+methodist
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+african - american
+standed answer is :  {'text': ['Methodist'], 'answer_start': [578]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Beyonce's childhood home believed in what religion?
+my answer is  xerox
+0.9992577433586121 0.9976724982261658
+0.9996228218078613 0.46968501806259155 0
+xerox
+xerox
+xerox
+xerox
+xerox
+xerox
+xerox
+hairdresser and salon owner
+hairdresser and salon owner
+mathew knowles
+
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+standed answer is :  {'text': ['Xerox'], 'answer_start': [152]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Beyonce's father worked as a sales manager for what company?
+my answer is  hairdresser
+0.49334073066711426 0.9635208249092102
+0.5147399306297302 0.5088779926300049 0
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+hairdresser
+standed answer is :  {'text': ['hairdresser and salon owner'], 'answer_start': [101]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Beyonce's mother worked in what industry?
+my answer is  solange
+0.9981598258018494 0.9985849857330322
+0.9991797804832458 0.999061644077301 0
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+standed answer is :  {'text': ['Solange'], 'answer_start': [255]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+What younger sister of Beyonce also appeared in Destiny's Child?
+my answer is  joseph broussard
+0.9706534147262573 0.9942861199378967
+0.9796801209449768 0.25727203488349915 0
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+beyonce
+beyonce
+beyonce
+beyonce
+standed answer is :  {'text': ['Joseph Broussard'], 'answer_start': [540]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Beyonce is a descendent of what Arcadian leader?
+my answer is  xerox
+0.9814472198486328 0.9966328740119934
+0.9814472198486328 0.12243466079235077 0
+xerox
+hairdresser and salon owner
+hairdresser and salon owner
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+mathew knowles
+standed answer is :  {'text': ['Xerox'], 'answer_start': [152]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+What company did Beyoncé's father work for when she was a child?
+my answer is  salon
+0.9464314579963684 0.9823760390281677
+0.9464314579963684 0.9464314579963684 0
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+salon
+standed answer is :  {'text': ['salon'], 'answer_start': [117]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+What did Beyoncé's mother own when Beyoncé was a child?
+my answer is  solange
+0.998201847076416 0.9989317059516907
+0.9992178678512573 0.9991814494132996 0
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+solange
+standed answer is :  {'text': ['Solange'], 'answer_start': [255]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+What is the name of Beyoncé's younger sister?
+my answer is  joseph broussard
+0.9678944945335388 0.9972326159477234
+0.9696882367134094 0.9633617997169495 0
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+joseph broussard
+standed answer is :  {'text': ['Joseph Broussard.'], 'answer_start': [540]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Beyoncé is a descendant of which Acadian leader?
+my answer is  methodist
+0.9811978936195374 0.9832839965820312
+0.9819090366363525 0.9819090366363525 0
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+methodist
+standed answer is :  {'text': ['Methodist'], 'answer_start': [578]}
+Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine Ann "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former member of Destiny's Child. Mathew is African-American, while Tina is of Louisiana Creole descent (with African, Native American, French, Cajun, and distant Irish and Spanish ancestry). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard. She was raised in a Methodist household.
+Beyoncé was raised in what religion?
+my answer is  fredericksburg
+0.9724981784820557 0.9983653426170349
+0.9724981784820557 0.9724981784820557 0
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+fredericksburg
+standed answer is :  {'text': ['Fredericksburg'], 'answer_start': [49]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+What town did Beyonce go to school in?
+my answer is  darlette johnson
+0.9969602227210999 0.829850971698761
+0.9970613121986389 0.9964229464530945 0
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+standed answer is :  {'text': ['Darlette Johnson'], 'answer_start': [165]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+Who was the first person to notice Beyonce's singing ability?
+my answer is  houston
+0.9745529890060425 0.9725515246391296
+0.9745529890060425 0.2654183506965637 0
+houston
+parker
+parker
+parker
+parker
+parker
+parker
+parker
+parker
+texas
+[SEP]
+
+
+fall of 1990
+
+
+
+
+
+
+
+standed answer is :  {'text': ['Houston'], 'answer_start': [507]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+Beyonce moved to which town after she left her first elementary school?
+my answer is  darlette johnson
+0.992163896560669 0.8072828650474548
+0.992163896560669 0.26066163182258606 0
+darlette johnson
+st . mary ' s elementary school in fredericksburg , texas , where she enrolled in dance classes . able to hit the high - pitched notes . beyonce ' s interest in music and performing continued after winning a school talent show at age seven
+st . mary ' s elementary school in fredericksburg , texas , where she enrolled in dance classes . able to hit the high - pitched notes . beyonce ' s interest in music and performing continued after winning a school talent show at age seven
+st . mary ' s elementary school in fredericksburg , texas , where she enrolled in dance classes . able to hit the high - pitched notes . beyonce ' s interest in music and performing continued after winning a school talent show at age seven
+
+st . mary ' s elementary school in fredericksburg , texas , beyonce ' s interest in music and performing continued after winning a school talent show at age seven
+parker elementary school
+high school for the performing and visual arts
+high school for the performing and visual arts
+st . texas
+
+
+texas
+texas
+fall of 1990
+her teachers discovered beyonce ' s musical talent ? [SEP] [SEP]
+her teachers discovered beyonce ' s musical talent ? [SEP] [SEP]
+her teachers discovered beyonce ' s musical talent ? [SEP] [SEP]
+her teachers discovered beyonce ' s musical talent ? [SEP] [SEP]
+her teachers discovered beyonce ' s musical talent ? [SEP] [SEP]
+her teachers discovered beyonce ' s musical talent ? [SEP] [SEP]
+standed answer is :  {'text': ['dance instructor Darlette Johnson'], 'answer_start': [148]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+Which of her teachers discovered Beyonce's musical talent?
+my answer is  st . john ' s united methodist church
+0.927388072013855 0.9891564846038818
+0.9326291084289551 0.16178712248802185 0
+st . john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+john ' s united methodist church
+. john ' s united methodist church
+
+alief elsik
+i which
+
+
+
+
+
+
+
+standed answer is :  {'text': ["St. John's United Methodist Church"], 'answer_start': [711]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+I which church was Beyonce  a member and soloist  in the choir?
+my answer is  music magnet school
+0.7603371143341064 0.7300927042961121
+0.7603371143341064 0.7603371143341064 0
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+music magnet school
+standed answer is :  {'text': ['music magnet school'], 'answer_start': [484]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+What type of school was Parker Elementary School?
+my answer is  imagine
+0.8597331643104553 0.8082834482192993
+0.8597331643104553 0.8597331643104553 0
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+imagine
+standed answer is :  {'text': ['Imagine'], 'answer_start': [385]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+Which song did Beyonce sing to win a competition at age 7?
+my answer is  fredericksburg
+0.9444661140441895 0.9948837161064148
+0.9951347708702087 0.9951347708702087 0
+fredericksburg
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+houston
+standed answer is :  {'text': ['Fredericksburg'], 'answer_start': [49]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+What city was Beyoncé's elementary school located in?
+my answer is  darlette johnson
+0.9965523481369019 0.9986585378646851
+0.9973562955856323 0.99631267786026 0
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+darlette johnson
+standed answer is :  {'text': ['Darlette Johnson'], 'answer_start': [165]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+What was the name of Beyoncé's first dance instructor?
+my answer is  seven
+0.989271879196167 0.9240857362747192
+0.9944620728492737 0.22688281536102295 0
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+seven
+
+
+
+
+
+
+standed answer is :  {'text': ['seven'], 'answer_start': [355]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+How old was Beyoncé when she won a school talent show?
+my answer is  st . john ' s united methodist church
+0.9913109540939331 0.9832134246826172
+0.9934881925582886 0.2230367362499237 0
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+st . john ' s united methodist church
+
+st
+st
+st
+st
+what choir
+what choir
+what choir
+what choir
+what choir
+what choir
+standed answer is :  {'text': ["St. John's United Methodist Church"], 'answer_start': [711]}
+Beyoncé attended St. Mary's Elementary School in Fredericksburg, Texas, where she enrolled in dance classes. Her singing talent was discovered when dance instructor Darlette Johnson began humming a song and she finished it, able to hit the high-pitched notes. Beyoncé's interest in music and performing continued after winning a school talent show at age seven, singing John Lennon's "Imagine" to beat 15/16-year-olds. In fall of 1990, Beyoncé enrolled in Parker Elementary School, a music magnet school in Houston, where she would perform with the school's choir. She also attended the High School for the Performing and Visual Arts and later Alief Elsik High School. Beyoncé was also a member of the choir at St. John's United Methodist Church as a soloist for two years.
+What choir did Beyoncé sing in for two years?
+my answer is  arne frager
+0.9984618425369263 0.9582244157791138
+0.9988099336624146 0.33858048915863037 0
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+
+dwayne wiggins
+dwayne wiggins
+dwayne wiggins
+dwayne wiggins
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+standed answer is :  {'text': ['Arne Frager'], 'answer_start': [303]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+Who decided to place Beyonce's group in Star Search the talent show?
+my answer is  beyonce ' s father
+0.9669694304466248 0.9803669452667236
+0.9813841581344604 0.9813841581344604 0
+beyonce ' s father
+dwayne wiggins
+sony music
+columbia records
+columbia records
+columbia records
+columbia records
+columbia records
+columbia records
+elektra records
+elektra records
+elektra records
+latavia roberson
+latavia roberson
+latavia roberson
+latavia roberson
+latavia roberson
+latavia roberson
+latavia roberson
+latavia roberson
+latavia roberson
+standed answer is :  {'text': ["Beyoncé's father"], 'answer_start': [542]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+In 1995, who decided to manage the girls singing group?
+my answer is  elektra records
+0.960012674331665 0.9966842532157898
+0.9674428701400757 0.9327815771102905 0
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+elektra records
+standed answer is :  {'text': ['Elektra Records'], 'answer_start': [918]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+Who was the first record label to give the girls a record deal?
+my answer is  arne frager
+0.9987809062004089 0.9759794473648071
+0.9987809062004089 0.5729458332061768 0
+arne frager
+latavia roberson
+latavia roberson
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+beyonce ' s father
+standed answer is :  {'text': ['Arne Frager'], 'answer_start': [303]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+Who brought Beyonce to California and enter her group in Star Search?
+my answer is  1995
+0.9978316426277161 0.9960414171218872
+0.9996281862258911 0.2183178812265396 0
+1995
+1995
+1995
+1995
+1995
+1995
+1995
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+standed answer is :  {'text': ['1995'], 'answer_start': [537]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+In what year did Beyonce's father quit his job to manage her group?
+my answer is  sony music
+0.9773051738739014 0.9849351644515991
+0.9823968410491943 0.11687105894088745 0
+sony music
+elektra records
+elektra records
+elektra records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+grass roots entertainment
+grass roots entertainment
+grass roots entertainment
+
+star search
+what large record company recorded beyonce ' s group ' s first album ? [SEP]
+what large record company recorded beyonce ' s group ' s first album ? [SEP] at age eight , they were placed into a group with three other girls as girl ' s tyme , and rapped and danced on the talent show circuit in houston
+what large record company recorded beyonce ' s group ' s first album ? [SEP] at age eight , they were placed into a group with three other girls as girl ' s tyme , and rapped and danced on the talent show circuit in houston
+what large record company recorded beyonce ' s group ' s first album ? [SEP] at age eight , they were placed into a group with three other girls as girl ' s tyme , and rapped and danced on the talent show circuit in houston
+what large record company recorded beyonce ' s group ' s first album ? [SEP] at age eight , they were placed into a group with three other girls as girl ' s tyme , and rapped and danced on the talent show circuit in houston
+what large record company recorded beyonce ' s group ' s first album ? [SEP] at age eight , they were placed into a group with three other girls as girl ' s tyme , and rapped and danced on the talent show circuit in houston
+what large record company recorded beyonce ' s group ' s first album ? [SEP] at age eight , they were placed into a group with three other girls as girl ' s tyme , and rapped and danced on the talent show circuit in houston
+what large record company recorded beyonce ' s group ' s first album ? [SEP] at age eight , they were placed into a group with three other girls as girl ' s tyme , and rapped and danced on the talent show circuit in houston
+standed answer is :  {'text': ['Sony Music'], 'answer_start': [1264]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+What large record company recorded Beyonce's group's first album?
+my answer is  elektra records
+0.9529719352722168 0.9910702705383301
+0.9872544407844543 0.9779576659202576 0
+elektra records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+atlanta records
+standed answer is :  {'text': ['Elektra Records'], 'answer_start': [918]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+What record company first signed Beyonce's group and later cut them?
+my answer is  eight
+0.9957332015037537 0.9568899273872375
+0.9967645406723022 0.322233110666275 0
+eight
+eight
+eight
+eight
+childhood friend kelly rowland met latavia roberson while in an audition for an all - girl entertainment group
+[CLS] at what age did beyonce meet latavia robertson ? [SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+standed answer is :  {'text': ['age eight'], 'answer_start': [3]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+At what age did Beyonce meet LaTavia Robertson?
+my answer is  eight
+0.9908720850944519 0.9411288499832153
+0.9918877482414246 0.9579866528511047 0
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+eight
+standed answer is :  {'text': ['eight'], 'answer_start': [7]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+How old was Beyoncé when she met LaTavia Roberson?
+my answer is  girl ' s tyme
+0.9664402008056641 0.9694578051567078
+0.9702717065811157 0.5664874911308289 0
+girl ' s tyme
+girl ' s tyme
+girl ' s tyme
+star search
+star search
+all - girl entertainment group
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+grass roots
+standed answer is :  {'text': ["Girl's Tyme"], 'answer_start': [192]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+What was the name of the first group Beyoncé was a part of?
+my answer is  arne frager
+0.9982105493545532 0.9629422426223755
+0.9985544085502625 0.9985544085502625 0
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+arne frager
+standed answer is :  {'text': ['Arne Frager'], 'answer_start': [303]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+Who placed Girl's Tyme in Star Search?
+my answer is  1995
+0.9943695664405823 0.9742893576622009
+0.9943695664405823 0.3074181079864502 0
+1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+october 5 , 1995
+standed answer is :  {'text': ['1995'], 'answer_start': [537]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+When did Beyoncé begin to manage the girl group?
+my answer is  dwayne wiggins ' s grass roots entertainment
+0.6908848285675049 0.948722243309021
+0.6908848285675049 0.6011773943901062 0
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+dwayne wiggins ' s grass roots entertainment
+standed answer is :  {'text': ["Dwayne Wiggins's Grass Roots Entertainment"], 'answer_start': [1126]}
+At age eight, Beyoncé and childhood friend Kelly Rowland met LaTavia Roberson while in an audition for an all-girl entertainment group. They were placed into a group with three other girls as Girl's Tyme, and rapped and danced on the talent show circuit in Houston. After seeing the group, R&B producer Arne Frager brought them to his Northern California studio and placed them in Star Search, the largest talent show on national TV at the time. Girl's Tyme failed to win, and Beyoncé later said the song they performed was not good. In 1995 Beyoncé's father resigned from his job to manage the group. The move reduced Beyoncé's family's income by half, and her parents were forced to move into separated apartments. Mathew cut the original line-up to four and the group continued performing as an opening act for other established R&B girl groups. The girls auditioned before record labels and were finally signed to Elektra Records, moving to Atlanta Records briefly to work on their first recording, only to be cut by the company. This put further strain on the family, and Beyoncé's parents separated. On October 5, 1995, Dwayne Wiggins's Grass Roots Entertainment signed the group. In 1996, the girls began recording their debut album under an agreement with Sony Music, the Knowles family reunited, and shortly after, the group got a contract with Columbia Records.
+Who signed the girl group on October 5, 1995?
+my answer is  men in black
+0.894453763961792 0.9820610284805298
+0.894453763961792 0.894453763961792 0
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+standed answer is :  {'text': ['Men in Black'], 'answer_start': [215]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+Which film featured Destiny's Child's first major single?
+my answer is  say my name
+0.45739519596099854 0.5602759122848511
+0.7383466958999634 0.7383466958999634 0
+say my name
+no , no , no
+no , no , no
+no , no , no
+no , no , no "
+no , no , no "
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+standed answer is :  {'text': ['"Say My Name"'], 'answer_start': [848]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+For which song, did Destiny's Child take home the grammy award for best R&B performance?
+my answer is  marc nelson
+0.9925006031990051 0.9969691634178162
+0.9925006031990051 0.9862807989120483 0
+marc nelson
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+boyz ii men
+standed answer is :  {'text': ['Marc Nelson'], 'answer_start': [1212]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+Who did Beyonce record with for the movie "The Best Man?"
+my answer is  1996
+0.9957246780395508 0.9980031847953796
+0.9958446621894836 0.25934967398643494 0
+1996
+1996
+1996
+1996
+1996
+1996
+1997
+1997
+1997
+1997
+1997
+1997
+1997
+1997
+1999
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+standed answer is :  {'text': ['1996'], 'answer_start': [51]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+Beyonce's group changed their name to Destiny's Child in what year?
+my answer is  book of isaiah
+0.9848778247833252 0.5356913208961487
+0.9848778247833252 0.9848778247833252 0
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+standed answer is :  {'text': ['Book of Isaiah'], 'answer_start': [85]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+The name Destiny's Child was based on a quote in which book of the Bible?
+my answer is  men in black
+0.9542936682701111 0.9967021346092224
+0.9560015797615051 0.277872234582901 0
+men in black
+men in black
+men in black
+men in black
+men in black
+1997
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+[SEP]
+standed answer is :  {'text': ['Men in Black'], 'answer_start': [215]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+Debut song, "Killing Time" was featured on what movie's sound track?
+my answer is  say my name
+0.5868053436279297 0.5551667809486389
+0.7418139576911926 0.7105972766876221 0
+say my name
+[CLS]
+
+
+no , no , no
+no , no , no
+no , no , no
+
+say my name "
+bills , bills " , the group ' s first number - one single , " jumpin ' jumpin '
+bills , bills
+bills , bills
+no , no " . no , no " . bills , bills "
+no , no " . no , no " . bills , bills "
+no , no " . no , no " . bills , bills "
+no , no " . no , no " . bills , bills "
+no , no " . no , no " . bills "
+no , no " . no , no " . bills "
+men in black . the following year , no " . no , no " . bills "
+men in black
+men in black
+standed answer is :  {'text': ['Say My Name'], 'answer_start': [849]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+What song won Best R&B Performance in the 43 Annual Grammy Awards?
+my answer is  marc nelson
+0.9942400455474854 0.9971190690994263
+0.9994538426399231 0.25079575181007385 0
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+[CLS] what singer did beyonce record a song with for the movie , ' ' the best man " ? [SEP]
+the best man " ? [SEP]
+the best man " ? [SEP]
+the best man " ? [SEP]
+the best man " ? [SEP]
+
+[CLS]
+
+
+
+men in black
+men in black
+standed answer is :  {'text': ['Marc Nelson'], 'answer_start': [1212]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+What singer did Beyonce record a song with for the movie, ''The Best Man"?
+my answer is  book of isaiah
+0.895782470703125 0.43090394139289856
+0.895782470703125 0.895782470703125 0
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+book of isaiah
+standed answer is :  {'text': ['Book of Isaiah.'], 'answer_start': [85]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+Where did Destiny's Child get their name from?
+my answer is  men in black
+0.9511816501617432 0.9963864088058472
+0.957454264163971 0.42034029960632324 0
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+the best man
+the best man
+the best man
+men in black
+men in black
+men in black
+[SEP]
+
+
+men in black
+men in black
+men in black
+men in black
+men in black
+men in black
+standed answer is :  {'text': ['Men in Black.'], 'answer_start': [215]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+Destiny's Child song, Killing Time, was included in which film's soundtrack?
+my answer is  no , no , no
+0.7892212867736816 0.825746476650238
+0.8051652908325195 0.27333205938339233 0
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+no , no , no
+bills , bills , bills
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+[CLS] what was destiny ' s child ' s first major song hit ? [SEP]
+standed answer is :  {'text': ['No, No, No'], 'answer_start': [330]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+What was Destiny's Child's first major song hit?
+my answer is  1999
+0.9785935878753662 0.9826201796531677
+0.9898144006729126 0.2801705002784729 0
+1999
+1999
+1999
+1999
+1999
+1999
+1999
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+[CLS] when did destiny ' s child release their second album ? [SEP]
+standed answer is :  {'text': ['1999'], 'answer_start': [688]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+When did Destiny's Child release their second album?
+my answer is  marc nelson
+0.99489825963974 0.9980574250221252
+0.9994890689849854 0.15701860189437866 0
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+marc nelson
+[SEP]
+[SEP]
+1999
+[CLS] who did beyonce sing a duet with for " the best man " film ? [SEP] the group changed their name to destiny ' s child in 1996 , in 1997 , men in black . the following year , the group released their self - titled debut album , scoring their first major hit " no , no , no " . with moderate sales and winning the group three soul train lady of soul awards for best r & b / soul album of the year , best r & b / soul or rap new artist , and best r & b / soul single for " no , no , no " . bills , bills " , the group ' s first number - one single , " jumpin ' jumpin ' " and " say my name " , which became their most successful song at the time , and would remain one of their signature songs . the writing ' s on the wall sold more than eight million copies worldwide . during this time , the best man . [SEP]
+destiny ' s child in 1996 , in 1997 , men in black . the following year , the group released their self - titled debut album , scoring their first major hit " no , no , no " . best r & b / soul or rap new artist , and best r & b / soul single for " no , no , no " . bills , bills " , the group ' s first number - one single , " jumpin ' jumpin ' " and " say my name " , which became their most successful song at the time , and would remain one of their signature songs . the writing ' s on the wall sold more than eight million copies worldwide . during this time , the best man . [SEP]
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['Marc Nelson'], 'answer_start': [1212]}
+The group changed their name to Destiny's Child in 1996, based upon a passage in the Book of Isaiah. In 1997, Destiny's Child released their major label debut song "Killing Time" on the soundtrack to the 1997 film, Men in Black. The following year, the group released their self-titled debut album, scoring their first major hit "No, No, No". The album established the group as a viable act in the music industry, with moderate sales and winning the group three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap New Artist, and Best R&B/Soul Single for "No, No, No". The group released their multi-platinum second album The Writing's on the Wall in 1999. The record features some of the group's most widely known songs such as "Bills, Bills, Bills", the group's first number-one single, "Jumpin' Jumpin'" and "Say My Name", which became their most successful song at the time, and would remain one of their signature songs. "Say My Name" won the Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song at the 43rd Annual Grammy Awards. The Writing's on the Wall sold more than eight million copies worldwide. During this time, Beyoncé recorded a duet with Marc Nelson, an original member of Boyz II Men, on the song "After All Is Said and Done" for the soundtrack to the 1999 film, The Best Man.
+Who did Beyoncé sing a duet with for "The Best Man" film?
+my answer is  depression
+0.8438376784324646 0.7624237537384033
+0.9972010850906372 0.9970569610595703 0
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+depression
+standed answer is :  {'text': ['depression'], 'answer_start': [169]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+What mental health issue did Beyonce go through?
+my answer is  her long - standing boyfriend left her
+0.5281923413276672 0.6354274153709412
+0.9482254385948181 0.45874276757240295 0
+her long - standing boyfriend left her
+split with luckett and roberson
+franklin was dismissed
+franklin was dismissed
+franklin was dismissed
+franklin was dismissed
+franklin was dismissed
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+destiny ' s child had just won their first grammy award
+standed answer is :  {'text': ['boyfriend left her'], 'answer_start': [320]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+What event occured after she was publicly criticized?
+my answer is  her mother
+0.9917158484458923 0.828992486000061
+0.9917158484458923 0.29712530970573425 0
+her mother
+
+
+destiny ' s child
+critics , and blogs
+critics , and blogs
+critics , and blogs
+critics , and blogs
+critics , and blogs
+critics , and blogs
+blogs
+she occasionally kept herself in her bedroom
+
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+standed answer is :  {'text': ['her mother'], 'answer_start': [714]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+Who supported Beyonce through her depression?
+my answer is  the split with luckett and roberson
+0.9368038177490234 0.6183562874794006
+0.9529045224189758 0.9470177888870239 0
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+the split with luckett and roberson
+standed answer is :  {'text': ['split with Luckett and Rober'], 'answer_start': [194]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+What event caused Beyonce's depression?
+my answer is  a couple of years
+0.9707940220832825 0.7347560524940491
+0.9718501567840576 0.9702817797660828 0
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+a couple of years
+standed answer is :  {'text': ['a couple of years'], 'answer_start': [396]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+How long was Beyonce depressed?
+my answer is  her mother
+0.9975975155830383 0.8518781661987305
+0.9993256330490112 0.9694756269454956 0
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+destiny ' s child
+standed answer is :  {'text': ['her mother'], 'answer_start': [714]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+Who helped Beyonce fight her depression the most?
+my answer is  farrah franklin and michelle williams
+0.7877832651138306 0.9646856188774109
+0.7877832651138306 0.7877832651138306 0
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+farrah franklin and michelle williams
+standed answer is :  {'text': ['Farrah Franklin and Michelle Williams.'], 'answer_start': [110]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+Who replaced Luckett and Roberson in Destiny's Child?
+my answer is  beyonce
+0.9220187067985535 0.9182101488113403
+0.9220187067985535 0.49087512493133545 0
+beyonce
+letoya luckett and roberson became unhappy with mathew ' s managing of the band and eventually were replaced by farrah franklin and michelle williams
+franklin
+her mother
+critics , and blogs
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+standed answer is :  {'text': ['Beyoncé'], 'answer_start': [149]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+Who was blamed for Luckett and Roberson leaving Destiny's Child?
+my answer is  her mother
+0.9981581568717957 0.8879204392433167
+0.9989725351333618 0.9985983967781067 0
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+her mother
+standed answer is :  {'text': ['her mother'], 'answer_start': [714]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+Who helped Beyoncé overcome her depression during the years following the Destiny's Child split?
+my answer is  farrah franklin
+0.6904856562614441 0.7511825561523438
+0.9158973097801208 0.9158973097801208 0
+farrah franklin
+farrah franklin
+michelle williams
+farrah franklin and michelle williams
+farrah franklin
+farrah franklin
+farrah franklin
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+williams
+standed answer is :  {'text': ['Farrah Franklin'], 'answer_start': [110]}
+LeToya Luckett and Roberson became unhappy with Mathew's managing of the band and eventually were replaced by Farrah Franklin and Michelle Williams. Beyoncé experienced depression following the split with Luckett and Roberson after being publicly blamed by the media, critics, and blogs for its cause. Her long-standing boyfriend left her at this time. The depression was so severe it lasted for a couple of years, during which she occasionally kept herself in her bedroom for days and refused to eat anything. Beyoncé stated that she struggled to speak about her depression because Destiny's Child had just won their first Grammy Award and she feared no one would take her seriously. Beyoncé would later speak of her mother as the person who helped her fight it. Franklin was dismissed, leaving just Beyoncé, Rowland, and Williams.
+Which newest member was removed from Destiny's Child?
+my answer is  independent women part i
+0.90412837266922 0.9201619029045105
+0.90412837266922 0.29275861382484436 0
+independent women part i
+independent women part i
+[SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+[CLS] " charlie ' s angels " featured which single from the band members ? [SEP]
+standed answer is :  {'text': ['Independent Women Part I'], 'answer_start': [37]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+"Charlie's Angels" featured which single from the band members?
+my answer is  eleven
+0.6106160879135132 0.9919567108154297
+0.6106160879135132 0.6106160879135132 0
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+eleven
+standed answer is :  {'text': ['eleven'], 'answer_start': [216]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+How many weeks did their single "Independent Women Part I" stay on top?
+my answer is  mtv
+0.9975142478942871 0.9969936609268188
+0.9975142478942871 0.30158352851867676 0
+mtv
+charlie ' s angels
+[CLS] for what network , did beyonce land a major movie role in ? [SEP]
+[CLS] for what network , did beyonce land a major movie role in ? [SEP]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+standed answer is :  {'text': ['MTV'], 'answer_start': [348]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+For what network, did Beyonce land a major movie role in?
+my answer is  663 , 000
+0.8216059803962708 0.9987480640411377
+0.8216059803962708 0.7970849275588989 0
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+663 , 000
+standed answer is :  {'text': ['663,000 copies'], 'answer_start': [793]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+Their third album, Survivor, sold how many during its first week?
+my answer is  georges bizet
+0.9880147576332092 0.9931541681289673
+0.9887617230415344 0.4142517149448395 0
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+georges bizet
+
+
+what french
+what french
+french
+french
+french
+french
+french
+standed answer is :  {'text': ['Georges Bizet'], 'answer_start': [557]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+What French composer wrote the original opera ''Carmen'' in the 19th century?
+my answer is  survivor
+0.9505511522293091 0.9583770036697388
+0.9550665020942688 0.8355695009231567 0
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+standed answer is :  {'text': ['Survivor'], 'answer_start': [593]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+What album caused a lawsuit to be filed in 2001?
+my answer is  charlie ' s angels
+0.972134530544281 0.9992450475692749
+0.9952808022499084 0.9952808022499084 0
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+charlie ' s angels
+standed answer is :  {'text': ["Charlie's Angels."], 'answer_start': [115]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+Independent Women Part I was on which 2000 film's soundtrack?
+my answer is  carmen : a hip hopera
+0.9852443933486938 0.9979593753814697
+0.9918367266654968 0.9918367266654968 0
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+carmen : a hip hopera
+standed answer is :  {'text': ['Carmen: A Hip Hopera'], 'answer_start': [378]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+Which film did Beyoncé star in 2001 with Mekhi Phifer?
+my answer is  survivor
+0.935670018196106 0.9617051482200623
+0.936378002166748 0.916653037071228 0
+survivor
+carmen : a hip hopera
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+survivor
+standed answer is :  {'text': ['Survivor'], 'answer_start': [593]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+What was the name of Destiny Child's third album?
+my answer is  luckett and roberson
+0.997931957244873 0.9985854625701904
+0.9986233711242676 0.9960290193557739 0
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+luckett and roberson
+standed answer is :  {'text': ['Luckett and Roberson'], 'answer_start': [628]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+Who filed a lawsuit over Survivor?
+my answer is  october 2001
+0.9621480703353882 0.9462597966194153
+0.9621480703353882 0.54877108335495 0
+october 2001
+may 2001
+may 2001
+may 2001
+may 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+early 2001
+standed answer is :  {'text': ['October 2001'], 'answer_start': [1070]}
+The remaining band members recorded "Independent Women Part I", which appeared on the soundtrack to the 2000 film, Charlie's Angels. It became their best-charting single, topping the U.S. Billboard Hot 100 chart for eleven consecutive weeks. In early 2001, while Destiny's Child was completing their third album, Beyoncé landed a major role in the MTV made-for-television film, Carmen: A Hip Hopera, starring alongside American actor Mekhi Phifer. Set in Philadelphia, the film is a modern interpretation of the 19th century opera Carmen by French composer Georges Bizet. When the third album Survivor was released in May 2001, Luckett and Roberson filed a lawsuit claiming that the songs were aimed at them. The album debuted at number one on the U.S. Billboard 200, with first-week sales of 663,000 copies sold. The album spawned other number-one hits, "Bootylicious" and the title track, "Survivor", the latter of which earned the group a Grammy Award for Best R&B Performance by a Duo or Group with Vocals. After releasing their holiday album 8 Days of Christmas in October 2001, the group announced a hiatus to further pursue solo careers.
+When did Destiny's Child announce their hiatus?
+my answer is  mike myers
+0.9989922642707825 0.997445821762085
+0.9997212290763855 0.9994751811027527 0
+mike myers
+mike myers
+mike myers
+mike myers
+cuba gooding , jr .
+cuba gooding , jr .
+cuba gooding , jr .
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+mike myers
+standed answer is :  {'text': ['Mike Myers'], 'answer_start': [84]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+Who did Beyonce star with in the movie, "Austin Powers in Goldmember"?
+my answer is  uk , norway , and belgium
+0.9834543466567993 0.9468458294868469
+0.9866645336151123 0.9485787153244019 0
+uk , norway , and belgium
+uk , norway , and belgium
+uk , norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+norway , and belgium
+standed answer is :  {'text': ['UK, Norway, and Belgium'], 'answer_start': [331]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+Which three countries did Beyonce's song "Work It Out" achieve top ten status?
+my answer is  the fighting temptations
+0.9981679916381836 0.9769772291183472
+0.9989018440246582 0.9970781803131104 0
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+the fighting temptations
+work it out
+fighting temptation
+fighting temptation
+standed answer is :  {'text': ['The Fighting Temptations'], 'answer_start': [431]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+Beyonce starred with Cuba Gooding Jr. in which film?
+my answer is  missy elliott
+0.9566356539726257 0.9973306655883789
+0.9933726787567139 0.8603492379188538 0
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+missy elliott
+cuba gooding
+cuba gooding
+gooding
+gooding
+lilly
+lilly
+standed answer is :  {'text': ['Missy Elliott'], 'answer_start': [705]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+Who did Beyonce record the lead single with in the movie "The Fighting Temptations"?
+my answer is  summertime
+0.9286867380142212 0.9562618136405945
+0.9832926392555237 0.8102800846099854 0
+summertime
+summertime
+summertime
+work it out
+work it out
+work it out
+
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+standed answer is :  {'text': ['Summertime'], 'answer_start': [834]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+Which other song from the soundtrack did better in the charts?
+my answer is  austin powers in goldmember
+0.9901269674301147 0.9977872371673584
+0.9901269674301147 0.7881636023521423 0
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember , which spent its first weekend atop the us box office and grossed $ 73 million . beyonce released " work it out " as the lead single from its soundtrack album which entered the top ten in the uk , norway , and belgium . in 2003 , beyonce starred opposite cuba gooding , jr . , in the musical comedy the fighting temptations
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+standed answer is :  {'text': ['Austin Powers in Goldmember'], 'answer_start': [115]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What film did Beyonce appear in with Mike Myers?
+my answer is  $ 73 million
+0.9518330097198486 0.5420764684677124
+0.9518330097198486 0.9518330097198486 0
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+$ 73 million
+standed answer is :  {'text': ['73 million'], 'answer_start': [210]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What large amount did the movie "Goldmember" gross?
+my answer is  musical comedy
+0.994166374206543 0.9686648845672607
+0.9960482716560364 0.260392427444458 0
+musical comedy
+musical comedy
+comedy
+comedy
+austin powers in goldmember
+austin powers in goldmember
+goldmember
+goldmember
+
+summertime
+2003
+2003
+2003
+2003
+2003
+2003
+2003
+2003
+2003
+2003
+2003
+standed answer is :  {'text': ['musical comedy'], 'answer_start': [416]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What genre of movie did Beyonce star in with Cuba Gooding, Jr?
+my answer is  
+0.6080261468887329 0.3904494345188141
+0.9688925743103027 0.9389626979827881 0
+
+
+
+
+
+
+
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+work it out
+standed answer is :  {'text': ['Fighting Temptations'], 'answer_start': [435]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What song was the lead single from the film's sound track?
+my answer is  mixed
+0.6506218910217285 0.9675602316856384
+0.6506218910217285 0.5978150963783264 0
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+mixed
+standed answer is :  {'text': ['mixed reviews'], 'answer_start': [545]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+How did the critics view the movie, ''The Fighting Temptations''?
+my answer is  austin powers in goldmember
+0.9885166883468628 0.9979573488235474
+0.9921682476997375 0.5548712015151978 0
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+standed answer is :  {'text': ['Austin Powers in Goldmember'], 'answer_start': [115]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What film did Beyoncé star in with Mike Myers in 2002?
+my answer is  foxxy cleopatra
+0.9955765008926392 0.9884254932403564
+0.9955765008926392 0.9874200224876404 0
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+foxxy cleopatra
+cuba gooding , jr . a single mother whom gooding ' s character falls in love with . s . beyonce released " fighting temptation " as the lead single from the film ' s soundtrack album , mc lyte
+jr
+jr . s . beyonce released " fighting temptation " as the lead single from the film ' s soundtrack album , mc lyte
+mc lyte
+mc lyte
+mc lyte
+mc lyte
+mc lyte
+mc lyte
+mc lyte
+mc lyte
+standed answer is :  {'text': ['Foxxy Cleopatra'], 'answer_start': [58]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What was Beyoncé's character called in Austin Powers in Goldmember?
+my answer is  work it out
+0.9550296664237976 0.9575293064117432
+0.9550296664237976 0.8805978894233704 0
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+standed answer is :  {'text': ['Work It Out'], 'answer_start': [240]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+Which song did Beyoncé release as the lead single for Austin Powers in Goldmember's soundtrack?
+my answer is  the fighting temptations
+0.9990818500518799 0.9955229759216309
+0.9990818500518799 0.6474873423576355 0
+the fighting temptations
+the fighting temptations
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+austin powers in goldmember
+goldmember
+goldmember
+austin powers in goldmember
+free
+austin powers in goldmember
+austin powers in goldmember
+goldmember
+goldmember
+goldmember
+goldmember
+goldmember
+goldmember
+standed answer is :  {'text': ['The Fighting Temptations'], 'answer_start': [431]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What musical comedy did Beyoncé star in along with Cuba Gooding, Jr. in 2003?
+my answer is  
+0.5554183125495911 0.5955923199653625
+0.94346684217453 0.9284622073173523 0
+
+
+
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+fighting temptation
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+work it out
+standed answer is :  {'text': ['Fighting Temptations'], 'answer_start': [435]}
+In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts.
+What song did Beyoncé release as the lead single from The Fighting Tempations?
+my answer is  number four
+0.9695892333984375 0.563554584980011
+0.9695892333984375 0.9360389709472656 0
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+number four
+standed answer is :  {'text': ['number four'], 'answer_start': [123]}
+Beyoncé's first solo recording was a feature on Jay Z's "'03 Bonnie & Clyde" that was released in October 2002, peaking at number four on the U.S. Billboard Hot 100 chart. Her first solo album Dangerously in Love was released on June 24, 2003, after Michelle Williams and Kelly Rowland had released their solo efforts. The album sold 317,000 copies in its first week, debuted atop the Billboard 200, and has since sold 11 million copies worldwide. The album's lead single, "Crazy in Love", featuring Jay Z, became Beyoncé's first number-one single as a solo artist in the US. The single "Baby Boy" also reached number one, and singles, "Me, Myself and I" and "Naughty Girl", both reached the top-five. The album earned Beyoncé a then record-tying five awards at the 46th Annual Grammy Awards; Best Contemporary R&B Album, Best Female R&B Vocal Performance for "Dangerously in Love 2", Best R&B Song and Best Rap/Sung Collaboration for "Crazy in Love", and Best R&B Performance by a Duo or Group with Vocals for "The Closer I Get to You" with Luther Vandross.
+What was the highest Beyonce's first solo recording achieved in the Billboard Hot 100?
+
+Process finished with exit code 0

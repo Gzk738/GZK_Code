@@ -1,0 +1,2201 @@
+D:\software\conda\envs\xai\python.exe "C:\software\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\pydevd.py" --multiproc --qt-support=auto --client 127.0.0.1 --port 64457 --file D:/software/github/GZK_Code/XAI/2020sep02/test.py
+Connected to pydev debugger (build 203.7148.72)
+Reusing dataset squad (C:\Users\Guo Zikun\.cache\huggingface\datasets\squad\plain_text\1.0.0\d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453)
+my answer is  1925
+0.9988213181495667 0.9985223412513733
+0.9994557499885559 0.16947747766971588 0
+1925
+1925
+1925
+1925
+1925
+notre dame fighting irish
+notre dame fighting irish
+notre dame fighting irish
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+standed answer is :  {'text': ['1925'], 'answer_start': [354]}
+One of the main driving forces in the growth of the University was its football team, the Notre Dame Fighting Irish. Knute Rockne became head coach in 1918. Under Rockne, the Irish would post a record of 105 wins, 12 losses, and five ties. During his 13 years the Irish won three national championships, had five undefeated seasons, won the Rose Bowl in 1925, and produced players such as George Gipp and the "Four Horsemen". Knute Rockne has the highest winning percentage (.881) in NCAA Division I/FBS football history. Rockne's offenses employed the Notre Dame Box and his defenses ran a 7–2–2 scheme. The last game Rockne coached was on December 14, 1930 when he led a group of Notre Dame all-stars against the New York Giants in New York City.
+In what year did the team lead by Knute Rockne win the Rose Bowl?
+my answer is  13
+0.8353434801101685 0.9664927124977112
+0.8353434801101685 0.8353434801101685 0
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+standed answer is :  {'text': ['13'], 'answer_start': [251]}
+One of the main driving forces in the growth of the University was its football team, the Notre Dame Fighting Irish. Knute Rockne became head coach in 1918. Under Rockne, the Irish would post a record of 105 wins, 12 losses, and five ties. During his 13 years the Irish won three national championships, had five undefeated seasons, won the Rose Bowl in 1925, and produced players such as George Gipp and the "Four Horsemen". Knute Rockne has the highest winning percentage (.881) in NCAA Division I/FBS football history. Rockne's offenses employed the Notre Dame Box and his defenses ran a 7–2–2 scheme. The last game Rockne coached was on December 14, 1930 when he led a group of Notre Dame all-stars against the New York Giants in New York City.
+How many years was Knute Rockne head coach at Notre Dame?
+my answer is  three
+0.8372222185134888 0.9674803614616394
+0.9495088458061218 0.2624603509902954 0
+three
+three
+three
+three
+three
+three
+three
+three
+three
+three
+five
+five
+1930
+1930
+1930
+1930
+
+
+
+
+
+standed answer is :  {'text': ['three'], 'answer_start': [274]}
+One of the main driving forces in the growth of the University was its football team, the Notre Dame Fighting Irish. Knute Rockne became head coach in 1918. Under Rockne, the Irish would post a record of 105 wins, 12 losses, and five ties. During his 13 years the Irish won three national championships, had five undefeated seasons, won the Rose Bowl in 1925, and produced players such as George Gipp and the "Four Horsemen". Knute Rockne has the highest winning percentage (.881) in NCAA Division I/FBS football history. Rockne's offenses employed the Notre Dame Box and his defenses ran a 7–2–2 scheme. The last game Rockne coached was on December 14, 1930 when he led a group of Notre Dame all-stars against the New York Giants in New York City.
+How many national titles were won when Knute Rockne coached at Notre Dame?
+my answer is  protestant establishment
+0.6910543441772461 0.6413151025772095
+0.6910543441772461 0.6901136636734009 0
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+protestant establishment
+standed answer is :  {'text': ['the Protestant establishment'], 'answer_start': [297]}
+The success of its football team made Notre Dame a household name. The success of Note Dame reflected rising status of Irish Americans and Catholics in the 1920s. Catholics rallied up around the team and listen to the games on the radio, especially when it knocked off the schools that symbolized the Protestant establishment in America — Harvard, Yale, Princeton, and Army. Yet this role as high-profile flagship institution of Catholicism made it an easy target of anti-Catholicism. The most remarkable episode of violence was the clash between Notre Dame students and the Ku Klux Klan in 1924. Nativism and anti-Catholicism, especially when directed towards immigrants, were cornerstones of the KKK's rhetoric, and Notre Dame was seen as a symbol of the threat posed by the Catholic Church. The Klan decided to have a week-long Klavern in South Bend. Clashes with the student body started on March 17, when students, aware of the anti-Catholic animosity, blocked the Klansmen from descending from their trains in the South Bend station and ripped the KKK clothes and regalia. On May 19 thousands of students massed downtown protesting the Klavern, and only the arrival of college president Fr. Matthew Walsh prevented any further clashes. The next day, football coach Knute Rockne spoke at a campus rally and implored the students to obey the college president and refrain from further violence. A few days later the Klavern broke up, but the hostility shown by the students was an omen and a contribution to the downfall of the KKK in Indiana.
+Catholic people identified with Notre Dame, what religious group did people feel Yale represented?
+my answer is  ku klux klan
+0.9743218421936035 0.6249166131019592
+0.9743218421936035 0.9743218421936035 0
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+ku klux klan
+standed answer is :  {'text': ['the Ku Klux Klan'], 'answer_start': [571]}
+The success of its football team made Notre Dame a household name. The success of Note Dame reflected rising status of Irish Americans and Catholics in the 1920s. Catholics rallied up around the team and listen to the games on the radio, especially when it knocked off the schools that symbolized the Protestant establishment in America — Harvard, Yale, Princeton, and Army. Yet this role as high-profile flagship institution of Catholicism made it an easy target of anti-Catholicism. The most remarkable episode of violence was the clash between Notre Dame students and the Ku Klux Klan in 1924. Nativism and anti-Catholicism, especially when directed towards immigrants, were cornerstones of the KKK's rhetoric, and Notre Dame was seen as a symbol of the threat posed by the Catholic Church. The Klan decided to have a week-long Klavern in South Bend. Clashes with the student body started on March 17, when students, aware of the anti-Catholic animosity, blocked the Klansmen from descending from their trains in the South Bend station and ripped the KKK clothes and regalia. On May 19 thousands of students massed downtown protesting the Klavern, and only the arrival of college president Fr. Matthew Walsh prevented any further clashes. The next day, football coach Knute Rockne spoke at a campus rally and implored the students to obey the college president and refrain from further violence. A few days later the Klavern broke up, but the hostility shown by the students was an omen and a contribution to the downfall of the KKK in Indiana.
+Notre Dame students had a showdown in 1924 with which anti-catholic group?
+my answer is  fr . matthew walsh
+0.9988641738891602 0.9393035173416138
+0.9991714954376221 0.9973892569541931 0
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+fr . matthew walsh
+standed answer is :  {'text': ['Fr. Matthew Walsh'], 'answer_start': [1193]}
+The success of its football team made Notre Dame a household name. The success of Note Dame reflected rising status of Irish Americans and Catholics in the 1920s. Catholics rallied up around the team and listen to the games on the radio, especially when it knocked off the schools that symbolized the Protestant establishment in America — Harvard, Yale, Princeton, and Army. Yet this role as high-profile flagship institution of Catholicism made it an easy target of anti-Catholicism. The most remarkable episode of violence was the clash between Notre Dame students and the Ku Klux Klan in 1924. Nativism and anti-Catholicism, especially when directed towards immigrants, were cornerstones of the KKK's rhetoric, and Notre Dame was seen as a symbol of the threat posed by the Catholic Church. The Klan decided to have a week-long Klavern in South Bend. Clashes with the student body started on March 17, when students, aware of the anti-Catholic animosity, blocked the Klansmen from descending from their trains in the South Bend station and ripped the KKK clothes and regalia. On May 19 thousands of students massed downtown protesting the Klavern, and only the arrival of college president Fr. Matthew Walsh prevented any further clashes. The next day, football coach Knute Rockne spoke at a campus rally and implored the students to obey the college president and refrain from further violence. A few days later the Klavern broke up, but the hostility shown by the students was an omen and a contribution to the downfall of the KKK in Indiana.
+Which college president of Notre Dame is credited with preventing more confrontations between students and the KKK?
+my answer is  klavern
+0.9455243349075317 0.3935977816581726
+0.9455243349075317 0.36136579513549805 0
+klavern
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+[CLS] what type of event did the klan intend to have at notre dame in march of 1924 ? [SEP] the success of its football team made notre dame a household name . the success of note dame reflected rising status of irish americans and catholics in the 1920s . catholics rallied up around the team and listen to the games on the radio , especially when it knocked off the schools that symbolized the protestant establishment in america — harvard , yale , princeton , and army . yet this role as high - profile flagship institution of catholicism made it an easy target of anti - catholicism . the most remarkable episode of violence was the clash between notre dame students and the ku klux klan in 1924 . nativism and anti - catholicism , especially when directed towards immigrants , were cornerstones of the kkk ' s rhetoric , and notre dame was seen as a symbol of the threat posed by the catholic church . clashes with the student body started on march 17 , when students , aware of the anti - catholic animosity , blocked the klansmen from descending from their trains in the south bend station and ripped the kkk clothes and regalia . on may 19 thousands of students massed downtown protesting the klavern , and only the arrival of college president fr . matthew walsh prevented any further clashes . the next day , football coach knute rockne spoke at a campus rally
+standed answer is :  {'text': ['a week-long Klavern'], 'answer_start': [819]}
+The success of its football team made Notre Dame a household name. The success of Note Dame reflected rising status of Irish Americans and Catholics in the 1920s. Catholics rallied up around the team and listen to the games on the radio, especially when it knocked off the schools that symbolized the Protestant establishment in America — Harvard, Yale, Princeton, and Army. Yet this role as high-profile flagship institution of Catholicism made it an easy target of anti-Catholicism. The most remarkable episode of violence was the clash between Notre Dame students and the Ku Klux Klan in 1924. Nativism and anti-Catholicism, especially when directed towards immigrants, were cornerstones of the KKK's rhetoric, and Notre Dame was seen as a symbol of the threat posed by the Catholic Church. The Klan decided to have a week-long Klavern in South Bend. Clashes with the student body started on March 17, when students, aware of the anti-Catholic animosity, blocked the Klansmen from descending from their trains in the South Bend station and ripped the KKK clothes and regalia. On May 19 thousands of students massed downtown protesting the Klavern, and only the arrival of college president Fr. Matthew Walsh prevented any further clashes. The next day, football coach Knute Rockne spoke at a campus rally and implored the students to obey the college president and refrain from further violence. A few days later the Klavern broke up, but the hostility shown by the students was an omen and a contribution to the downfall of the KKK in Indiana.
+What type of event did the Klan intend to have at Notre Dame in March of 1924?
+my answer is  south bend
+0.9504350423812866 0.9276755452156067
+0.9607498049736023 0.9458272457122803 0
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+south bend
+standed answer is :  {'text': ['South Bend'], 'answer_start': [842]}
+The success of its football team made Notre Dame a household name. The success of Note Dame reflected rising status of Irish Americans and Catholics in the 1920s. Catholics rallied up around the team and listen to the games on the radio, especially when it knocked off the schools that symbolized the Protestant establishment in America — Harvard, Yale, Princeton, and Army. Yet this role as high-profile flagship institution of Catholicism made it an easy target of anti-Catholicism. The most remarkable episode of violence was the clash between Notre Dame students and the Ku Klux Klan in 1924. Nativism and anti-Catholicism, especially when directed towards immigrants, were cornerstones of the KKK's rhetoric, and Notre Dame was seen as a symbol of the threat posed by the Catholic Church. The Klan decided to have a week-long Klavern in South Bend. Clashes with the student body started on March 17, when students, aware of the anti-Catholic animosity, blocked the Klansmen from descending from their trains in the South Bend station and ripped the KKK clothes and regalia. On May 19 thousands of students massed downtown protesting the Klavern, and only the arrival of college president Fr. Matthew Walsh prevented any further clashes. The next day, football coach Knute Rockne spoke at a campus rally and implored the students to obey the college president and refrain from further violence. A few days later the Klavern broke up, but the hostility shown by the students was an omen and a contribution to the downfall of the KKK in Indiana.
+Where did Notre Dame students and the KKK have their encounter?
+my answer is  father john francis o ' hara
+0.9984706044197083 0.9565103054046631
+0.9989479184150696 0.24213916063308716 0
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+which person became vice - president of notre dame in 1933 ? [SEP] [SEP]
+which person became vice - president of notre dame in 1933 ? [SEP] [SEP]
+standed answer is :  {'text': ["Father John Francis O'Hara"], 'answer_start': [11]}
+Holy Cross Father John Francis O'Hara was elected vice-president in 1933 and president of Notre Dame in 1934. During his tenure at Notre Dame, he brought numerous refugee intellectuals to campus; he selected Frank H. Spearman, Jeremiah D. M. Ford, Irvin Abell, and Josephine Brownson for the Laetare Medal, instituted in 1883. O'Hara strongly believed that the Fighting Irish football team could be an effective means to "acquaint the public with the ideals that dominate" Notre Dame. He wrote, "Notre Dame football is a spiritual service because it is played for the honor and glory of God and of his Blessed Mother. When St. Paul said: 'Whether you eat or drink, or whatsoever else you do, do all for the glory of God,' he included football."
+Which person became vice-president of Notre Dame in 1933?
+my answer is  father john francis o ' hara
+0.9979191422462463 0.8943236470222473
+0.9981887936592102 0.9981887936592102 0
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+father john francis o ' hara
+standed answer is :  {'text': ["Father John Francis O'Hara"], 'answer_start': [11]}
+Holy Cross Father John Francis O'Hara was elected vice-president in 1933 and president of Notre Dame in 1934. During his tenure at Notre Dame, he brought numerous refugee intellectuals to campus; he selected Frank H. Spearman, Jeremiah D. M. Ford, Irvin Abell, and Josephine Brownson for the Laetare Medal, instituted in 1883. O'Hara strongly believed that the Fighting Irish football team could be an effective means to "acquaint the public with the ideals that dominate" Notre Dame. He wrote, "Notre Dame football is a spiritual service because it is played for the honor and glory of God and of his Blessed Mother. When St. Paul said: 'Whether you eat or drink, or whatsoever else you do, do all for the glory of God,' he included football."
+Who was the president of Notre Dame in 1934?
+my answer is  laetare medal
+0.9735349416732788 0.7521559000015259
+0.995062530040741 0.9797071218490601 0
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+laetare medal
+standed answer is :  {'text': ['Laetare Medal'], 'answer_start': [292]}
+Holy Cross Father John Francis O'Hara was elected vice-president in 1933 and president of Notre Dame in 1934. During his tenure at Notre Dame, he brought numerous refugee intellectuals to campus; he selected Frank H. Spearman, Jeremiah D. M. Ford, Irvin Abell, and Josephine Brownson for the Laetare Medal, instituted in 1883. O'Hara strongly believed that the Fighting Irish football team could be an effective means to "acquaint the public with the ideals that dominate" Notre Dame. He wrote, "Notre Dame football is a spiritual service because it is played for the honor and glory of God and of his Blessed Mother. When St. Paul said: 'Whether you eat or drink, or whatsoever else you do, do all for the glory of God,' he included football."
+Irvin Abell was given what award by Notre Dame?
+my answer is  1883
+0.9947925209999084 0.9988403916358948
+0.9964928030967712 0.11944332718849182 0
+1883
+1883
+1883
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['1883'], 'answer_start': [321]}
+Holy Cross Father John Francis O'Hara was elected vice-president in 1933 and president of Notre Dame in 1934. During his tenure at Notre Dame, he brought numerous refugee intellectuals to campus; he selected Frank H. Spearman, Jeremiah D. M. Ford, Irvin Abell, and Josephine Brownson for the Laetare Medal, instituted in 1883. O'Hara strongly believed that the Fighting Irish football team could be an effective means to "acquaint the public with the ideals that dominate" Notre Dame. He wrote, "Notre Dame football is a spiritual service because it is played for the honor and glory of God and of his Blessed Mother. When St. Paul said: 'Whether you eat or drink, or whatsoever else you do, do all for the glory of God,' he included football."
+Which year was the Laetare Medal first given out at Notre Dame?
+my answer is  god
+0.7430997490882874 0.8602835536003113
+0.9971043467521667 0.6618951559066772 0
+god
+god
+god
+god
+god
+the public
+the public
+st . paul
+st . paul
+
+
+
+
+
+for whos glory
+
+jeremiah
+
+spearman
+for whos glory
+for whos glory
+standed answer is :  {'text': ['God'], 'answer_start': [587]}
+Holy Cross Father John Francis O'Hara was elected vice-president in 1933 and president of Notre Dame in 1934. During his tenure at Notre Dame, he brought numerous refugee intellectuals to campus; he selected Frank H. Spearman, Jeremiah D. M. Ford, Irvin Abell, and Josephine Brownson for the Laetare Medal, instituted in 1883. O'Hara strongly believed that the Fighting Irish football team could be an effective means to "acquaint the public with the ideals that dominate" Notre Dame. He wrote, "Notre Dame football is a spiritual service because it is played for the honor and glory of God and of his Blessed Mother. When St. Paul said: 'Whether you eat or drink, or whatsoever else you do, do all for the glory of God,' he included football."
+For whos glory did Father O'Hara believed that the Notre Dame football team played?
+my answer is  more than half
+0.988923966884613 0.8625396490097046
+0.988923966884613 0.9884669780731201 0
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+more than half
+standed answer is :  {'text': ['more than half'], 'answer_start': [428]}
+The Rev. John J. Cavanaugh, C.S.C. served as president from 1946 to 1952. Cavanaugh's legacy at Notre Dame in the post-war years was devoted to raising academic standards and reshaping the university administration to suit it to an enlarged educational mission and an expanded student body and stressing advanced studies and research at a time when Notre Dame quadrupled in student census, undergraduate enrollment increased by more than half, and graduate student enrollment grew fivefold. Cavanaugh also established the Lobund Institute for Animal Studies and Notre Dame's Medieval Institute. Cavanaugh also presided over the construction of the Nieuwland Science Hall, Fisher Hall, and the Morris Inn, as well as the Hall of Liberal Arts (now O'Shaughnessy Hall), made possible by a donation from I.A. O'Shaughnessy, at the time the largest ever made to an American Catholic university. Cavanaugh also established a system of advisory councils at the university, which continue today and are vital to the university's governance and development
+Around the time that Rev. Cavanaugh became president of Notre Dame by how much did the undergrad student body of Notre Dame increase?
+my answer is  lobund institute for animal studies
+0.9689005017280579 0.7918915152549744
+0.9722415208816528 0.2482682317495346 0
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+lobund institute for animal studies
+medieval institute
+which institute involving animal life
+standed answer is :  {'text': ['Lobund Institute for Animal Studies'], 'answer_start': [522]}
+The Rev. John J. Cavanaugh, C.S.C. served as president from 1946 to 1952. Cavanaugh's legacy at Notre Dame in the post-war years was devoted to raising academic standards and reshaping the university administration to suit it to an enlarged educational mission and an expanded student body and stressing advanced studies and research at a time when Notre Dame quadrupled in student census, undergraduate enrollment increased by more than half, and graduate student enrollment grew fivefold. Cavanaugh also established the Lobund Institute for Animal Studies and Notre Dame's Medieval Institute. Cavanaugh also presided over the construction of the Nieuwland Science Hall, Fisher Hall, and the Morris Inn, as well as the Hall of Liberal Arts (now O'Shaughnessy Hall), made possible by a donation from I.A. O'Shaughnessy, at the time the largest ever made to an American Catholic university. Cavanaugh also established a system of advisory councils at the university, which continue today and are vital to the university's governance and development
+Which institute involving animal life did Cavanaugh create at Notre Dame?
+my answer is  hall of liberal arts
+0.9993935823440552 0.8296961188316345
+0.9993935823440552 0.2023637294769287 0
+hall of liberal arts
+morris inn
+morris inn
+fisher hall , and the morris inn
+fisher hall , and the morris inn
+fisher hall , and the morris inn
+fisher hall , and the morris inn
+fisher hall , and the morris inn
+morris inn
+morris inn
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+o ' shaughnessy hall of notre dame formerly known as ? [SEP] the rev . john j . c . s . c
+standed answer is :  {'text': ['Hall of Liberal Arts'], 'answer_start': [720]}
+The Rev. John J. Cavanaugh, C.S.C. served as president from 1946 to 1952. Cavanaugh's legacy at Notre Dame in the post-war years was devoted to raising academic standards and reshaping the university administration to suit it to an enlarged educational mission and an expanded student body and stressing advanced studies and research at a time when Notre Dame quadrupled in student census, undergraduate enrollment increased by more than half, and graduate student enrollment grew fivefold. Cavanaugh also established the Lobund Institute for Animal Studies and Notre Dame's Medieval Institute. Cavanaugh also presided over the construction of the Nieuwland Science Hall, Fisher Hall, and the Morris Inn, as well as the Hall of Liberal Arts (now O'Shaughnessy Hall), made possible by a donation from I.A. O'Shaughnessy, at the time the largest ever made to an American Catholic university. Cavanaugh also established a system of advisory councils at the university, which continue today and are vital to the university's governance and development
+What is O'Shaughnessy Hall of Notre Dame formerly known as?
+my answer is  john j . cavanaugh
+0.8502625823020935 0.5789718627929688
+0.8502625823020935 0.5850204229354858 0
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+john j . cavanaugh
+standed answer is :  {'text': ['Rev. John J. Cavanaugh, C.S.C.'], 'answer_start': [4]}
+The Rev. John J. Cavanaugh, C.S.C. served as president from 1946 to 1952. Cavanaugh's legacy at Notre Dame in the post-war years was devoted to raising academic standards and reshaping the university administration to suit it to an enlarged educational mission and an expanded student body and stressing advanced studies and research at a time when Notre Dame quadrupled in student census, undergraduate enrollment increased by more than half, and graduate student enrollment grew fivefold. Cavanaugh also established the Lobund Institute for Animal Studies and Notre Dame's Medieval Institute. Cavanaugh also presided over the construction of the Nieuwland Science Hall, Fisher Hall, and the Morris Inn, as well as the Hall of Liberal Arts (now O'Shaughnessy Hall), made possible by a donation from I.A. O'Shaughnessy, at the time the largest ever made to an American Catholic university. Cavanaugh also established a system of advisory councils at the university, which continue today and are vital to the university's governance and development
+Which president did Notre Dame have in 1947?
+my answer is  medieval institute
+0.9729595184326172 0.8534151911735535
+0.9730547666549683 0.9730547666549683 0
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+medieval institute
+standed answer is :  {'text': ['Medieval Institute'], 'answer_start': [575]}
+The Rev. John J. Cavanaugh, C.S.C. served as president from 1946 to 1952. Cavanaugh's legacy at Notre Dame in the post-war years was devoted to raising academic standards and reshaping the university administration to suit it to an enlarged educational mission and an expanded student body and stressing advanced studies and research at a time when Notre Dame quadrupled in student census, undergraduate enrollment increased by more than half, and graduate student enrollment grew fivefold. Cavanaugh also established the Lobund Institute for Animal Studies and Notre Dame's Medieval Institute. Cavanaugh also presided over the construction of the Nieuwland Science Hall, Fisher Hall, and the Morris Inn, as well as the Hall of Liberal Arts (now O'Shaughnessy Hall), made possible by a donation from I.A. O'Shaughnessy, at the time the largest ever made to an American Catholic university. Cavanaugh also established a system of advisory councils at the university, which continue today and are vital to the university's governance and development
+Outside of an institute studying animals, what other institute did Cavanugh create at Notre Dame?
+my answer is  1917 – 2015
+0.973798930644989 0.9772921800613403
+0.973798930644989 0.7061450481414795 0
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+1917 – 2015
+standed answer is :  {'text': ['1917–2015'], 'answer_start': [37]}
+The Rev. Theodore Hesburgh, C.S.C., (1917–2015) served as president for 35 years (1952–87) of dramatic transformations. In that time the annual operating budget rose by a factor of 18 from $9.7 million to $176.6 million, and the endowment by a factor of 40 from $9 million to $350 million, and research funding by a factor of 20 from $735,000 to $15 million. Enrollment nearly doubled from 4,979 to 9,600, faculty more than doubled 389 to 950, and degrees awarded annually doubled from 1,212 to 2,500.
+What was the lifespan of Theodore Hesburgh?
+my answer is  18
+0.995460569858551 0.9271330237388611
+0.9969673752784729 0.9969382286071777 0
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+standed answer is :  {'text': ['18'], 'answer_start': [181]}
+The Rev. Theodore Hesburgh, C.S.C., (1917–2015) served as president for 35 years (1952–87) of dramatic transformations. In that time the annual operating budget rose by a factor of 18 from $9.7 million to $176.6 million, and the endowment by a factor of 40 from $9 million to $350 million, and research funding by a factor of 20 from $735,000 to $15 million. Enrollment nearly doubled from 4,979 to 9,600, faculty more than doubled 389 to 950, and degrees awarded annually doubled from 1,212 to 2,500.
+In the time that Hesburgh was president of Notre Dame by what factor did the operating budget increase?
+my answer is  $ 9 million
+0.9983439445495605 0.9727977514266968
+0.998439610004425 0.9626282453536987 0
+$ 9 million
+$ 9 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+$ 9 . 7 million
+standed answer is :  {'text': ['$9 million'], 'answer_start': [262]}
+The Rev. Theodore Hesburgh, C.S.C., (1917–2015) served as president for 35 years (1952–87) of dramatic transformations. In that time the annual operating budget rose by a factor of 18 from $9.7 million to $176.6 million, and the endowment by a factor of 40 from $9 million to $350 million, and research funding by a factor of 20 from $735,000 to $15 million. Enrollment nearly doubled from 4,979 to 9,600, faculty more than doubled 389 to 950, and degrees awarded annually doubled from 1,212 to 2,500.
+What was the size of the Notre Dame endowment when Theodore Hesburgh became president?
+my answer is  1952 – 87
+0.788844645023346 0.9629254937171936
+0.7892176508903503 0.6224278211593628 0
+1952 – 87
+1952 – 87
+1952 – 87
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million
+standed answer is :  {'text': ['1952–87'], 'answer_start': [82]}
+The Rev. Theodore Hesburgh, C.S.C., (1917–2015) served as president for 35 years (1952–87) of dramatic transformations. In that time the annual operating budget rose by a factor of 18 from $9.7 million to $176.6 million, and the endowment by a factor of 40 from $9 million to $350 million, and research funding by a factor of 20 from $735,000 to $15 million. Enrollment nearly doubled from 4,979 to 9,600, faculty more than doubled 389 to 950, and degrees awarded annually doubled from 1,212 to 2,500.
+During what years was Theodor Hesburgh president of Notre Dame?
+my answer is  950
+0.9915581941604614 0.9881254434585571
+0.9917946457862854 0.45814672112464905 0
+950
+950
+35 years ( 1952 – 87 ) of dramatic transformations . in that time the annual operating budget rose by a factor of 18 from $ 9 . 7 million to $ 176 . 6 million , and the endowment by a factor of 40 from $ 9 million to $ 350 million , and research funding by a factor of 20 from $ 735 , 000 to $ 15 million . enrollment nearly doubled from 4 , 979 to 9 , 600
+9 , 600
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+9 , 600 , 212 to 2 , 500
+standed answer is :  {'text': ['950'], 'answer_start': [439]}
+The Rev. Theodore Hesburgh, C.S.C., (1917–2015) served as president for 35 years (1952–87) of dramatic transformations. In that time the annual operating budget rose by a factor of 18 from $9.7 million to $176.6 million, and the endowment by a factor of 40 from $9 million to $350 million, and research funding by a factor of 20 from $735,000 to $15 million. Enrollment nearly doubled from 4,979 to 9,600, faculty more than doubled 389 to 950, and degrees awarded annually doubled from 1,212 to 2,500.
+How many faculty members were at Notre Dame when Hesburgh left the role of president?
+my answer is  coeducational
+0.7723448872566223 0.8570019602775574
+0.7777692675590515 0.23654700815677643 0
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+coeducational
+college
+graduate schools
+graduate schools
+coeducation
+diversity , replacing separatism . c . s . c . while two others were converted for the next school year . mary ' s college
+standed answer is :  {'text': ['coeducational'], 'answer_start': [82]}
+Hesburgh is also credited with transforming the face of Notre Dame by making it a coeducational institution. In the mid-1960s Notre Dame and Saint Mary's College developed a co-exchange program whereby several hundred students took classes not offered at their home institution, an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools. After extensive debate, merging with St. Mary's was rejected, primarily because of the differential in faculty qualifications and pay scales. "In American college education," explained the Rev. Charles E. Sheedy, C.S.C., Notre Dame's Dean of Arts and Letters, "certain features formerly considered advantageous and enviable are now seen as anachronistic and out of place.... In this environment of diversity, the integration of the sexes is a normal and expected aspect, replacing separatism." Thomas Blantz, C.S.C., Notre Dame's Vice President of Student Affairs, added that coeducation "opened up a whole other pool of very bright students." Two of the male residence halls were converted for the newly admitted female students that first year, while two others were converted for the next school year. In 1971 Mary Ann Proctor became the first female undergraduate; she transferred from St. Mary's College. In 1972 the first woman to graduate was Angela Sienko, who earned a bachelor's degree in marketing.
+What type of educational institute is Hesburgh given credit for creating at Notre Dame?
+my answer is  dean of arts and letters
+0.9965373277664185 0.9140990376472473
+0.9965373277664185 0.24216949939727783 0
+dean of arts and letters
+dean of arts and letters
+vice president of student affairs
+rev
+rev
+[CLS]
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+rev
+standed answer is :  {'text': ['Dean of Arts and Letters'], 'answer_start': [625]}
+Hesburgh is also credited with transforming the face of Notre Dame by making it a coeducational institution. In the mid-1960s Notre Dame and Saint Mary's College developed a co-exchange program whereby several hundred students took classes not offered at their home institution, an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools. After extensive debate, merging with St. Mary's was rejected, primarily because of the differential in faculty qualifications and pay scales. "In American college education," explained the Rev. Charles E. Sheedy, C.S.C., Notre Dame's Dean of Arts and Letters, "certain features formerly considered advantageous and enviable are now seen as anachronistic and out of place.... In this environment of diversity, the integration of the sexes is a normal and expected aspect, replacing separatism." Thomas Blantz, C.S.C., Notre Dame's Vice President of Student Affairs, added that coeducation "opened up a whole other pool of very bright students." Two of the male residence halls were converted for the newly admitted female students that first year, while two others were converted for the next school year. In 1971 Mary Ann Proctor became the first female undergraduate; she transferred from St. Mary's College. In 1972 the first woman to graduate was Angela Sienko, who earned a bachelor's degree in marketing.
+Which role did Charles Sheedy have at Notre Dame?
+my answer is  vice president of student affairs
+0.9819372892379761 0.9426665902137756
+0.9841886758804321 0.20762315392494202 0
+vice president of student affairs
+vice president of student affairs
+vice president of student affairs
+vice president of student affairs
+vice president of student affairs
+vice president of student affairs
+vice president of student affairs
+vice president of student affairs
+dean of arts and letters
+[CLS] what title did thomas blantz have at notre dame ? [SEP] hesburgh is also credited with transforming the face of notre dame by making it a coeducational institution . in the mid - 1960s notre dame and saint mary ' s college developed a co - exchange program whereby several hundred students took classes not offered at their home institution , an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools . merging with st . mary ' s was rejected , primarily because of the differential in faculty qualifications and pay scales . " explained the rev . charles e . sheedy , c . s . c . notre dame ' s dean of arts and letters
+dean of arts and letters
+dean of arts and letters
+dean of arts and letters
+dean of arts and letters
+dean of arts and letters
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+standed answer is :  {'text': ['Vice President of Student Affairs'], 'answer_start': [921]}
+Hesburgh is also credited with transforming the face of Notre Dame by making it a coeducational institution. In the mid-1960s Notre Dame and Saint Mary's College developed a co-exchange program whereby several hundred students took classes not offered at their home institution, an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools. After extensive debate, merging with St. Mary's was rejected, primarily because of the differential in faculty qualifications and pay scales. "In American college education," explained the Rev. Charles E. Sheedy, C.S.C., Notre Dame's Dean of Arts and Letters, "certain features formerly considered advantageous and enviable are now seen as anachronistic and out of place.... In this environment of diversity, the integration of the sexes is a normal and expected aspect, replacing separatism." Thomas Blantz, C.S.C., Notre Dame's Vice President of Student Affairs, added that coeducation "opened up a whole other pool of very bright students." Two of the male residence halls were converted for the newly admitted female students that first year, while two others were converted for the next school year. In 1971 Mary Ann Proctor became the first female undergraduate; she transferred from St. Mary's College. In 1972 the first woman to graduate was Angela Sienko, who earned a bachelor's degree in marketing.
+What title did Thomas Blantz have at Notre Dame?
+my answer is  1971
+0.9970393180847168 0.9957928657531738
+0.9970393180847168 0.10089761763811111 0
+1971
+1960s
+1972
+[CLS] in what year did notre dame have its earliest undergraduate that was female ? [SEP] hesburgh is also credited with transforming the face of notre dame by making it a coeducational institution . an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools
+graduate schools
+[CLS] in what year did notre dame have its earliest undergraduate that was female ? [SEP] an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools
+
+what year did notre dame have its earliest undergraduate that was female ? [SEP] after extensive debate , merging with st . mary ' s was rejected , primarily because of the differential in faculty qualifications and pay scales . " in american college education , " explained the rev . charles e . sheedy , c . s . c . , notre dame ' s dean of arts and letters , " certain features formerly considered advantageous and enviable are now seen as anachronistic and out of place . . . . in this environment of diversity , the integration of the sexes is a normal and expected aspect , replacing separatism . " thomas blantz , c . s . c . , added that coeducation " opened up a whole other pool of very bright students . while two others were converted for the next school year . mary ' s college .
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['1971'], 'answer_start': [1199]}
+Hesburgh is also credited with transforming the face of Notre Dame by making it a coeducational institution. In the mid-1960s Notre Dame and Saint Mary's College developed a co-exchange program whereby several hundred students took classes not offered at their home institution, an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools. After extensive debate, merging with St. Mary's was rejected, primarily because of the differential in faculty qualifications and pay scales. "In American college education," explained the Rev. Charles E. Sheedy, C.S.C., Notre Dame's Dean of Arts and Letters, "certain features formerly considered advantageous and enviable are now seen as anachronistic and out of place.... In this environment of diversity, the integration of the sexes is a normal and expected aspect, replacing separatism." Thomas Blantz, C.S.C., Notre Dame's Vice President of Student Affairs, added that coeducation "opened up a whole other pool of very bright students." Two of the male residence halls were converted for the newly admitted female students that first year, while two others were converted for the next school year. In 1971 Mary Ann Proctor became the first female undergraduate; she transferred from St. Mary's College. In 1972 the first woman to graduate was Angela Sienko, who earned a bachelor's degree in marketing.
+In what year did Notre Dame have its earliest undergraduate that was female?
+my answer is  saint mary ' s college
+0.9565416574478149 0.9882181286811829
+0.9565416574478149 0.35317692160606384 0
+saint mary ' s college
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+st . mary ' s
+standed answer is :  {'text': ["Saint Mary's College"], 'answer_start': [141]}
+Hesburgh is also credited with transforming the face of Notre Dame by making it a coeducational institution. In the mid-1960s Notre Dame and Saint Mary's College developed a co-exchange program whereby several hundred students took classes not offered at their home institution, an arrangement that added undergraduate women to a campus that already had a few women in the graduate schools. After extensive debate, merging with St. Mary's was rejected, primarily because of the differential in faculty qualifications and pay scales. "In American college education," explained the Rev. Charles E. Sheedy, C.S.C., Notre Dame's Dean of Arts and Letters, "certain features formerly considered advantageous and enviable are now seen as anachronistic and out of place.... In this environment of diversity, the integration of the sexes is a normal and expected aspect, replacing separatism." Thomas Blantz, C.S.C., Notre Dame's Vice President of Student Affairs, added that coeducation "opened up a whole other pool of very bright students." Two of the male residence halls were converted for the newly admitted female students that first year, while two others were converted for the next school year. In 1971 Mary Ann Proctor became the first female undergraduate; she transferred from St. Mary's College. In 1972 the first woman to graduate was Angela Sienko, who earned a bachelor's degree in marketing.
+With what institute did Notre Dame agree to an exchange program in the 1960s?
+my answer is  1987 – 2005
+0.9473806023597717 0.9703648090362549
+0.9769536852836609 0.29062145948410034 0
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005
+18
+18
+18
+
+
+
+
+
+
+standed answer is :  {'text': ['1987–2005'], 'answer_start': [64]}
+In the 18 years under the presidency of Edward Malloy, C.S.C., (1987–2005), there was a rapid growth in the school's reputation, faculty, and resources. He increased the faculty by more than 500 professors; the academic quality of the student body has improved dramatically, with the average SAT score rising from 1240 to 1360; the number of minority students more than doubled; the endowment grew from $350 million to more than $3 billion; the annual operating budget rose from $177 million to more than $650 million; and annual research funding improved from $15 million to more than $70 million. Notre Dame's most recent[when?] capital campaign raised $1.1 billion, far exceeding its goal of $767 million, and is the largest in the history of Catholic higher education.
+During what years was Edward Malloy president of Notre Dame?
+my answer is  1240
+0.9987404942512512 0.9967458248138428
+0.9987404942512512 0.9987404942512512 0
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+1240
+standed answer is :  {'text': ['1240'], 'answer_start': [314]}
+In the 18 years under the presidency of Edward Malloy, C.S.C., (1987–2005), there was a rapid growth in the school's reputation, faculty, and resources. He increased the faculty by more than 500 professors; the academic quality of the student body has improved dramatically, with the average SAT score rising from 1240 to 1360; the number of minority students more than doubled; the endowment grew from $350 million to more than $3 billion; the annual operating budget rose from $177 million to more than $650 million; and annual research funding improved from $15 million to more than $70 million. Notre Dame's most recent[when?] capital campaign raised $1.1 billion, far exceeding its goal of $767 million, and is the largest in the history of Catholic higher education.
+What was the SAT score, on average, at Notre Dame when Edward Malloy became president?
+my answer is  $ 350 million
+0.997989296913147 0.9471845030784607
+0.997989296913147 0.8783221244812012 0
+$ 350 million
+$ 350 million
+$ 350 million
+$ 350 million
+$ 350 million
+$ 350 million
+$ 350 million
+$ 350 million
+$ 350 million
+$ 350 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+$ 767 million
+standed answer is :  {'text': ['$350 million'], 'answer_start': [403]}
+In the 18 years under the presidency of Edward Malloy, C.S.C., (1987–2005), there was a rapid growth in the school's reputation, faculty, and resources. He increased the faculty by more than 500 professors; the academic quality of the student body has improved dramatically, with the average SAT score rising from 1240 to 1360; the number of minority students more than doubled; the endowment grew from $350 million to more than $3 billion; the annual operating budget rose from $177 million to more than $650 million; and annual research funding improved from $15 million to more than $70 million. Notre Dame's most recent[when?] capital campaign raised $1.1 billion, far exceeding its goal of $767 million, and is the largest in the history of Catholic higher education.
+When Malloy became president of Notre Dame what was the size of the endowment?
+my answer is  more than $ 70 million
+0.9163280129432678 0.5290663242340088
+0.9243334531784058 0.9243334531784058 0
+more than $ 70 million
+2005
+
+$ 767 million
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+standed answer is :  {'text': ['more than $70 million'], 'answer_start': [576]}
+In the 18 years under the presidency of Edward Malloy, C.S.C., (1987–2005), there was a rapid growth in the school's reputation, faculty, and resources. He increased the faculty by more than 500 professors; the academic quality of the student body has improved dramatically, with the average SAT score rising from 1240 to 1360; the number of minority students more than doubled; the endowment grew from $350 million to more than $3 billion; the annual operating budget rose from $177 million to more than $650 million; and annual research funding improved from $15 million to more than $70 million. Notre Dame's most recent[when?] capital campaign raised $1.1 billion, far exceeding its goal of $767 million, and is the largest in the history of Catholic higher education.
+When Malloy reached the end of his time as president how much annuals funding for research did Notre Dame have?
+my answer is  500
+0.8378831744194031 0.5227636694908142
+0.8385747075080872 0.20030564069747925 0
+500
+500
+
+1987 – 2005 ) , faculty , and resources . with the average sat score rising from 1240 to 1360
+1987 – 2005
+1987 – 2005
+1987 – 2005
+1987 – 2005 ) , and resources
+1987 – 2005 ) , and resources
+resources
+1987 – 2005 ) , and resources
+what amount under malloy ? [SEP] s . , ( 1987 – 2005
+what amount under malloy ? [SEP] , ( 1987 – 2005
+what amount under malloy ? [SEP] , and resources
+
+
+
+
+
+
+
+standed answer is :  {'text': ['500'], 'answer_start': [191]}
+In the 18 years under the presidency of Edward Malloy, C.S.C., (1987–2005), there was a rapid growth in the school's reputation, faculty, and resources. He increased the faculty by more than 500 professors; the academic quality of the student body has improved dramatically, with the average SAT score rising from 1240 to 1360; the number of minority students more than doubled; the endowment grew from $350 million to more than $3 billion; the annual operating budget rose from $177 million to more than $650 million; and annual research funding improved from $15 million to more than $70 million. Notre Dame's most recent[when?] capital campaign raised $1.1 billion, far exceeding its goal of $767 million, and is the largest in the history of Catholic higher education.
+The amount of professors at Notre Dame increased by what amount under Malloy?
+my answer is  2005
+0.770876944065094 0.6189789772033691
+0.9857485890388489 0.9692599177360535 0
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+2005
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+july 1
+standed answer is :  {'text': ['2005'], 'answer_start': [6]}
+Since 2005, Notre Dame has been led by John I. Jenkins, C.S.C., the 17th president of the university. Jenkins took over the position from Malloy on July 1, 2005. In his inaugural address, Jenkins described his goals of making the university a leader in research that recognizes ethics and building the connection between faith and studies. During his tenure, Notre Dame has increased its endowment, enlarged its student body, and undergone many construction projects on campus, including Compton Family Ice Arena, a new architecture hall, additional residence halls, and the Campus Crossroads, a $400m enhancement and expansion of Notre Dame Stadium.
+When did John Jenkins become the president of Notre Dame?
+my answer is  17th
+0.9260501861572266 0.9546677470207214
+0.9260501861572266 0.16616290807724 0
+17th
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+notre dame has been led by john i . jenkins , c . s . c .
+standed answer is :  {'text': ['17th'], 'answer_start': [68]}
+Since 2005, Notre Dame has been led by John I. Jenkins, C.S.C., the 17th president of the university. Jenkins took over the position from Malloy on July 1, 2005. In his inaugural address, Jenkins described his goals of making the university a leader in research that recognizes ethics and building the connection between faith and studies. During his tenure, Notre Dame has increased its endowment, enlarged its student body, and undergone many construction projects on campus, including Compton Family Ice Arena, a new architecture hall, additional residence halls, and the Campus Crossroads, a $400m enhancement and expansion of Notre Dame Stadium.
+In terms of the amount of presidents Notre Dame has had, where is John Jenkins on the list?
+my answer is  malloy
+0.999535322189331 0.9993927478790283
+0.9996504783630371 0.9996504783630371 0
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+malloy
+standed answer is :  {'text': ['Malloy'], 'answer_start': [138]}
+Since 2005, Notre Dame has been led by John I. Jenkins, C.S.C., the 17th president of the university. Jenkins took over the position from Malloy on July 1, 2005. In his inaugural address, Jenkins described his goals of making the university a leader in research that recognizes ethics and building the connection between faith and studies. During his tenure, Notre Dame has increased its endowment, enlarged its student body, and undergone many construction projects on campus, including Compton Family Ice Arena, a new architecture hall, additional residence halls, and the Campus Crossroads, a $400m enhancement and expansion of Notre Dame Stadium.
+Who was the Notre Dame president that preceded John Jenkins?
+my answer is  compton family ice arena
+0.9868375658988953 0.9949576258659363
+0.9868375658988953 0.8959282040596008 0
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+compton family ice arena
+notre dame stadium
+notre dame stadium
+notre dame stadium
+notre dame stadium
+notre dame stadium
+notre dame stadium
+notre dame stadium
+standed answer is :  {'text': ['Compton Family Ice Arena'], 'answer_start': [488]}
+Since 2005, Notre Dame has been led by John I. Jenkins, C.S.C., the 17th president of the university. Jenkins took over the position from Malloy on July 1, 2005. In his inaugural address, Jenkins described his goals of making the university a leader in research that recognizes ethics and building the connection between faith and studies. During his tenure, Notre Dame has increased its endowment, enlarged its student body, and undergone many construction projects on campus, including Compton Family Ice Arena, a new architecture hall, additional residence halls, and the Campus Crossroads, a $400m enhancement and expansion of Notre Dame Stadium.
+Which arena was constructed under Jenkins at Notre Dame?
+my answer is  $ 400m
+0.9985172152519226 0.9850329756736755
+0.9989101886749268 0.9976147413253784 0
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+$ 400m
+standed answer is :  {'text': ['$400m'], 'answer_start': [596]}
+Since 2005, Notre Dame has been led by John I. Jenkins, C.S.C., the 17th president of the university. Jenkins took over the position from Malloy on July 1, 2005. In his inaugural address, Jenkins described his goals of making the university a leader in research that recognizes ethics and building the connection between faith and studies. During his tenure, Notre Dame has increased its endowment, enlarged its student body, and undergone many construction projects on campus, including Compton Family Ice Arena, a new architecture hall, additional residence halls, and the Campus Crossroads, a $400m enhancement and expansion of Notre Dame Stadium.
+How much money was spent on enhancing Notre Dame Stadium under John Jenkins?
+my answer is  congregation of holy cross
+0.9860566854476929 0.7150265574455261
+0.9909030795097351 0.9875127673149109 0
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+congregation of holy cross
+standed answer is :  {'text': ['Congregation of Holy Cross'], 'answer_start': [162]}
+Because of its Catholic identity, a number of religious buildings stand on campus. The Old College building has become one of two seminaries on campus run by the Congregation of Holy Cross. The current Basilica of the Sacred Heart is located on the spot of Fr. Sorin's original church, which became too small for the growing college. It is built in French Revival style and it is decorated by stained glass windows imported directly from France. The interior was painted by Luigi Gregori, an Italian painter invited by Fr. Sorin to be artist in residence. The Basilica also features a bell tower with a carillon. Inside the church there are also sculptures by Ivan Mestrovic. The Grotto of Our Lady of Lourdes, which was built in 1896, is a replica of the original in Lourdes, France. It is very popular among students and alumni as a place of prayer and meditation, and it is considered one of the most beloved spots on campus.
+Which congregation is in charge of the Old College at Notre Dame?
+my answer is  basilica of the sacred heart
+0.995875895023346 0.698747456073761
+0.995875895023346 0.9930663108825684 0
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+basilica of the sacred heart
+standed answer is :  {'text': ['Basilica of the Sacred Heart'], 'answer_start': [202]}
+Because of its Catholic identity, a number of religious buildings stand on campus. The Old College building has become one of two seminaries on campus run by the Congregation of Holy Cross. The current Basilica of the Sacred Heart is located on the spot of Fr. Sorin's original church, which became too small for the growing college. It is built in French Revival style and it is decorated by stained glass windows imported directly from France. The interior was painted by Luigi Gregori, an Italian painter invited by Fr. Sorin to be artist in residence. The Basilica also features a bell tower with a carillon. Inside the church there are also sculptures by Ivan Mestrovic. The Grotto of Our Lady of Lourdes, which was built in 1896, is a replica of the original in Lourdes, France. It is very popular among students and alumni as a place of prayer and meditation, and it is considered one of the most beloved spots on campus.
+What structure is found on the location of the original church of Father Sorin at Notre Dame?
+my answer is  french revival
+0.6898495554924011 0.9944528937339783
+0.6927112936973572 0.2283131331205368 0
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+french revival
+
+
+
+standed answer is :  {'text': ['French Revival'], 'answer_start': [349]}
+Because of its Catholic identity, a number of religious buildings stand on campus. The Old College building has become one of two seminaries on campus run by the Congregation of Holy Cross. The current Basilica of the Sacred Heart is located on the spot of Fr. Sorin's original church, which became too small for the growing college. It is built in French Revival style and it is decorated by stained glass windows imported directly from France. The interior was painted by Luigi Gregori, an Italian painter invited by Fr. Sorin to be artist in residence. The Basilica also features a bell tower with a carillon. Inside the church there are also sculptures by Ivan Mestrovic. The Grotto of Our Lady of Lourdes, which was built in 1896, is a replica of the original in Lourdes, France. It is very popular among students and alumni as a place of prayer and meditation, and it is considered one of the most beloved spots on campus.
+In which architectural style is the Basilica of the Sacred Heart at Notre Dame made?
+my answer is  luigi gregori
+0.9924855828285217 0.9968478083610535
+0.9937487840652466 0.5320472717285156 0
+luigi gregori
+luigi gregori
+luigi gregori
+luigi gregori
+luigi gregori
+luigi gregori
+italian painter invited by fr . the basilica also features a bell tower with a carillon . inside the church there are also sculptures by ivan mestrovic
+italian painter
+
+
+italian painter
+italian painter
+an italian
+an italian
+an italian
+an italian
+an italian
+an italian
+an italian
+an italian
+an italian
+standed answer is :  {'text': ['Luigi Gregori'], 'answer_start': [474]}
+Because of its Catholic identity, a number of religious buildings stand on campus. The Old College building has become one of two seminaries on campus run by the Congregation of Holy Cross. The current Basilica of the Sacred Heart is located on the spot of Fr. Sorin's original church, which became too small for the growing college. It is built in French Revival style and it is decorated by stained glass windows imported directly from France. The interior was painted by Luigi Gregori, an Italian painter invited by Fr. Sorin to be artist in residence. The Basilica also features a bell tower with a carillon. Inside the church there are also sculptures by Ivan Mestrovic. The Grotto of Our Lady of Lourdes, which was built in 1896, is a replica of the original in Lourdes, France. It is very popular among students and alumni as a place of prayer and meditation, and it is considered one of the most beloved spots on campus.
+Which individual painted the inside of the Basilica of the Sacred Heart at Notre Dame?
+my answer is  1896
+0.9982725381851196 0.998181939125061
+0.9982725381851196 0.1661539524793625 0
+1896
+1896
+1896
+1896
+1896
+1896
+1896
+1896
+1896
+1896
+1896
+1896
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['1896'], 'answer_start': [730]}
+Because of its Catholic identity, a number of religious buildings stand on campus. The Old College building has become one of two seminaries on campus run by the Congregation of Holy Cross. The current Basilica of the Sacred Heart is located on the spot of Fr. Sorin's original church, which became too small for the growing college. It is built in French Revival style and it is decorated by stained glass windows imported directly from France. The interior was painted by Luigi Gregori, an Italian painter invited by Fr. Sorin to be artist in residence. The Basilica also features a bell tower with a carillon. Inside the church there are also sculptures by Ivan Mestrovic. The Grotto of Our Lady of Lourdes, which was built in 1896, is a replica of the original in Lourdes, France. It is very popular among students and alumni as a place of prayer and meditation, and it is considered one of the most beloved spots on campus.
+In what year was the Grotto of Our Lady of Lourdes at Notre Dame constructed?
+my answer is  fr . zahm
+0.9895161390304565 0.9992916584014893
+0.9903808236122131 0.25219711661338806 0
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . zahm
+fr . after joseph lafortune
+fr
+fr
+fr
+fr
+
+
+
+standed answer is :  {'text': ['Fr. Zahm'], 'answer_start': [56]}
+A Science Hall was built in 1883 under the direction of Fr. Zahm, but in 1950 it was converted to a student union building and named LaFortune Center, after Joseph LaFortune, an oil executive from Tulsa, Oklahoma. Commonly known as "LaFortune" or "LaFun," it is a 4-story building of 83,000 square feet that provides the Notre Dame community with a meeting place for social, recreational, cultural, and educational activities. LaFortune employs 35 part-time student staff and 29 full-time non-student staff and has an annual budget of $1.2 million. Many businesses, services, and divisions of The Office of Student Affairs are found within. The building also houses restaurants from national restaurant chains.
+Which person oversaw the creation of a science hall at Notre Dame in 1883?
+my answer is  1950
+0.9986520409584045 0.9975064396858215
+0.9988623857498169 0.1532226949930191 0
+1950
+1950
+1950
+1950
+1950
+1950
+1883
+1883
+1883
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['1950'], 'answer_start': [73]}
+A Science Hall was built in 1883 under the direction of Fr. Zahm, but in 1950 it was converted to a student union building and named LaFortune Center, after Joseph LaFortune, an oil executive from Tulsa, Oklahoma. Commonly known as "LaFortune" or "LaFun," it is a 4-story building of 83,000 square feet that provides the Notre Dame community with a meeting place for social, recreational, cultural, and educational activities. LaFortune employs 35 part-time student staff and 29 full-time non-student staff and has an annual budget of $1.2 million. Many businesses, services, and divisions of The Office of Student Affairs are found within. The building also houses restaurants from national restaurant chains.
+In what year did the student union building at Notre Dame get renamed to LaFortune Center?
+my answer is  joseph lafortune
+0.9722899794578552 0.9967613816261292
+0.9726611375808716 0.615267276763916 0
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+joseph lafortune
+lafortune
+lafortune
+lafortune
+lafortune
+lafortune
+lafortune
+lafortune
+lafortune
+lafortune
+lafortune
+standed answer is :  {'text': ['Joseph LaFortune'], 'answer_start': [157]}
+A Science Hall was built in 1883 under the direction of Fr. Zahm, but in 1950 it was converted to a student union building and named LaFortune Center, after Joseph LaFortune, an oil executive from Tulsa, Oklahoma. Commonly known as "LaFortune" or "LaFun," it is a 4-story building of 83,000 square feet that provides the Notre Dame community with a meeting place for social, recreational, cultural, and educational activities. LaFortune employs 35 part-time student staff and 29 full-time non-student staff and has an annual budget of $1.2 million. Many businesses, services, and divisions of The Office of Student Affairs are found within. The building also houses restaurants from national restaurant chains.
+After which individual was the LaFortune Center Notre Dame named?
+my answer is  83 , 000
+0.6429347395896912 0.9994495511054993
+0.9554530382156372 0.9554530382156372 0
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+83 , 000
+000 square feet
+000
+000
+square feet
+square feet
+square feet
+standed answer is :  {'text': ['83,000 square feet'], 'answer_start': [284]}
+A Science Hall was built in 1883 under the direction of Fr. Zahm, but in 1950 it was converted to a student union building and named LaFortune Center, after Joseph LaFortune, an oil executive from Tulsa, Oklahoma. Commonly known as "LaFortune" or "LaFun," it is a 4-story building of 83,000 square feet that provides the Notre Dame community with a meeting place for social, recreational, cultural, and educational activities. LaFortune employs 35 part-time student staff and 29 full-time non-student staff and has an annual budget of $1.2 million. Many businesses, services, and divisions of The Office of Student Affairs are found within. The building also houses restaurants from national restaurant chains.
+How large in square feet is the LaFortune Center at Notre Dame?
+my answer is  $ 1 . 2 million
+0.9690651893615723 0.9931839108467102
+0.9726584553718567 0.8895664215087891 0
+$ 1 . 2 million
+$ 1 . 2 million
+$ 1 . 2 million
+$ 1 . 2 million
+$ 1 . 2 million
+$ 1 . 2 million
+$ 1 . 2 million
+2 million
+83
+83
+83
+83
+83
+83
+83
+83
+83
+83
+83
+83
+83
+standed answer is :  {'text': ['$1.2 million'], 'answer_start': [535]}
+A Science Hall was built in 1883 under the direction of Fr. Zahm, but in 1950 it was converted to a student union building and named LaFortune Center, after Joseph LaFortune, an oil executive from Tulsa, Oklahoma. Commonly known as "LaFortune" or "LaFun," it is a 4-story building of 83,000 square feet that provides the Notre Dame community with a meeting place for social, recreational, cultural, and educational activities. LaFortune employs 35 part-time student staff and 29 full-time non-student staff and has an annual budget of $1.2 million. Many businesses, services, and divisions of The Office of Student Affairs are found within. The building also houses restaurants from national restaurant chains.
+What is the annual budget of Notre Dame's LaFortune Center?
+my answer is  29
+0.8865290284156799 0.9868081212043762
+0.8865290284156799 0.8865290284156799 0
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+standed answer is :  {'text': ['29'], 'answer_start': [120]}
+Since the construction of its oldest buildings, the university's physical plant has grown substantially. Over the years 29 residence halls have been built to accommodate students and each has been constructed with its own chapel. Many academic building were added together with a system of libraries, the most prominent of which is the Theodore Hesburgh Library, built in 1963 and today containing almost 4 million books. Since 2004, several buildings have been added, including the DeBartolo Performing Arts Center, the Guglielmino Complex, and the Jordan Hall of Science. Additionally, a new residence for men, Duncan Hall, was begun on March 8, 2007, and began accepting residents for the Fall 2008 semester. Ryan Hall was completed and began housing undergraduate women in the fall of 2009. A new engineering building, Stinson-Remick Hall, a new combination Center for Social Concerns/Institute for Church Life building, Geddes Hall, and a law school addition have recently been completed as well. Additionally the new hockey arena opened in the fall of 2011. The Stayer Center for Executive Education, which houses the Mendoza College of Business Executive Education Department opened in March 2013 just South of the Mendoza College of Business building. Because of its long athletic tradition, the university features also many building dedicated to sport. The most famous is Notre Dame Stadium, home of the Fighting Irish football team; it has been renovated several times and today it can hold more than 80 thousand people. Prominent venues include also the Edmund P. Joyce Center, with indoor basketball and volleyball courts, and the Compton Family Ice Arena, a two-rink facility dedicated to hockey. Also, there are many outdoor fields, as the Frank Eck Stadium for baseball.
+How many halls are at Notre Dame that house students?
+my answer is  theodore hesburgh library
+0.9289378523826599 0.9061874747276306
+0.9289378523826599 0.30702441930770874 0
+theodore hesburgh library
+theodore hesburgh library
+theodore hesburgh library
+theodore hesburgh library
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+standed answer is :  {'text': ['Theodore Hesburgh Library'], 'answer_start': [336]}
+Since the construction of its oldest buildings, the university's physical plant has grown substantially. Over the years 29 residence halls have been built to accommodate students and each has been constructed with its own chapel. Many academic building were added together with a system of libraries, the most prominent of which is the Theodore Hesburgh Library, built in 1963 and today containing almost 4 million books. Since 2004, several buildings have been added, including the DeBartolo Performing Arts Center, the Guglielmino Complex, and the Jordan Hall of Science. Additionally, a new residence for men, Duncan Hall, was begun on March 8, 2007, and began accepting residents for the Fall 2008 semester. Ryan Hall was completed and began housing undergraduate women in the fall of 2009. A new engineering building, Stinson-Remick Hall, a new combination Center for Social Concerns/Institute for Church Life building, Geddes Hall, and a law school addition have recently been completed as well. Additionally the new hockey arena opened in the fall of 2011. The Stayer Center for Executive Education, which houses the Mendoza College of Business Executive Education Department opened in March 2013 just South of the Mendoza College of Business building. Because of its long athletic tradition, the university features also many building dedicated to sport. The most famous is Notre Dame Stadium, home of the Fighting Irish football team; it has been renovated several times and today it can hold more than 80 thousand people. Prominent venues include also the Edmund P. Joyce Center, with indoor basketball and volleyball courts, and the Compton Family Ice Arena, a two-rink facility dedicated to hockey. Also, there are many outdoor fields, as the Frank Eck Stadium for baseball.
+Which library was built at Notre Dame in 1963?
+my answer is  almost 4 million
+0.6633756756782532 0.600922167301178
+0.6633756756782532 0.5862111449241638 0
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+almost 4 million
+standed answer is :  {'text': ['almost 4 million'], 'answer_start': [398]}
+Since the construction of its oldest buildings, the university's physical plant has grown substantially. Over the years 29 residence halls have been built to accommodate students and each has been constructed with its own chapel. Many academic building were added together with a system of libraries, the most prominent of which is the Theodore Hesburgh Library, built in 1963 and today containing almost 4 million books. Since 2004, several buildings have been added, including the DeBartolo Performing Arts Center, the Guglielmino Complex, and the Jordan Hall of Science. Additionally, a new residence for men, Duncan Hall, was begun on March 8, 2007, and began accepting residents for the Fall 2008 semester. Ryan Hall was completed and began housing undergraduate women in the fall of 2009. A new engineering building, Stinson-Remick Hall, a new combination Center for Social Concerns/Institute for Church Life building, Geddes Hall, and a law school addition have recently been completed as well. Additionally the new hockey arena opened in the fall of 2011. The Stayer Center for Executive Education, which houses the Mendoza College of Business Executive Education Department opened in March 2013 just South of the Mendoza College of Business building. Because of its long athletic tradition, the university features also many building dedicated to sport. The most famous is Notre Dame Stadium, home of the Fighting Irish football team; it has been renovated several times and today it can hold more than 80 thousand people. Prominent venues include also the Edmund P. Joyce Center, with indoor basketball and volleyball courts, and the Compton Family Ice Arena, a two-rink facility dedicated to hockey. Also, there are many outdoor fields, as the Frank Eck Stadium for baseball.
+How many books are housed at the Theodore Hesburgh Library?
+my answer is  duncan hall
+0.9481493234634399 0.9975029826164246
+0.9711289405822754 0.21737098693847656 0
+duncan hall
+duncan hall
+duncan hall
+duncan hall
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+[CLS]
+standed answer is :  {'text': ['Duncan Hall'], 'answer_start': [613]}
+Since the construction of its oldest buildings, the university's physical plant has grown substantially. Over the years 29 residence halls have been built to accommodate students and each has been constructed with its own chapel. Many academic building were added together with a system of libraries, the most prominent of which is the Theodore Hesburgh Library, built in 1963 and today containing almost 4 million books. Since 2004, several buildings have been added, including the DeBartolo Performing Arts Center, the Guglielmino Complex, and the Jordan Hall of Science. Additionally, a new residence for men, Duncan Hall, was begun on March 8, 2007, and began accepting residents for the Fall 2008 semester. Ryan Hall was completed and began housing undergraduate women in the fall of 2009. A new engineering building, Stinson-Remick Hall, a new combination Center for Social Concerns/Institute for Church Life building, Geddes Hall, and a law school addition have recently been completed as well. Additionally the new hockey arena opened in the fall of 2011. The Stayer Center for Executive Education, which houses the Mendoza College of Business Executive Education Department opened in March 2013 just South of the Mendoza College of Business building. Because of its long athletic tradition, the university features also many building dedicated to sport. The most famous is Notre Dame Stadium, home of the Fighting Irish football team; it has been renovated several times and today it can hold more than 80 thousand people. Prominent venues include also the Edmund P. Joyce Center, with indoor basketball and volleyball courts, and the Compton Family Ice Arena, a two-rink facility dedicated to hockey. Also, there are many outdoor fields, as the Frank Eck Stadium for baseball.
+Construction for which hall started on March 8th 2007 at Notre Dame?
+my answer is  frank eck stadium
+0.9750329256057739 0.9899669885635376
+0.9750329256057739 0.6963392496109009 0
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+frank eck stadium
+standed answer is :  {'text': ['Frank Eck Stadium'], 'answer_start': [1755]}
+Since the construction of its oldest buildings, the university's physical plant has grown substantially. Over the years 29 residence halls have been built to accommodate students and each has been constructed with its own chapel. Many academic building were added together with a system of libraries, the most prominent of which is the Theodore Hesburgh Library, built in 1963 and today containing almost 4 million books. Since 2004, several buildings have been added, including the DeBartolo Performing Arts Center, the Guglielmino Complex, and the Jordan Hall of Science. Additionally, a new residence for men, Duncan Hall, was begun on March 8, 2007, and began accepting residents for the Fall 2008 semester. Ryan Hall was completed and began housing undergraduate women in the fall of 2009. A new engineering building, Stinson-Remick Hall, a new combination Center for Social Concerns/Institute for Church Life building, Geddes Hall, and a law school addition have recently been completed as well. Additionally the new hockey arena opened in the fall of 2011. The Stayer Center for Executive Education, which houses the Mendoza College of Business Executive Education Department opened in March 2013 just South of the Mendoza College of Business building. Because of its long athletic tradition, the university features also many building dedicated to sport. The most famous is Notre Dame Stadium, home of the Fighting Irish football team; it has been renovated several times and today it can hold more than 80 thousand people. Prominent venues include also the Edmund P. Joyce Center, with indoor basketball and volleyball courts, and the Compton Family Ice Arena, a two-rink facility dedicated to hockey. Also, there are many outdoor fields, as the Frank Eck Stadium for baseball.
+Which baseball stadium is found at Notre Dame?
+my answer is  2008
+0.9992503523826599 0.9988600015640259
+0.9992503523826599 0.08935119211673737 0
+2008
+2012
+2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['2008'], 'answer_start': [142]}
+The University of Notre Dame has made being a sustainability leader an integral part of its mission, creating the Office of Sustainability in 2008 to achieve a number of goals in the areas of power generation, design and construction, waste reduction, procurement, food services, transportation, and water.As of 2012[update] four building construction projects were pursuing LEED-Certified status and three were pursuing LEED Silver. Notre Dame's dining services sources 40% of its food locally and offers sustainably caught seafood as well as many organic, fair-trade, and vegan options. On the Sustainable Endowments Institute's College Sustainability Report Card 2010, University of Notre Dame received a "B" grade. The university also houses the Kroc Institute for International Peace Studies. Father Gustavo Gutierrez, the founder of Liberation Theology is a current faculty member.
+In what year did Notre Dame create the Office of Sustainability?
+my answer is  40 %
+0.8692615628242493 0.9954513907432556
+0.8692615628242493 0.13251084089279175 0
+40 %
+40 %
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+what percentage
+standed answer is :  {'text': ['40%'], 'answer_start': [471]}
+The University of Notre Dame has made being a sustainability leader an integral part of its mission, creating the Office of Sustainability in 2008 to achieve a number of goals in the areas of power generation, design and construction, waste reduction, procurement, food services, transportation, and water.As of 2012[update] four building construction projects were pursuing LEED-Certified status and three were pursuing LEED Silver. Notre Dame's dining services sources 40% of its food locally and offers sustainably caught seafood as well as many organic, fair-trade, and vegan options. On the Sustainable Endowments Institute's College Sustainability Report Card 2010, University of Notre Dame received a "B" grade. The university also houses the Kroc Institute for International Peace Studies. Father Gustavo Gutierrez, the founder of Liberation Theology is a current faculty member.
+What percentage of the food served at Notre Dame is locally grown?
+my answer is  sustainable endowments institute
+0.931573212146759 0.8591346740722656
+0.9440397620201111 0.8556618690490723 0
+sustainable endowments institute
+sustainable endowments institute
+sustainable endowments institute
+sustainable endowments institute
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+leed
+standed answer is :  {'text': ['Sustainable Endowments Institute'], 'answer_start': [596]}
+The University of Notre Dame has made being a sustainability leader an integral part of its mission, creating the Office of Sustainability in 2008 to achieve a number of goals in the areas of power generation, design and construction, waste reduction, procurement, food services, transportation, and water.As of 2012[update] four building construction projects were pursuing LEED-Certified status and three were pursuing LEED Silver. Notre Dame's dining services sources 40% of its food locally and offers sustainably caught seafood as well as many organic, fair-trade, and vegan options. On the Sustainable Endowments Institute's College Sustainability Report Card 2010, University of Notre Dame received a "B" grade. The university also houses the Kroc Institute for International Peace Studies. Father Gustavo Gutierrez, the founder of Liberation Theology is a current faculty member.
+Notre Dame got a "B" for its sustainability practices from which entity?
+my answer is  kroc institute for international peace studies
+0.9747868180274963 0.9470130801200867
+0.9866690635681152 0.282125324010849 0
+kroc institute for international peace studies
+kroc institute for international peace studies
+kroc institute for international peace studies
+kroc institute for international peace studies
+kroc institute for international peace studies
+sustainable endowments institute
+university of notre dame
+university of notre dame
+university of notre dame
+university of notre dame
+university of notre dame
+office of sustainability
+office of sustainability
+office of sustainability
+
+procurement , food services
+procurement
+
+
+
+
+standed answer is :  {'text': ['Kroc Institute for International Peace Studies'], 'answer_start': [750]}
+The University of Notre Dame has made being a sustainability leader an integral part of its mission, creating the Office of Sustainability in 2008 to achieve a number of goals in the areas of power generation, design and construction, waste reduction, procurement, food services, transportation, and water.As of 2012[update] four building construction projects were pursuing LEED-Certified status and three were pursuing LEED Silver. Notre Dame's dining services sources 40% of its food locally and offers sustainably caught seafood as well as many organic, fair-trade, and vegan options. On the Sustainable Endowments Institute's College Sustainability Report Card 2010, University of Notre Dame received a "B" grade. The university also houses the Kroc Institute for International Peace Studies. Father Gustavo Gutierrez, the founder of Liberation Theology is a current faculty member.
+Gustavo Gutierrez is faculty of which institute?
+my answer is  1968
+0.993043065071106 0.9969844222068787
+0.9952164888381958 0.9952164888381958 0
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+1968
+standed answer is :  {'text': ['1968'], 'answer_start': [198]}
+The university owns several centers around the world used for international studies and research, conferences abroad, and alumni support. The university has had a presence in London, England, since 1968. Since 1998, its London center has been based in the former United University Club at 1 Suffolk Street in Trafalgar Square. The center enables the Colleges of Arts & Letters, Business Administration, Science, Engineering and the Law School to develop their own programs in London, as well as hosting conferences and symposia. Other Global Gateways are located in Beijing, Chicago, Dublin, Jerusalem and Rome.
+In what year did Notre Dame first have a facility in England?
+my answer is  1 suffolk street in trafalgar square
+0.5460482835769653 0.8953803181648254
+0.9475372433662415 0.40224382281303406 0
+1 suffolk street in trafalgar square
+1 suffolk street in trafalgar square
+1 suffolk street in trafalgar square
+
+
+
+
+dublin
+dublin
+dublin
+dublin
+dublin
+dublin
+london
+london
+london
+london
+london
+london
+london
+london
+standed answer is :  {'text': ['1 Suffolk Street in Trafalgar Square'], 'answer_start': [289]}
+The university owns several centers around the world used for international studies and research, conferences abroad, and alumni support. The university has had a presence in London, England, since 1968. Since 1998, its London center has been based in the former United University Club at 1 Suffolk Street in Trafalgar Square. The center enables the Colleges of Arts & Letters, Business Administration, Science, Engineering and the Law School to develop their own programs in London, as well as hosting conferences and symposia. Other Global Gateways are located in Beijing, Chicago, Dublin, Jerusalem and Rome.
+At which location is the London Center operated by Notre Dame found?
+my answer is  global gateways
+0.9684827327728271 0.9857389330863953
+0.9711607694625854 0.28476381301879883 0
+global gateways
+global gateways
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+beijing
+standed answer is :  {'text': ['Global Gateways'], 'answer_start': [535]}
+The university owns several centers around the world used for international studies and research, conferences abroad, and alumni support. The university has had a presence in London, England, since 1968. Since 1998, its London center has been based in the former United University Club at 1 Suffolk Street in Trafalgar Square. The center enables the Colleges of Arts & Letters, Business Administration, Science, Engineering and the Law School to develop their own programs in London, as well as hosting conferences and symposia. Other Global Gateways are located in Beijing, Chicago, Dublin, Jerusalem and Rome.
+Notre Dame has a center in Beijing, what is it referred to as?
+my answer is  1998
+0.9850054979324341 0.9815935492515564
+0.9926316738128662 0.1299615204334259 0
+1998
+1968
+1968
+1968
+1968
+1998
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['1998'], 'answer_start': [210]}
+The university owns several centers around the world used for international studies and research, conferences abroad, and alumni support. The university has had a presence in London, England, since 1968. Since 1998, its London center has been based in the former United University Club at 1 Suffolk Street in Trafalgar Square. The center enables the Colleges of Arts & Letters, Business Administration, Science, Engineering and the Law School to develop their own programs in London, as well as hosting conferences and symposia. Other Global Gateways are located in Beijing, Chicago, Dublin, Jerusalem and Rome.
+In what year did the Suffolk Street location start to house a Notre Dame facility?
+my answer is  college of arts and letters
+0.9979817867279053 0.5878509283065796
+0.9979817867279053 0.19758164882659912 0
+college of arts and letters
+college of arts and letters
+college of arts and letters
+
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+humanities , and social sciences
+standed answer is :  {'text': ['The College of Arts and Letters'], 'answer_start': [0]}
+The College of Arts and Letters was established as the university's first college in 1842 with the first degrees given in 1849. The university's first academic curriculum was modeled after the Jesuit Ratio Studiorum from Saint Louis University. Today the college, housed in O'Shaughnessy Hall, includes 20 departments in the areas of fine arts, humanities, and social sciences, and awards Bachelor of Arts (B.A.) degrees in 33 majors, making it the largest of the university's colleges. There are around 2,500 undergraduates and 750 graduates enrolled in the college.
+What was Notre Dame's first college?
+my answer is  1842
+0.998128354549408 0.9986491799354553
+0.9984999895095825 0.9984999895095825 0
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+standed answer is :  {'text': ['1842'], 'answer_start': [85]}
+The College of Arts and Letters was established as the university's first college in 1842 with the first degrees given in 1849. The university's first academic curriculum was modeled after the Jesuit Ratio Studiorum from Saint Louis University. Today the college, housed in O'Shaughnessy Hall, includes 20 departments in the areas of fine arts, humanities, and social sciences, and awards Bachelor of Arts (B.A.) degrees in 33 majors, making it the largest of the university's colleges. There are around 2,500 undergraduates and 750 graduates enrolled in the college.
+In what year was the The College of Arts and Letters at Notre Dame created?
+my answer is  1849
+0.996705949306488 0.9983798265457153
+0.996705949306488 0.9966720342636108 0
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+1849
+standed answer is :  {'text': ['1849'], 'answer_start': [122]}
+The College of Arts and Letters was established as the university's first college in 1842 with the first degrees given in 1849. The university's first academic curriculum was modeled after the Jesuit Ratio Studiorum from Saint Louis University. Today the college, housed in O'Shaughnessy Hall, includes 20 departments in the areas of fine arts, humanities, and social sciences, and awards Bachelor of Arts (B.A.) degrees in 33 majors, making it the largest of the university's colleges. There are around 2,500 undergraduates and 750 graduates enrolled in the college.
+In what year did the College of Arts and Letters at Notre Dame grant its first degree?
+my answer is  saint louis university
+0.9375336766242981 0.9642349481582642
+0.9423625469207764 0.09347759932279587 0
+saint louis university
+saint louis university
+saint louis university
+saint louis university
+saint louis university
+saint louis university
+which
+which
+which
+which
+which
+which
+which
+which
+which
+which
+which
+which
+which
+which
+which
+standed answer is :  {'text': ['Saint Louis University'], 'answer_start': [221]}
+The College of Arts and Letters was established as the university's first college in 1842 with the first degrees given in 1849. The university's first academic curriculum was modeled after the Jesuit Ratio Studiorum from Saint Louis University. Today the college, housed in O'Shaughnessy Hall, includes 20 departments in the areas of fine arts, humanities, and social sciences, and awards Bachelor of Arts (B.A.) degrees in 33 majors, making it the largest of the university's colleges. There are around 2,500 undergraduates and 750 graduates enrolled in the college.
+On which university did Notre Dame base its curriculum on?
+my answer is  33
+0.8800060749053955 0.997410237789154
+0.9047998785972595 0.42101940512657166 0
+33
+33
+33
+33
+33
+33
+33
+33
+33
+20
+750
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+1842
+standed answer is :  {'text': ['33'], 'answer_start': [424]}
+The College of Arts and Letters was established as the university's first college in 1842 with the first degrees given in 1849. The university's first academic curriculum was modeled after the Jesuit Ratio Studiorum from Saint Louis University. Today the college, housed in O'Shaughnessy Hall, includes 20 departments in the areas of fine arts, humanities, and social sciences, and awards Bachelor of Arts (B.A.) degrees in 33 majors, making it the largest of the university's colleges. There are around 2,500 undergraduates and 750 graduates enrolled in the college.
+How many BA majors does the College of Arts and Letters at Notre Dame offer?
+my answer is  father patrick dillon
+0.9992128610610962 0.8726929426193237
+0.9993904829025269 0.7754330039024353 0
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+father patrick dillon
+president
+president
+president
+president
+president
+standed answer is :  {'text': ['Father Patrick Dillon'], 'answer_start': [78]}
+The College of Science was established at the university in 1865 by president Father Patrick Dillon. Dillon's scientific courses were six years of work, including higher-level mathematics courses. Today the college, housed in the newly built Jordan Hall of Science, includes over 1,200 undergraduates in six departments of study – biology, chemistry, mathematics, physics, pre-professional studies, and applied and computational mathematics and statistics (ACMS) – each awarding Bachelor of Science (B.S.) degrees. According to university statistics, its science pre-professional program has one of the highest acceptance rates to medical school of any university in the United States.
+Which president at Notre Dame created the College of Science?
+my answer is  1865
+0.9981598258018494 0.9993879795074463
+0.9991933703422546 0.1715419441461563 0
+1865
+1865
+1865
+1865
+what
+what
+what
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['1865'], 'answer_start': [60]}
+The College of Science was established at the university in 1865 by president Father Patrick Dillon. Dillon's scientific courses were six years of work, including higher-level mathematics courses. Today the college, housed in the newly built Jordan Hall of Science, includes over 1,200 undergraduates in six departments of study – biology, chemistry, mathematics, physics, pre-professional studies, and applied and computational mathematics and statistics (ACMS) – each awarding Bachelor of Science (B.S.) degrees. According to university statistics, its science pre-professional program has one of the highest acceptance rates to medical school of any university in the United States.
+In what year was the Notre Dame College of Science formed?
+my answer is  six
+0.7528371214866638 0.984098494052887
+0.840049147605896 0.22398753464221954 0
+six
+six
+six
+six
+six
+six
+six
+six
+six
+six
+six
+six
+six
+six
+six
+six
+
+
+
+
+
+standed answer is :  {'text': ['six years'], 'answer_start': [134]}
+The College of Science was established at the university in 1865 by president Father Patrick Dillon. Dillon's scientific courses were six years of work, including higher-level mathematics courses. Today the college, housed in the newly built Jordan Hall of Science, includes over 1,200 undergraduates in six departments of study – biology, chemistry, mathematics, physics, pre-professional studies, and applied and computational mathematics and statistics (ACMS) – each awarding Bachelor of Science (B.S.) degrees. According to university statistics, its science pre-professional program has one of the highest acceptance rates to medical school of any university in the United States.
+How many years long was a scientific course under Patrick Dillon at Notre Dame?
+my answer is  jordan hall of science
+0.9478853344917297 0.9939051270484924
+0.951403796672821 0.3468880355358124 0
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+jordan hall of science
+which hall
+which hall
+which hall
+which hall
+which hall
+which hall
+standed answer is :  {'text': ['Jordan Hall of Science'], 'answer_start': [242]}
+The College of Science was established at the university in 1865 by president Father Patrick Dillon. Dillon's scientific courses were six years of work, including higher-level mathematics courses. Today the college, housed in the newly built Jordan Hall of Science, includes over 1,200 undergraduates in six departments of study – biology, chemistry, mathematics, physics, pre-professional studies, and applied and computational mathematics and statistics (ACMS) – each awarding Bachelor of Science (B.S.) degrees. According to university statistics, its science pre-professional program has one of the highest acceptance rates to medical school of any university in the United States.
+Which hall at Notre Dame contains the current College of Science?
+my answer is  1 , 200
+0.9870589375495911 0.6105756759643555
+0.9878107309341431 0.22649455070495605 0
+1 , 200
+1 , 200
+200
+200
+200
+200
+200
+200
+200
+six
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+today the college , physics , pre - professional studies , and applied and computational mathematics and statistics ( acms ) – each awarding bachelor of science ( b . s . ) degrees
+standed answer is :  {'text': ['over 1,200'], 'answer_start': [275]}
+The College of Science was established at the university in 1865 by president Father Patrick Dillon. Dillon's scientific courses were six years of work, including higher-level mathematics courses. Today the college, housed in the newly built Jordan Hall of Science, includes over 1,200 undergraduates in six departments of study – biology, chemistry, mathematics, physics, pre-professional studies, and applied and computational mathematics and statistics (ACMS) – each awarding Bachelor of Science (B.S.) degrees. According to university statistics, its science pre-professional program has one of the highest acceptance rates to medical school of any university in the United States.
+How many undergrad students attend the College of Science at Notre Dame today?
+my answer is  school of architecture
+0.9861819744110107 0.588209867477417
+0.9861819744110107 0.5118961930274963 0
+school of architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['School of Architecture'], 'answer_start': [4]}
+The School of Architecture was established in 1899, although degrees in architecture were first awarded by the university in 1898. Today the school, housed in Bond Hall, offers a five-year undergraduate program leading to the Bachelor of Architecture degree. All undergraduate students study the third year of the program in Rome. The university is globally recognized for its Notre Dame School of Architecture, a faculty that teaches (pre-modernist) traditional and classical architecture and urban planning (e.g. following the principles of New Urbanism and New Classical Architecture). It also awards the renowned annual Driehaus Architecture Prize.
+In 1899 Notre Dame formed which college?
+my answer is  bond hall
+0.9967993497848511 0.9992555975914001
+0.9967993497848511 0.13064606487751007 0
+bond hall
+bond hall
+rome
+rome
+what building is the current school of architecture housed at notre dame ? [SEP] although degrees in architecture were first awarded by the university in 1898 .
+driehaus
+what building is the current school of architecture housed at notre dame ? [SEP] although degrees in architecture were first awarded by the university in 1898 . today the school , a faculty that teaches ( pre - modernist ) traditional and classical architecture and urban planning ( e . g . following the principles of new urbanism and new classical architecture ) .
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+pre - modernist
+standed answer is :  {'text': ['Bond Hall'], 'answer_start': [159]}
+The School of Architecture was established in 1899, although degrees in architecture were first awarded by the university in 1898. Today the school, housed in Bond Hall, offers a five-year undergraduate program leading to the Bachelor of Architecture degree. All undergraduate students study the third year of the program in Rome. The university is globally recognized for its Notre Dame School of Architecture, a faculty that teaches (pre-modernist) traditional and classical architecture and urban planning (e.g. following the principles of New Urbanism and New Classical Architecture). It also awards the renowned annual Driehaus Architecture Prize.
+In what building is the current School of Architecture housed at Notre Dame?
+my answer is  five - year
+0.8574791550636292 0.9503747224807739
+0.882018506526947 0.8730548024177551 0
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+five - year
+standed answer is :  {'text': ['five-year'], 'answer_start': [179]}
+The School of Architecture was established in 1899, although degrees in architecture were first awarded by the university in 1898. Today the school, housed in Bond Hall, offers a five-year undergraduate program leading to the Bachelor of Architecture degree. All undergraduate students study the third year of the program in Rome. The university is globally recognized for its Notre Dame School of Architecture, a faculty that teaches (pre-modernist) traditional and classical architecture and urban planning (e.g. following the principles of New Urbanism and New Classical Architecture). It also awards the renowned annual Driehaus Architecture Prize.
+What length is the course of study at the Notre Dame School of Architecture?
+my answer is  rome
+0.9964824914932251 0.9950129389762878
+0.9971529245376587 0.5289372801780701 0
+rome
+rome
+rome
+rome
+rome
+rome
+rome
+rome
+rome
+rome
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+notre dame
+standed answer is :  {'text': ['Rome'], 'answer_start': [325]}
+The School of Architecture was established in 1899, although degrees in architecture were first awarded by the university in 1898. Today the school, housed in Bond Hall, offers a five-year undergraduate program leading to the Bachelor of Architecture degree. All undergraduate students study the third year of the program in Rome. The university is globally recognized for its Notre Dame School of Architecture, a faculty that teaches (pre-modernist) traditional and classical architecture and urban planning (e.g. following the principles of New Urbanism and New Classical Architecture). It also awards the renowned annual Driehaus Architecture Prize.
+In which location do students of the School of Architecture of Notre Dame spend their 3rd year?
+my answer is  driehaus architecture prize
+0.9422580003738403 0.9892838001251221
+0.9527444243431091 0.24481989443302155 0
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+driehaus architecture prize
+architecture
+architecture
+architecture
+architecture
+architecture
+architecture
+architecture
+architecture
+architecture
+architecture
+architecture
+standed answer is :  {'text': ['Driehaus Architecture Prize'], 'answer_start': [624]}
+The School of Architecture was established in 1899, although degrees in architecture were first awarded by the university in 1898. Today the school, housed in Bond Hall, offers a five-year undergraduate program leading to the Bachelor of Architecture degree. All undergraduate students study the third year of the program in Rome. The university is globally recognized for its Notre Dame School of Architecture, a faculty that teaches (pre-modernist) traditional and classical architecture and urban planning (e.g. following the principles of New Urbanism and New Classical Architecture). It also awards the renowned annual Driehaus Architecture Prize.
+Which prestigious prize does the School of Architecture at Notre Dame give out?
+my answer is  2015
+0.9951890707015991 0.9895783066749573
+0.9997408986091614 0.24300755560398102 0
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+2015
+
+
+
+
+
+
+standed answer is :  {'text': ['2015'], 'answer_start': [388]}
+The library system also includes branch libraries for Architecture, Chemistry & Physics, Engineering, Law, and Mathematics as well as information centers in the Mendoza College of Business, the Kellogg Institute for International Studies, the Joan B. Kroc Institute for International Peace Studies, and a slide library in O'Shaughnessy Hall. A theology library was also opened in fall of 2015. Located on the first floor of Stanford Hall, it is the first branch of the library system to be housed in a dorm room. The library system holds over three million volumes, was the single largest university library in the world upon its completion, and remains one of the 100 largest libraries in the country.
+In what year did the opening of a theology library at Notre Dame occur?
+my answer is  stanford hall
+0.9707456231117249 0.6573548913002014
+0.9726292490959167 0.26472967863082886 0
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+stanford hall
+theology library
+theology library
+theology library
+theology library
+theology library
+theology library
+standed answer is :  {'text': ['the first floor of Stanford Hall'], 'answer_start': [405]}
+The library system also includes branch libraries for Architecture, Chemistry & Physics, Engineering, Law, and Mathematics as well as information centers in the Mendoza College of Business, the Kellogg Institute for International Studies, the Joan B. Kroc Institute for International Peace Studies, and a slide library in O'Shaughnessy Hall. A theology library was also opened in fall of 2015. Located on the first floor of Stanford Hall, it is the first branch of the library system to be housed in a dorm room. The library system holds over three million volumes, was the single largest university library in the world upon its completion, and remains one of the 100 largest libraries in the country.
+Where is the theology library at Notre Dame?
+my answer is  over three million volumes
+0.537896454334259 0.5779417157173157
+0.7876694798469543 0.0831492468714714 0
+over three million volumes
+100
+2015
+2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standed answer is :  {'text': ['over three million volumes'], 'answer_start': [538]}
+The library system also includes branch libraries for Architecture, Chemistry & Physics, Engineering, Law, and Mathematics as well as information centers in the Mendoza College of Business, the Kellogg Institute for International Studies, the Joan B. Kroc Institute for International Peace Studies, and a slide library in O'Shaughnessy Hall. A theology library was also opened in fall of 2015. Located on the first floor of Stanford Hall, it is the first branch of the library system to be housed in a dorm room. The library system holds over three million volumes, was the single largest university library in the world upon its completion, and remains one of the 100 largest libraries in the country.
+How many books are held by the Notre Dame libraries?
+my answer is  one of the 100 largest
+0.6015458106994629 0.5533912181854248
+0.6015458106994629 0.2343459129333496 0
+one of the 100 largest
+one of the 100
+100 largest
+100 largest
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+where
+standed answer is :  {'text': ['one of the 100 largest'], 'answer_start': [654]}
+The library system also includes branch libraries for Architecture, Chemistry & Physics, Engineering, Law, and Mathematics as well as information centers in the Mendoza College of Business, the Kellogg Institute for International Studies, the Joan B. Kroc Institute for International Peace Studies, and a slide library in O'Shaughnessy Hall. A theology library was also opened in fall of 2015. Located on the first floor of Stanford Hall, it is the first branch of the library system to be housed in a dorm room. The library system holds over three million volumes, was the single largest university library in the world upon its completion, and remains one of the 100 largest libraries in the country.
+Currently where does Notre Dame's library rank in the nation?
+my answer is  the rise of hitler and other dictators
+0.8208439350128174 0.6242637634277344
+0.8394876718521118 0.1503615826368332 0
+the rise of hitler and other dictators
+the rise of hitler and other dictators
+
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+germany came anton - hermann chroust ( 1907 – 1982 ) in classics and law , and waldemar gurian a german catholic intellectual of jewish descent
+Traceback (most recent call last):
+  File "C:\software\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1477, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\software\PyCharm Community Edition 2020.3.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/software/github/GZK_Code/XAI/2020sep02/test.py", line 458, in <module>
+    file_write(text, file_name)
+  File "D:/software/github/GZK_Code/XAI/2020sep02/test.py", line 338, in file_write
+    f.write(string + "\n")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u0161' in position 498: illegal multibyte sequence
+python-BaseException
+Backend Qt5Agg is interactive backend. Turning interactive mode on.
+
+Process finished with exit code -1
