@@ -6,6 +6,7 @@ import re
 import torch
 import torch.nn as nn
 from datasets import load_dataset
+import difflib
 
 from transformers import BertTokenizer, BertForQuestionAnswering, BertConfig
 
@@ -21,6 +22,11 @@ model = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-
 model.to(device)
 model.eval()
 model.zero_grad()
+
+
+def string_similar(s1, s2):
+    return difflib.SequenceMatcher(None, s1, s2).quick_ratio()
+
 
 # load tokenizer
 tokenizer = BertTokenizer.from_pretrained(model_path)
@@ -333,38 +339,19 @@ def max_min(x, y, z):
     return (i)
 
 
-def cycle_prediction(cycle_num, question, text):
+def cycle_prediction(cycle_num, question, text, s_answer):
     all_tokens, attributions_start_sum, start_acc, end_acc, an_index, start_scores, end_scores = pred_explain(text,
                                                                                                               question)
-    first_answer = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
-    first_answer = re.sub(r' ##', '', first_answer)
-    print("my answer is ", first_answer)
-    print(start_acc, end_acc)
-    second_answer = ''
-    sentence = separate_sentence(all_tokens)
-    a = 0
-    pos_contri = 0
-    neg_contri = 0
-    average_neg = []
-    average_pos = []
-    for i, j in enumerate(attributions_start_sum):
-        if j < 0:
-            neg_contri += j
-        elif j > 0:
-            pos_contri += j
-    print("positive contribution:", pos_contri)
-    average_pos.append(pos_contri)
-    print("negative contribution:", neg_contri)
-    average_neg.append(neg_contri)
 
+    """如果答案对了，就退出循环"""
+    ans = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
+    if string_similar(s_answer, ans) > 0.5:
+        print("预测个啥啊， 第一个是对的， 下一个！")
+        return
     acc_s = []
     acc_e = []
     sun = []
     ans = []
-    ans.append(first_answer)
-    # print(start_acc, end_acc)
-    acc_s.append(start_acc)
-    acc_e.append(end_acc)
 
     for loop in range(cycle_num):
         sentence = separate_sentence(all_tokens)
@@ -402,18 +389,13 @@ def cycle_prediction(cycle_num, question, text):
         acc_e.append(end_acc)
         pos_contri = 0
         neg_contri = 0
-        for i, j in enumerate(attributions_start_sum):
-            if j < 0:
-                neg_contri += j
-            elif j > 0:
-                pos_contri += j
-        print("positive contribution:", pos_contri)
-        average_pos.append(pos_contri)
-        print("negative contribution:", neg_contri)
-        average_neg.append(neg_contri)
+        similyrity = string_similar(s_answer, second_answer)
+        if similyrity > 0.5:
+            break
 
         # print(acc_s, acc_e)
         # print(acc_s, acc_e)
+    """输出曲线"""
     plt.plot(range(len(acc_s)), acc_s, label='start score')
     plt.plot(range(len(acc_s)), acc_e, label='end score')
     sun = []
@@ -458,13 +440,17 @@ def cycle_prediction(cycle_num, question, text):
     plt.ylabel('Possibility')
     plt.legend()
     plt.show()
-    """贡献的数值分别是多少"""
-    plt.plot(range(len(average_pos)), average_pos, label='pos score')
-    plt.plot(range(len(average_neg)), average_neg, label='neg score')
-    plt.xlabel('Number of predictions')
-    plt.ylabel('average contribution of pos/neg')
-    plt.legend()
-    plt.show()
     for i in range(len(ans)):
-        print(ans[i], "pos/neg : ", -(average_pos[i] / average_neg[i]))
-    average_contribution = 0
+        print(ans[i])
+
+
+text = """In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts."""
+
+
+
+
+question = """What song did Beyoncé release as the lead single from The Fighting Tempations?"""
+
+answer = 'Fighting Temptations'
+
+cycle_prediction(20, question, text, answer)
