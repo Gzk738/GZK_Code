@@ -23,6 +23,69 @@ model.to(device)
 model.eval()
 model.zero_grad()
 
+"""++++++++++++++++++这几个函数是计算f1 score 数值的，代码是抄的，千万不能改！+++++++++++++++++"""
+
+
+def normalize_text(s):
+    """Removing articles and punctuation, and standardizing whitespace are all typical text processing steps."""
+    import string, re
+
+    def remove_articles(text):
+        regex = re.compile(r"\b(a|an|the)\b", re.UNICODE)
+        return re.sub(regex, " ", text)
+
+    def white_space_fix(text):
+        return " ".join(text.split())
+
+    def remove_punc(text):
+        exclude = set(string.punctuation)
+        return "".join(ch for ch in text if ch not in exclude)
+
+    def lower(text):
+        return text.lower()
+
+    return white_space_fix(remove_articles(remove_punc(lower(s))))
+
+
+def compute_exact_match(prediction, truth):
+    return int(normalize_text(prediction) == normalize_text(truth))
+
+
+def compute_f1(prediction, truth):
+    pred_tokens = normalize_text(prediction).split()
+    truth_tokens = normalize_text(truth).split()
+
+    # if either the prediction or the truth is no-answer then f1 = 1 if they agree, 0 otherwise
+    if len(pred_tokens) == 0 or len(truth_tokens) == 0:
+        return int(pred_tokens == truth_tokens)
+
+    common_tokens = set(pred_tokens) & set(truth_tokens)
+
+    # if there are no common tokens then f1 = 0
+    if len(common_tokens) == 0:
+        return 0
+
+    prec = len(common_tokens) / len(pred_tokens)
+    rec = len(common_tokens) / len(truth_tokens)
+
+    return 2 * (prec * rec) / (prec + rec)
+
+
+def get_gold_answers(example):
+    """helper function that retrieves all possible true answers from a squad2.0 example"""
+
+    gold_answers = [answer["text"] for answer in example.answers if answer["text"]]
+
+    # if gold_answers doesn't exist it's because this is a negative example -
+    # the only correct answer is an empty string
+    if not gold_answers:
+        gold_answers = [""]
+
+    return gold_answers
+
+
+"""+++++++++++++++++++++++++++++++++++"""
+
 
 def string_similar(s1, s2):
     return difflib.SequenceMatcher(None, s1, s2).quick_ratio()
@@ -124,8 +187,8 @@ def predict_qt(question, text):
                                        position_ids=position_ids, \
                                        attention_mask=attention_mask)
 
-    print('Question: ', question)
-    print('Predicted Answer: ', ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1]))
+    #print('Question: ', question)
+    #print('Predicted Answer: ', ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1]))
     return input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth, all_tokens,
 
 
@@ -168,12 +231,12 @@ def explain(input_ids, ref_input_ids, token_type_ids, position_ids, attention_ma
         all_tokens,
         delta_end)
     # print(all_tokens)
-    print('\033[1m', 'Visualizations For Start Position', '\033[0m')
-    viz.visualize_text([start_position_vis])
+    #print('\033[1m', 'Visualizations For Start Position', '\033[0m')
+    #viz.visualize_text([start_position_vis])
 
-    print('\033[1m', 'Visualizations For End Position', '\033[0m')
+    #print('\033[1m', 'Visualizations For End Position', '\033[0m')
 
-    print("attributions_start_sum:   ", len(attributions_start_sum))
+    #print("attributions_start_sum:   ", len(attributions_start_sum))
     # print("all tokens:    ", len(all_tokens))
 
     return all_tokens, attributions_start_sum
@@ -343,16 +406,15 @@ def cycle_prediction(cycle_num, question, text, s_answer):
     all_tokens, attributions_start_sum, start_acc, end_acc, an_index, start_scores, end_scores = pred_explain(text,
                                                                                                               question)
 
-    """如果答案对了，就退出循环"""
-    ans = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
-    if string_similar(s_answer, ans) > 0.5:
-        print("预测个啥啊， 第一个是对的， 下一个！")
-        return
+    f1 = []
     acc_s = []
     acc_e = []
     sun = []
     ans = []
-
+    second_answer = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
+    second_answer = re.sub(r' ##', '', second_answer)
+    f1_score = compute_f1(second_answer, s_answer)
+    f1.append(f1_score)
     for loop in range(cycle_num):
         sentence = separate_sentence(all_tokens)
         sentence_score = get_sence_score(sentence, attributions_start_sum)
@@ -389,14 +451,13 @@ def cycle_prediction(cycle_num, question, text, s_answer):
         acc_e.append(end_acc)
         pos_contri = 0
         neg_contri = 0
-        similyrity = string_similar(s_answer, second_answer)
-        if similyrity > 0.5:
-            break
+        f1_score = compute_f1(second_answer, s_answer)
+        f1.append(f1_score)
 
         # print(acc_s, acc_e)
         # print(acc_s, acc_e)
     """输出曲线"""
-    plt.plot(range(len(acc_s)), acc_s, label='start score')
+    """plt.plot(range(len(acc_s)), acc_s, label='start score')
     plt.plot(range(len(acc_s)), acc_e, label='end score')
     sun = []
     for i in range(len(acc_s)):
@@ -406,10 +467,10 @@ def cycle_prediction(cycle_num, question, text, s_answer):
     plt.xlabel('Number of predictions')
     plt.ylabel('Possibility')
     plt.legend()
-    plt.show()
+    plt.show()"""
 
     """"获取最好的曲线并输出"""
-    max_start = 0
+    """max_start = 0
     max_end = 0
     max_ave = 0
     for i in acc_s:
@@ -441,16 +502,54 @@ def cycle_prediction(cycle_num, question, text, s_answer):
     plt.legend()
     plt.show()
     for i in range(len(ans)):
-        print(ans[i])
+        print(ans[i])"""
+    #输出score
+    """plt.plot(range(len(f1)), f1, label='f1 score')
+    plt.xlabel('Number of predictions')
+    plt.ylabel('f1 score')
+    plt.legend()
+    plt.show()"""
+    for i in range(len(acc_s)):
+        sun.append((acc_s[i] + acc_e[i]) / 2)
+    print("f1 : ", f1)
+    print("possibility1 : ", acc_s)
+    print("possibility2 : ", acc_e)
+    print("possibility average : ", sun)
+    return f1, acc_s, acc_e, sun
 
 
-text = """In July 2002, Beyoncé continued her acting career playing Foxxy Cleopatra alongside Mike Myers in the comedy film, Austin Powers in Goldmember, which spent its first weekend atop the US box office and grossed $73 million. Beyoncé released "Work It Out" as the lead single from its soundtrack album which entered the top ten in the UK, Norway, and Belgium. In 2003, Beyoncé starred opposite Cuba Gooding, Jr., in the musical comedy The Fighting Temptations as Lilly, a single mother whom Gooding's character falls in love with. The film received mixed reviews from critics but grossed $30 million in the U.S. Beyoncé released "Fighting Temptation" as the lead single from the film's soundtrack album, with Missy Elliott, MC Lyte, and Free which was also used to promote the film. Another of Beyoncé's contributions to the soundtrack, "Summertime", fared better on the US charts."""
+
+datasets = load_dataset('squad')
+g_f1 = []
+g_accs = []
+g_acce = []
+g_sun = []
+for i in range(500):
+    text = datasets['train'][i]['context']
+    question = datasets['train'][i]['question']
+    answers = datasets['train'][i]['answers']
+    f1, acc_s, acc_e, sun = cycle_prediction(10, question, text, answers['text'][0])
+    g_f1.append(f1)
+    g_accs.append(acc_s)
+    g_acce.append(acc_e)
+    g_sun.append(sun)
+print(g_f1, g_accs ,g_acce ,g_sun )
+temp = 0
+explain_score = []
+for i in g_f1:
+    temp = temp + i[0]
+print('初始概率为：', temp/len(g_f1))
+temp_max = 0
+for i in g_f1:
+    for j in i:
+        if j > temp_max:
+            temp_max = (j)
+    explain_score.append(temp_max)
+    temp_max = 0
+best_score = 0
+for i in explain_score:
+    best_score = best_score + i
+print('解释概率为', best_score/len(explain_score))
 
 
 
-
-question = """What song did Beyoncé release as the lead single from The Fighting Tempations?"""
-
-answer = 'Fighting Temptations'
-
-cycle_prediction(20, question, text, answer)
