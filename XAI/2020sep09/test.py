@@ -4,19 +4,12 @@
 # Email: gzk798412226@gmail.com
 # Date ：2021/9/17 20:30
 # Tool ：PyCharm
-
-
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import re
-import torch
-import torch.nn as nn
 from datasets import load_dataset
-import difflib
-
-from transformers import BertTokenizer, BertForQuestionAnswering, BertConfig
-
-from captum.attr import visualization as viz
-from captum.attr import LayerConductance, LayerIntegratedGradients
+datasets = load_dataset('squad')
+for i in range(5):
+    text = datasets['train'][i]['context']
+    question = datasets['train'][i]['question']
+    answers = datasets['train'][i]['answers']
+    ids = datasets['train'][i]['id']
+    print(ids)
+print( answers = datasets['train'][i]['answers'])
