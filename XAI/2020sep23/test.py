@@ -21,7 +21,8 @@ model = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-
 model.to(device)
 model.eval()
 model.zero_grad()
-"""for name, param in model.named_parameters():
+for name, param in model.named_parameters():
+    """
     if name == 'qa_outputs.weight':
         print(type(name), type(param))
         print(name, param)
@@ -31,17 +32,17 @@ model.zero_grad()
 
 
 
-"""if name == 'bert.encoder.layer.22.output.LayerNorm.weight':
+    if name == 'bert.encoder.layer.22.output.LayerNorm.weight':
         temp = torch.rand(1)
 
         param.data[0] = temp
-        print(param.data[0]
+        print(param.data[0])
 
-    if name == 'bert.encoder.layer.21.output.dense.weight':
-        temp = torch.rand(1)
+   #if name == 'bert.encoder.layer.21.output.dense.weight':
+        #temp = torch.rand(1)
 
-        param.data[0] = temp
-        print(param.data[0])"""
+        #param.data[0] = temp
+        #print(param.data[0])
 
 # load tokenizer
 tokenizer = BertTokenizer.from_pretrained(model_path)
