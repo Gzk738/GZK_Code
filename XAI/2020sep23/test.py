@@ -22,21 +22,12 @@ model.to(device)
 model.eval()
 model.zero_grad()
 for name, param in model.named_parameters():
-    """
+
     if name == 'qa_outputs.weight':
-        print(type(name), type(param))
-        print(name, param)
-        print(param.data[0])
-        param.data[0] = torch.rand(1024)
-        print(param.data[0])"""
-
-
-
-    if name == 'bert.encoder.layer.22.output.LayerNorm.weight':
-        temp = torch.rand(1)
-
-        param.data[0] = temp
-        print(param.data[0])
+        param.data = torch.rand(param.size())
+    if name == 'bert.encoder.layer.22.output.dense.weight':
+        param.data = torch.rand(param.size())
+model.to(device)
 
    #if name == 'bert.encoder.layer.21.output.dense.weight':
         #temp = torch.rand(1)
@@ -505,3 +496,4 @@ for i, j in enumerate(attributions_start_sum):
     attr_nomal.append(j)
 plt.plot(range(len(attr_nomal)), attr_nomal)
 plt.show()
+
