@@ -9,8 +9,6 @@ import torch.nn as nn
 from datasets import load_dataset
 import difflib
 
-from scipy.ndimage import gaussian_filter
-
 from transformers import BertTokenizer, BertForQuestionAnswering, BertConfig
 
 from captum.attr import visualization as viz
@@ -302,44 +300,9 @@ def separate_sentence(all_tokens):
         else:
             temp.append(all_tokens[i])
     return sentence
-def gaussian_scores(scores):
-    # 使用高斯滤波替换贡献:
-    old_contri = []
-    for i in scores.values():
-        old_contri.append(i)
 
-    gaussian_contri = gaussian_filter(old_contri, sigma=5)
-    gaussin_scores = {}
-    index = 0
-    for i, j in scores.items():
-        gaussin_scores[i] = gaussian_contri[index]
-        index = index + 1
-    return gaussin_scores
 
 def get_sence_score(sentence, attributions_start_sum):
-    weight = 0
-    sum_weight = 0
-    sentence_value = []
-    delete_sentence = []
-    for k, v in sentence.items():
-        for i in v:
-            sentence_value.append(i)
-    scores = {}
-
-    for i in range(len(attributions_start_sum)):
-        try:
-            scores[sentence_value[i]] = abs(attributions_start_sum[i].item())
-        except:
-            pass
-    #scores = gaussian_scores(scores)
-    for i, j in sentence.items():
-        sum_weight = 0
-        for word in j:
-            sum_weight += scores[word]
-        delete_sentence.append(sum_weight)
-        # print(sum_weight)
-    return delete_sentence
-def get_sence_gaussianscore(sentence, attributions_start_sum):
     weight = 0
     sum_weight = 0
     sentence_value = []
@@ -354,7 +317,7 @@ def get_sence_gaussianscore(sentence, attributions_start_sum):
             scores[sentence_value[i]] = attributions_start_sum[i].item()
         except:
             pass
-    scores = gaussian_scores(scores)
+
     for i, j in sentence.items():
         sum_weight = 0
         for word in j:
@@ -362,6 +325,7 @@ def get_sence_gaussianscore(sentence, attributions_start_sum):
         delete_sentence.append(sum_weight)
         # print(sum_weight)
     return delete_sentence
+
 
 def get_delete(sentence):
     weight = 0
@@ -418,7 +382,6 @@ def pred_explain(question, text):
 
     end_score = float(torch.max(torch.softmax(end_scores[0], dim=0)))
     start_score = float(torch.max(torch.softmax(start_scores[0], dim=0)))
-
     return all_tokens, attributions_start_sum, end_score, start_score, [torch.argmax(start_scores), torch.argmax(
         end_scores) + 1], start_scores, end_scores
 
@@ -461,7 +424,32 @@ def cycle_prediction(cycle_num, question, text, s_answer):
     f1_score = compute_f1(second_answer, s_answer)
     f1.append(f1_score)
     for loop in range(cycle_num):
-        retext = rebuild_text(all_tokens, attributions_start_sum)
+        sentence = separate_sentence(all_tokens)
+        sentence_score = get_sence_score(sentence, attributions_start_sum)
+        min_sensocer = 999
+        """min_index = 999
+        for i in range(len(sentence_score)):
+            if sentence_score[i] < min_sensocer and sentence_score[i] != 0:
+                min_sensocer = sentence_score[i]
+                min_index = i"""
+        close20_index = 999
+        for i in range(len(sentence_score)):
+            if abs(sentence_score[i]) < abs(min_sensocer) and sentence_score[i] != 0:
+                min_sensocer = sentence_score[i]
+                close20_index = i
+        # print("should delete", min_index, min_sensocer)
+        sentence[close20_index] = ''
+        sentence[1] = ''
+        retext = ""
+        for i, j in sentence.items():
+            for words in j:
+                retext = retext + words + " "
+        li_sep = []
+        for m in re.finditer(r"SEP", retext):
+            li_sep.append(m.start())
+            li_sep.append(m.end())
+        retext = retext[li_sep[1] + 1: li_sep[2] - 1]
+        retext = re.sub(r' ##', '', retext)
 
         all_tokens, attributions_start_sum, start_acc, end_acc, an_index, start_scores, end_scores = pred_explain(
             question, retext)
@@ -481,27 +469,72 @@ def cycle_prediction(cycle_num, question, text, s_answer):
 
         # print(acc_s, acc_e)
         # print(acc_s, acc_e)
+    """输出曲线"""
+    """plt.plot(range(len(acc_s)), acc_s, label='start score')
+    plt.plot(range(len(acc_s)), acc_e, label='end score')
+    sun = []
+    for i in range(len(acc_s)):
+        sun.append((acc_s[i] + acc_e[i]) / 2)
+    print(sun)
+    plt.plot(range(len(acc_s)), sun, label='average')
+    plt.xlabel('Number of predictions')
+    plt.ylabel('Possibility')
+    plt.legend()
+    plt.show()"""
 
+    """"获取最好的曲线并输出"""
+    """max_start = 0
+    max_end = 0
+    max_ave = 0
+    for i in acc_s:
+        if i > max_start:
+            max_start = i
+    for j in acc_e:
+        if j > max_end:
+            max_end = i
+
+    for x in sun:
+        if x > max_ave:
+            max_ave = x
+
+    print(max_start, max_end, max_ave)
+
+    max_list = max_min(max_start, max_end, max_ave)
+    if max_list == 1:
+        plt.plot(range(len(acc_s)), acc_s, label='Possibility')
+        print(acc_s)
+    if max_list == 2:
+        plt.plot(range(len(acc_e)), acc_e, label='Possibility')
+        print(acc_e)
+    if max_list == 3:
+        plt.plot(range(len(sun)), sun, label='Possibility')
+        print(sun)
+
+    plt.xlabel('Number of predictions')
+    plt.ylabel('Possibility')
+    plt.legend()
+    plt.show()
+    for i in range(len(ans)):
+        print(ans[i])"""
+    #输出score
+    """plt.plot(range(len(f1)), f1, label='f1 score')
+    plt.xlabel('Number of predictions')
+    plt.ylabel('f1 score')
+    plt.legend()
+    plt.show()"""
     for i in range(len(acc_s)):
         sun.append((acc_s[i] + acc_e[i]) / 2)
     return f1, acc_s, acc_e, sun
-def cascading_rebuild_text(all_tokens, attributions_start_sum):
+def rebuild_text(all_tokens, attributions_start_sum):
 
     li_sep = []
     min_sensocer = 999
-    li_symbol = []
     min_index = 999
     sentence = separate_sentence(all_tokens)
     sentence_score = get_sence_score(sentence, attributions_start_sum)
-    guassian_score = get_sence_gaussianscore(sentence, attributions_start_sum)
+
 
     for i in range(len(sentence_score)):
-        if sentence_score[i] == 0:
-            li_symbol.append(i)
-
-    for i in li_symbol:
-        guassian_score[i] == 0
-    for i in range(len(guassian_score)):
         if sentence_score[i] < min_sensocer and sentence_score[i] != 0:
             min_sensocer = sentence_score[i]
             min_index = i
@@ -512,64 +545,11 @@ def cascading_rebuild_text(all_tokens, attributions_start_sum):
     #     temp.append(abs(i))
     # sentence[sentence_score.index(min(temp))] = ''
 
-
-    sentence[min_index] = ''#删除贡献最小的句子
-    sentence[1] = ''#删除问题
-    retext = ""
-    for i, j in sentence.items():
-        for words in j:
-            retext = retext + words + " "
-    #这是清楚 ## 等模型引入的字符串
-    for m in re.finditer(r"SEP", retext):
-        li_sep.append(m.start())
-        li_sep.append(m.end())
-    retext = retext[li_sep[1] + 1: li_sep[2] - 1]
-    retext = re.sub(r' ##', '', retext)
-    return retext
-def cascading_min(data, min_id):
-    print("threshold : ", min_id)
-    for i in range(len(data)):
-        if data[i] == 0:
-            data[i] = 999
-    d = {}
-    li_min = []
-    if min_id == 0:  # 设定一个空字典
-        for i, v in enumerate(data):  # 利用函数enumerate列出lt的每个元素下标i和元素v
-            d[v] = i  # 把v作为字典的键，v对应的值是i
-        data.sort()  # 运用sort函数对lt元素排
-        y = data[min_id]  # 此时lt中第二小的下标是1，求出对应的元素就是字典对应的键
-        return [d[y]]
-    if min_id != 0:
-        for i, v in enumerate(data):  # 利用函数enumerate列出lt的每个元素下标i和元素v
-            d[v] = i  # 把v作为字典的键，v对应的值是i
-        data.sort()  # 运用sort函数对lt元素排
-        for i in range(min_id):
-            li_min.append(d[data[i]])  # 此时lt中第二小的下标是1，求出对应的元素就是字典对应的键
-        return li_min
-
-
-
-def independ_rebuild_text(all_tokens, attributions_start_sum, threshold):
-
-    li_sep = []
-    min_sensocer = 999
-    li_symbol = []
-    min_index = []
-    sentence = separate_sentence(all_tokens)
-    sentence_score = get_sence_score(sentence, attributions_start_sum)
-
-    min_index = cascading_min(sentence_score, threshold)
-    print("should delete : ", min_index)
-
-
-    # temp = []
-    # for i in sentence_score:
-    #     temp.append(abs(i))
-    # sentence[sentence_score.index(min(temp))] = ''
-
-    for i in min_index:
-        sentence[i] = ""#删除贡献最小的句子
-    sentence[1] = ''#删除问题
+    temp = []
+    for i in sentence_score:
+        temp.append(abs(i))
+    sentence[min_index] = ''
+    sentence[1] = ''
     retext = ""
     for i, j in sentence.items():
         for words in j:
@@ -587,32 +567,39 @@ def muti_pre(cycle_num, question, text, s_answer, pro_keep, pro_next):
     first_answer = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
     first_answer = re.sub(r' ##', '', first_answer)
     print("my answer is ", first_answer)
+    pos_contri = 0
+    neg_contri = 0
+    average_neg = []
+    average_pos = []
     ans = []
     acc_s= []
     acc_e = []
     f1 = []
     sun = []
-    f1_score = compute_f1(first_answer, s_answer)
-    f1.append(f1_score)
-    acc_s.append(start_acc)
-    acc_e.append(end_acc)
-    sun.append((start_acc+end_acc)/2)
     for loop in range(cycle_num):
-        retext = independ_rebuild_text(all_tokens, attributions_start_sum, loop)
+        retext = rebuild_text(all_tokens, attributions_start_sum)
 
 
-        tokens, attributions, start_acc, end_acc, an_index, start_scores, end_scores = pred_explain(
+        all_tokens, attributions_start_sum, start_acc, end_acc, an_index, start_scores, end_scores = pred_explain(
             question, retext)
 
-        second_answer = ' '.join(tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
+
+        reanswer = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
+        # print(start_acc, end_acc)
+        second_answer = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
         second_answer = re.sub(r' ##', '', second_answer)
+        # print("my answer is ", second_answer)
         ans.append(second_answer)
+        # print(start_acc, end_acc)
         acc_s.append(start_acc)
         acc_e.append(end_acc)
-
+        pos_contri = 0
+        neg_contri = 0
         f1_score = compute_f1(second_answer, s_answer)
         f1.append(f1_score)
-        sun.append((start_acc + end_acc) / 2)
+
+    for i in range(len(acc_s)):
+        sun.append((acc_s[i] + acc_e[i]) / 2)
     return f1, acc_s, acc_e, sun
 
 
@@ -624,25 +611,23 @@ g_acce = []
 g_sun = []
 handle = {}
 wrong_ids = []
-test_id = 15
+test_id = 10
 text = datasets['train'][test_id]['context']
 question = datasets['train'][test_id]['question']
 answers = datasets['train'][test_id]['answers']
-f1, acc_s, acc_e, sun = muti_pre(7, question, text, answers['text'][0], 0.9, 0.7)
+f1, acc_s, acc_e, sun = muti_pre(10, question, text, answers['text'][0], 0.9, 0.7)
 f1_change = f1[sun.index(max(sun))] - f1[0]
 pro_change0 = float(max(sun)-sun[0])
 pro_change1 = float(max(acc_s)-acc_s[0])
 pro_change2 = float(max(acc_e)-acc_e[0])
+
 plt.plot(range(len(acc_s)), acc_s, label='start score')
 plt.plot(range(len(acc_s)), acc_e, label='end score')
 plt.plot(range(len(f1)), f1, label='f1 score')
 sun = []
 for i in range(len(acc_s)):
     sun.append((acc_s[i] + acc_e[i]) / 2)
-print("f1 = ", f1)
-print("sun = " , sun)
-print("acc_s = " , acc_s)
-print("acc_e = " , acc_e)
+print(sun, acc_s, acc_e)
 plt.plot(range(len(acc_s)), sun, label='average')
 plt.xlabel('Number of predictions')
 plt.ylabel('Possibility')

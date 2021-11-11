@@ -15,10 +15,13 @@ from captum.attr import LayerConductance, LayerIntegratedGradients
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # replace <PATd:/spofrte/modeH-TO-SAVED-MODEL> with the real path of the saved model
-model_path = 'bert-large-uncased-whole-word-masking-finetuned-squad'
+from transformers import AutoModelWithHeads
+model_path = "bert-large-uncased-whole-word-masking-finetuned-squad"
+model = AutoModelWithHeads.from_pretrained("bert-base-uncased")
+adapter_name = model.load_adapter("AdapterHub/bert-base-uncased-pf-hotpotqa", source="hf")
+model.active_adapters = adapter_name
 
-# load model
-model = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
+tokenizer = BertTokenizer.from_pretrained(model_path)
 model.to(device)
 model.eval()
 model.zero_grad()
@@ -69,7 +72,7 @@ def compute_f1(prediction, truth):
     rec = len(common_tokens) / len(truth_tokens)
 
     return 2 * (prec * rec) / (prec + rec)
-def computer_bluescore(prediction, truth):
+
 
 
 def get_gold_answers(example):
@@ -92,8 +95,6 @@ def string_similar(s1, s2):
     return difflib.SequenceMatcher(None, s1, s2).quick_ratio()
 
 
-# load tokenizer
-tokenizer = BertTokenizer.from_pretrained(model_path)
 
 
 def predict(inputs, token_type_ids=None, position_ids=None, attention_mask=None):
@@ -516,7 +517,7 @@ def cycle_prediction(cycle_num, question, text, s_answer):
 
 
 
-datasets = load_dataset('squad')
+datasets = load_dataset('hotpot_qa', 'distractor', split='validation')
 g_f1 = []
 g_accs = []
 g_acce = []
@@ -524,10 +525,15 @@ g_sun = []
 handle = {}
 wrong_ids = []
 for i in range(1):
-    text = datasets['train'][i]['context']
-    question = datasets['train'][i]['question']
-    answers = datasets['train'][i]['answers']
-    f1, acc_s, acc_e, sun = cycle_prediction(10, question, text, answers['text'][0])
+    text = ''
+    for j in datasets[i]['context']['sentences']:
+        for temp in j:
+            text += temp
+
+    question = datasets[i]['question']
+    answers = datasets[i]['answer']
+    print(text)
+    f1, acc_s, acc_e, sun = cycle_prediction(10, question, text, answers)
     print(i, "个完成了")
     g_f1.append(f1)
     g_accs.append(acc_s)
