@@ -614,7 +614,7 @@ g_acce = []
 g_sun = []
 handle = {}
 wrong_ids = []
-for i in range(len(datasets['validation'])):
+for i in range(4300, len(datasets['validation'])):
     text = datasets['validation'][i]['context']
     question = datasets['validation'][i]['question']
     answers = datasets['validation'][i]['answers']
@@ -624,6 +624,8 @@ for i in range(len(datasets['validation'])):
     g_accs.append(acc_s)
     g_acce.append(acc_e)
     g_sun.append(sun)
+
+
 #print(g_f1, g_accs ,g_acce ,g_sun )
 handle["f1"] = g_f1
 handle["forword_pro"] = g_accs
