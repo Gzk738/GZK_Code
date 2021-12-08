@@ -577,6 +577,11 @@ def muti_pre(cycle_num, question, text, s_answer, pro_keep, pro_next):
     acc_e = []
     f1 = []
     sun = []
+    f1_score = compute_f1(first_answer, s_answer)
+    f1.append(f1_score)
+    acc_s.append(start_acc)
+    acc_e.append(end_acc)
+    sun.append((start_acc+end_acc)/2)
     for loop in range(cycle_num):
         retext = rebuild_text(all_tokens, attributions_start_sum)
 
@@ -608,28 +613,64 @@ def muti_pre(cycle_num, question, text, s_answer, pro_keep, pro_next):
 
 
 datasets = load_dataset('squad')
+# g_f1 = []
+# g_accs = []
+# g_acce = []
+# g_sun = []
+# handle = {}
+# wrong_ids = []
+# for i in range(10):
+#     text = datasets['validation'][i]['context']
+#     question = datasets['validation'][i]['question']
+#     answers = datasets['validation'][i]['answers']
+#     f1, acc_s, acc_e, sun = muti_pre(10, question, text, answers['text'][0], 0.9, 0.7)
+#     print(i, "个完成了")
+#     g_f1.append(f1)
+#     g_accs.append(acc_s)
+#     g_acce.append(acc_e)
+#     g_sun.append(sun)
+#
+#
+# #print(g_f1, g_accs ,g_acce ,g_sun )
+# handle["f1"] = g_f1
+# handle["forword_pro"] = g_accs
+# handle["backword_pro"] = g_acce
+# handle["sun_pro"] = g_sun
+# print(handle)
+
+
+
+
+
+
 g_f1 = []
 g_accs = []
 g_acce = []
 g_sun = []
 handle = {}
-wrong_ids = []
-for i in range(4300, len(datasets['validation'])):
-    text = datasets['validation'][i]['context']
-    question = datasets['validation'][i]['question']
-    answers = datasets['validation'][i]['answers']
-    f1, acc_s, acc_e, sun = muti_pre(10, question, text, answers['text'][0], 0.9, 0.7)
-    print(i, "个完成了")
-    g_f1.append(f1)
-    g_accs.append(acc_s)
-    g_acce.append(acc_e)
-    g_sun.append(sun)
+f1 = []
+for i in range(len(datasets['validation'])):
+    try:
+        text = datasets['validation'][i]['context']
+        question = datasets['validation'][i]['question']
+        answers = datasets['validation'][i]['answers']
+        input_ids, ref_input_ids, token_type_ids, position_ids, attention_mask, start_scores, end_scores, ground_truth, all_tokens, = predict_qt(
+            question, text)
+        first_answer = ' '.join(all_tokens[torch.argmax(start_scores): torch.argmax(end_scores) + 1])
+        first_answer = re.sub(r' ##', '', first_answer)
+        print(i, "个完成了")
+        f1_score = compute_f1(first_answer, answers["text"][0])
+        g_f1.append(f1_score)
 
-
-#print(g_f1, g_accs ,g_acce ,g_sun )
+        end_score = float(torch.max(torch.softmax(end_scores[0], dim=0)))
+        start_score = float(torch.max(torch.softmax(start_scores[0], dim=0)))
+        g_accs.append(start_score)
+        g_acce.append(end_score)
+        g_sun.append((start_score + end_score) / 2)
+    except:
+        print(i, "个失败")
 handle["f1"] = g_f1
 handle["forword_pro"] = g_accs
 handle["backword_pro"] = g_acce
 handle["sun_pro"] = g_sun
 print(handle)
-

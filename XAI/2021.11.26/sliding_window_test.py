@@ -624,7 +624,7 @@ g_acce = []
 g_sun = []
 handle = {}
 wrong_ids = []
-for i in range(2943, len(datasets['validation'])):
+for i in range(10):
     try:
         text = datasets['validation'][i]['context']
         question = datasets['validation'][i]['question']
