@@ -543,8 +543,11 @@ def cascading_min(data, min_id):
         for i, v in enumerate(data):  # 利用函数enumerate列出lt的每个元素下标i和元素v
             d[v] = i  # 把v作为字典的键，v对应的值是i
         data.sort()  # 运用sort函数对lt元素排
-        for i in range(min_id):
-            li_min.append(d[data[i]])  # 此时lt中第二小的下标是1，求出对应的元素就是字典对应的键
+        try:
+            for i in range(min_id):
+                li_min.append(d[data[i]])  # 此时lt中第二小的下标是1，求出对应的元素就是字典对应的键
+        except:
+            pass
         return li_min
 
 
@@ -578,7 +581,8 @@ def independ_rebuild_text(all_tokens, attributions_start_sum, threshold):
     for m in re.finditer(r"SEP", retext):
         li_sep.append(m.start())
         li_sep.append(m.end())
-    retext = retext[li_sep[1] + 1: li_sep[2] - 1]
+    if len(li_sep) > 2:
+        retext = retext[li_sep[1] + 1: li_sep[2] - 1]
     retext = re.sub(r' ##', '', retext)
     return retext
 def independ_muti_pre(cycle_num, question, text, s_answer, pro_keep, pro_next):
@@ -662,9 +666,11 @@ i_accs = []
 i_acce = []
 i_sun = []
 c_handle = {}
+
 i_handle = {}
-for i in range(len(datasets['validation'])):
-    try:
+try:
+    # for i in range(len(datasets['validation'])):
+    for i in range(784, 4140):
         text = datasets['validation'][i]['context']
         question = datasets['validation'][i]['question']
         answers = datasets['validation'][i]['answers']
@@ -679,26 +685,45 @@ for i in range(len(datasets['validation'])):
         i_accs.append(acc_s)
         i_acce.append(acc_e)
         i_sun.append(sun)
-    except:
-        print(i, "失败了")
-
-    print(i, "个完成了")
 
 
+        print(i, "个完成了")
 
-c_handle["f1"] = C_f1
-c_handle["forword_pro"] = C_accs
-c_handle["backword_pro"] = C_acce
-c_handle["sun_pro"] = C_sun
-print("c_handle测试完成")
-with open("两种方法的测试记录_独立删除.txt", "w")as f:
-    f.write(str(c_handle))
 
-i_handle["f1"] = i_f1
-i_handle["forword_pro"] = i_accs
-i_handle["backword_pro"] = i_acce
-i_handle["sun_pro"] = i_sun
-print("i_handle")
-with open("两种方法的测试记录_逐级删除.txt", "w")as f:
-    f.write(str(i_handle))
+
+    c_handle["f1"] = C_f1
+    c_handle["forword_pro"] = C_accs
+    c_handle["backword_pro"] = C_acce
+    c_handle["sun_pro"] = C_sun
+    print("c_handle测试完成")
+    with open("两种方法的测试记录_独立删除.txt", "w")as f:
+        f.write(str(c_handle))
+
+    i_handle["f1"] = i_f1
+    i_handle["forword_pro"] = i_accs
+    i_handle["backword_pro"] = i_acce
+    i_handle["sun_pro"] = i_sun
+    print("i_handle")
+    with open("两种方法的测试记录_逐级删除.txt", "w")as f:
+        f.write(str(i_handle))
+except:
+
+
+    c_handle["f1"] = C_f1
+    c_handle["forword_pro"] = C_accs
+    c_handle["backword_pro"] = C_acce
+    c_handle["sun_pro"] = C_sun
+    print("c_handle测试完成")
+    with open("两种方法的测试记录_独立删除.txt", "w")as f:
+        f.write(str(c_handle))
+
+    i_handle["f1"] = i_f1
+    i_handle["forword_pro"] = i_accs
+    i_handle["backword_pro"] = i_acce
+    i_handle["sun_pro"] = i_sun
+    print("i_handle")
+    with open("两种方法的测试记录_逐级删除.txt", "w")as f:
+        f.write(str(i_handle))
+
+    pass
 
