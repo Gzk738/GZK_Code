@@ -668,62 +668,40 @@ i_sun = []
 c_handle = {}
 
 i_handle = {}
-try:
-    # for i in range(len(datasets['validation'])):
-    for i in range(2000):
-        text = datasets['validation'][i]['context']
-        question = datasets['validation'][i]['question']
-        answers = datasets['validation'][i]['answers']
-        f1, acc_s, acc_e, sun = cascading_muti_pre(10, question, text, answers['text'][0], 0.9, 0.7)
-        C_f1.append(f1)
-        C_accs.append(acc_s)
-        C_acce.append(acc_e)
-        C_sun.append(sun)
+# for i in range(len(datasets['validation'])):
+for i in range(2000):
+    text = datasets['validation'][i]['context']
+    question = datasets['validation'][i]['question']
+    answers = datasets['validation'][i]['answers']
+    f1, acc_s, acc_e, sun = cascading_muti_pre(10, question, text, answers['text'][0], 0.9, 0.7)
+    C_f1.append(f1)
+    C_accs.append(acc_s)
+    C_acce.append(acc_e)
+    C_sun.append(sun)
 
-        f1, acc_s, acc_e, sun = independ_muti_pre(10, question, text, answers['text'][0], 0.9, 0.7)
-        i_f1.append(f1)
-        i_accs.append(acc_s)
-        i_acce.append(acc_e)
-        i_sun.append(sun)
-
-
-        print(i, "个完成了")
+    f1, acc_s, acc_e, sun = independ_muti_pre(10, question, text, answers['text'][0], 0.9, 0.7)
+    i_f1.append(f1)
+    i_accs.append(acc_s)
+    i_acce.append(acc_e)
+    i_sun.append(sun)
 
 
-
-    c_handle["f1"] = C_f1
-    c_handle["forword_pro"] = C_accs
-    c_handle["backword_pro"] = C_acce
-    c_handle["sun_pro"] = C_sun
-    print("c_handle测试完成")
-    with open("两种方法的测试记录_独立删除2000.txt", "w")as f:
-        f.write(str(c_handle))
-
-    i_handle["f1"] = i_f1
-    i_handle["forword_pro"] = i_accs
-    i_handle["backword_pro"] = i_acce
-    i_handle["sun_pro"] = i_sun
-    print("i_handle")
-    with open("两种方法的测试记录_逐级删除2000.txt", "w")as f:
-        f.write(str(i_handle))
-except:
+    print(i, "个完成了")
 
 
-    c_handle["f1"] = C_f1
-    c_handle["forword_pro"] = C_accs
-    c_handle["backword_pro"] = C_acce
-    c_handle["sun_pro"] = C_sun
-    print("c_handle测试完成")
-    with open("两种方法的测试记录_独立删除2000.txt", "w")as f:
-        f.write(str(c_handle))
 
-    i_handle["f1"] = i_f1
-    i_handle["forword_pro"] = i_accs
-    i_handle["backword_pro"] = i_acce
-    i_handle["sun_pro"] = i_sun
-    print("i_handle")
-    with open("两种方法的测试记录_逐级删除2000.txt", "w")as f:
-        f.write(str(i_handle))
+c_handle["f1"] = C_f1
+c_handle["forword_pro"] = C_accs
+c_handle["backword_pro"] = C_acce
+c_handle["sun_pro"] = C_sun
+print("c_handle测试完成")
+with open("两种方法的测试记录_独立删除2000.txt", "w")as f:
+    f.write(str(c_handle))
 
-    pass
-
+i_handle["f1"] = i_f1
+i_handle["forword_pro"] = i_accs
+i_handle["backword_pro"] = i_acce
+i_handle["sun_pro"] = i_sun
+print("i_handle")
+with open("两种方法的测试记录_逐级删除2000.txt", "w")as f:
+    f.write(str(i_handle))

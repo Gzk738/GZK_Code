@@ -16,7 +16,7 @@ from transformers import BertTokenizer, BertForQuestionAnswering, BertConfig
 from captum.attr import visualization as viz
 from captum.attr import LayerConductance, LayerIntegratedGradients
 
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # replace <PATd:/spofrte/modeH-TO-SAVED-MODEL> with the real path of the saved model
 model_path = 'bert-large-uncased-whole-word-masking-finetuned-squad'
 
@@ -710,7 +710,7 @@ c_handle = {}
 i_handle = {}
 
 # for i in range(len(datasets['validation'])):
-for i in range(20):
+for i in range(2000):
     text = datasets['validation'][i]['context']
     question = datasets['validation'][i]['question']
     answers = datasets['validation'][i]['answers']
