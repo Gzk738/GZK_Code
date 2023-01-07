@@ -11,7 +11,7 @@
 # Lambda：λ
 # Psi  ： ψ
 # angle： θ
-"""import numpy as np
+import numpy as np
 import time
 import cv2
 
@@ -56,55 +56,55 @@ if __name__ == '__main__':
     cv2.imshow("gray saliency image", saliency_image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-"""
-import torch
-import cv2
-import numpy as np
-import torchvision
-import torchvision.transforms as transforms
-from PIL import Image
-import torch.nn as nn
-import matplotlib.pyplot as plt
-import numpy as np
-import kornia
 
-
-def showTorchImage(image, simage):
-    mode = transforms.ToPILImage()(image).save(simage)
-
-
-def readImage(path='human.jpg'):  # 这里可以替换成自己的图片
-    mode = Image.open(path)
-    transform1 = transforms.Compose([
-        transforms.Resize((64, 64)),
-        transforms.ToTensor()
-    ])
-    mode = transform1(mode)
-    return mode
-
-
-img2 = readImage('human.jpg').unsqueeze(0)
-
-kernel = torch.ones(1, 3, 3)
-img2 = kornia.filter2D(img2, kernel).squeeze(0).view(64, 64, 3)
-print(img2.shape)
-
-img = readImage('human.jpg').view(64, 64, 3)
-
-# img = 0.2126 * img[0,:,:] + 0.7152 * img[1,:,:] + 0.0722 * img[2,:,:]
-
-img = img2 - img
-
-fft2 = np.fft.fft2(img.numpy())
-fshift = np.fft.fftshift(fft2)  # 傅里叶变换
-ishift = np.fft.ifftshift(fshift)
-io = np.fft.ifft2(ishift)
-io = np.abs(io)
-
-plt.subplot(233)
-plt.imshow(io, 'gray')
-plt.title('fft2')
-plt.show()
+# import torch
+# import cv2
+# import numpy as np
+# import torchvision
+# import torchvision.transforms as transforms
+# from PIL import Image
+# import torch.nn as nn
+# import matplotlib.pyplot as plt
+# import numpy as np
+# import kornia
+#
+#
+# def showTorchImage(image, simage):
+#     mode = transforms.ToPILImage()(image).save(simage)
+#
+#
+# def readImage(path='human.jpg'):  # 这里可以替换成自己的图片
+#     mode = Image.open(path)
+#     transform1 = transforms.Compose([
+#         transforms.Resize((64, 64)),
+#         transforms.ToTensor()
+#     ])
+#     mode = transform1(mode)
+#     return mode
+#
+#
+# img2 = readImage('human.jpg').unsqueeze(0)
+#
+# kernel = torch.ones(1, 3, 3)
+# img2 = kornia.filter2D(img2, kernel).squeeze(0).view(64, 64, 3)
+# print(img2.shape)
+#
+# img = readImage('human.jpg').view(64, 64, 3)
+#
+# # img = 0.2126 * img[0,:,:] + 0.7152 * img[1,:,:] + 0.0722 * img[2,:,:]
+#
+# img = img2 - img
+#
+# fft2 = np.fft.fft2(img.numpy())
+# fshift = np.fft.fftshift(fft2)  # 傅里叶变换
+# ishift = np.fft.ifftshift(fshift)
+# io = np.fft.ifft2(ishift)
+# io = np.abs(io)
+#
+# plt.subplot(233)
+# plt.imshow(io, 'gray')
+# plt.title('fft2')
+# plt.show()
 
 
 
